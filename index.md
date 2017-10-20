@@ -3,7 +3,7 @@ title: Ellaism
 feature_text: |
   ## Ellaism
   An Ethereum-like Network With No Premine and No Contentious Hard Forks
-feature_image: "https://unsplash.it/1300/400?image=971"
+feature_image: "https://unsplash.it/1300/400?image=1026"
 excerpt: |
   Ellaism is an Ethereum-like network. Features include:
   * No pre-mine.
