@@ -52,7 +52,7 @@ Ellaism is an Ethereum-like network. Features include:
 
 ## Volunteer
 
-There is no premine and the coin is totally community-driven. Help wanted to keep this coin alive [https://github.com/ellaism/volunteer/issues](https://github.com/ellaism/volunteer/issues).
+There is no premine and the coin is totally community-driven. Help wanted to keep this coin alive [https://github.com/ellaism/meta/issues](https://github.com/ellaism/meta/issues).
 
 ## Installation
 
