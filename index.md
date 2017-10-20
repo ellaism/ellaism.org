@@ -46,9 +46,11 @@ Ellaism is an Ethereum-like network. Features include:
 
 ## Pools
 
+Please try solo mining first! At this stage, it's more profitable and helps the network decentralization. If solo mining is not an option, you can use the mining pools below. Help is appreciated to keep the [Dev Mining Pool](https://pool.ellaism.org) running. This pool doesn't need to compete with other commercial pools in terms of hashrates, but it needs a little of it to keeps several infrastructures on Ellaism, like the BTC Relay fetchd script, running.
+
+* [Ellaism Dev Mining Pool](https://pool.ellaism.org) (Dev Fund to keep infrastructures running)
+* [Ella Minerpool](http://ella.minerpool.net) (Donate 50% mining fees to Community Fund)
 * [Ellaism Pool Sexy](http://ella.pool.sexy)
-* [Ellaism Dev Mining Pool](https://pool.ellaism.org)
-* [Ella Minerpool](http://ella.minerpool.net)
 
 ## Volunteer
 
