@@ -83,7 +83,7 @@ repo: "https://github.com/ellaism"
 navigation_header:
   Home: /
   Principles: /principles/
-  Web Wallet: https://ellaism.github.com/ellawallet
+  Web Wallet: https://ellaism.github.io/ellawallet
   Explorer: https://explorer.ellaism.org
   Network Stats: https://stats.ellaism.org
   ENS: https://ens.ellaism.org
