@@ -16,6 +16,7 @@ The Dev Fund [0x65767ec6d4d3d18a200842352485cdc37cbf3a21](https://explorer.ellai
 * Ellaism explorer.
 * Ellaism public JSON-RPC API.
 * BTC Relay.
+* Ellaism Name System (ENS).
 * Other core development activities.
 
 You can also support the Dev Fund by joining the [Dev Mining Pool](https://pool.ellaism.org).
