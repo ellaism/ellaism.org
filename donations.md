@@ -4,7 +4,7 @@ title: Donate to Ellaism
 
 Ellaism doesn't have an ICO and is a coin without pre-mine. Donations are welcomed to keep those that contributed to the coin rewarded. This page was set up so that you can donate to some people who have contributed code either directly or indirectly to Ellaism.
 
-## Add yourself to the page
+## Add Yourself to the Page
 
 If you are an active developer who frequently contribute code to Ellaism, manage a well-known Ellaism-related project, or manage a part of the Ellaism community, please send a new pull request to [ellaism/meta](https://github.com/ellaism/meta) add your name below.
 
@@ -31,6 +31,6 @@ You can also donate to individual developers for their work on Ellaism. Please c
 
 * [@ellaismer](https://github.com/ellaismer): Core developer of Ellaism. [0x0023ce859bD711a271C0ef4578670A1F9fa3F2BC](https://explorer.ellaism.org/#/address/0x0023ce859bD711a271C0ef4578670A1F9fa3F2BC)
 
-## Community
+## Community Members
 
 Please consider adding yourself to the list of you're an active community member of Ellaism, by sending a pull request to [ellaism/meta](https://github.com/ellaism/meta).
