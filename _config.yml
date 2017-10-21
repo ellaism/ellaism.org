@@ -89,9 +89,10 @@ navigation_header:
   ENS: https://ens.ellaism.org
   BTC Relay: /btcrelay/
   Mining Pools: https://minerpool.net/pools/ellaism/
+  Donate: /donations/
 
 navigation_footer:
-  Donate to Ellaism: https://github.com/ellaism/meta/blob/master/donations.md
+  Donate to Ellaism: /donations/
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   Twitter: https://twitter.com/EllaismCoin
