@@ -39,6 +39,11 @@ Ellaism is an Ethereum-like network. Features include:
 * [BTC Relay](https://github.com/ellaism/btcrelay) ([Status](http://ellaism.org/btcrelay))
 * [Web Wallet](https://ellaism.github.io/ellawallet)
 
+## Clients
+
+* [Parity](https://github.com/ellaism/parity-config) (recommended)
+* [Geth](https://github.com/ellaism/go-ellaism) (beta)
+
 ## Exchanges
 
 * [Cryptobroker](https://trade.cryptobroker.io/markets/ellabtc)
