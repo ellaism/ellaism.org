@@ -66,6 +66,19 @@ There is no premine and the coin is totally community-driven. Help wanted to kee
 
 Install Parity from Parity's official website ([https://github.com/paritytech/parity/releases](https://github.com/paritytech/parity/releases)). Download the Ellaism config file ([https://raw.githubusercontent.com/ellaism/parity-config/master/ellaism.json](https://raw.githubusercontent.com/ellaism/parity-config/master/ellaism.json)). Run Parity with `parity --chain /path/to/ellaism.json` (if you are on Windows, that would be `parity --chain X:\path\to\ellaism.json`).
 
+If you're running Parity for a mining pool, it is recommended to run with `--usd-per-tx 0` because Parity cannot calculate the correct ELLA-USD rate.
+
+```
+parity --chain "/path/to/ellaism.json" --usd-per-tx 0
+```
+
+To set it in your Parity config file, add the following:
+
+```
+[mining]
+usd_per_tx = "0"
+```
+
 ## Mining
 
 With a Parity client running, you can use any ethash miner (such as [ethminer](https://github.com/ethereum-mining/ethminer)) to mine Ellasim. To mine using your GPU, run `ethminer -G -F http://localhost:8545`.
