@@ -47,6 +47,7 @@ Ellaism is an Ethereum-like network. Features include:
 ## Exchanges
 
 * [Cryptobroker](https://trade.cryptobroker.io/markets/ellabtc)
+* [Stocks Exchange](https://stocks.exchange/trade/ELLA/BTC)
 * [Bisq](https://bisq.network/). Ellaism support not yet released, but will be there in the near future.
 
 ## Pools
