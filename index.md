@@ -56,6 +56,7 @@ Please try solo mining first! At this stage, it's more profitable and helps the 
 * [Ellaism Dev Mining Pool](https://pool.ellaism.org) (Dev Fund to keep infrastructures running)
 * [Ella Minerpool](http://ella.minerpool.net) (Donate 50% mining fees to Community Fund)
 * [Ellaism Pool Sexy](http://ella.pool.sexy)
+* [Minethis.ca](http://ella.minethis.ca)
 
 ## Volunteer
 
