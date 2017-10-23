@@ -58,6 +58,8 @@ Please try solo mining first! At this stage, it's more profitable and helps the 
 * [Ella Minerpool](http://ella.minerpool.net) (Donate 50% mining fees to Community Fund)
 * [Ellaism Pool Sexy](http://ella.pool.sexy)
 * [Minethis.ca](http://ella.minethis.ca)
+* [Ethash-coins.ru](http://ella.ethash-coins.ru)
+* [2zo.pw](http://ellaism.2zo.pw)
 
 ## Volunteer
 
