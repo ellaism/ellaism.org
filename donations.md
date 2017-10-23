@@ -34,3 +34,5 @@ You can also donate to individual developers for their work on Ellaism. Please c
 ## Community Members
 
 Please consider adding yourself to the list of you're an active community member of Ellaism, by sending a pull request to [ellaism/meta](https://github.com/ellaism/meta).
+
+* [@DragonFyZex](https://github.com/DragonFyZex): Ellaism Discord admin. [0xeE834d84B8B606F00a012bA5203F53a4A8D2Ce17](https://explorer.ellaism.org/#/address/0xeE834d84B8B606F00a012bA5203F53a4A8D2Ce17)
