@@ -29,9 +29,9 @@ points about what we are and what we aren't.
    community is not happy with Core, it has chance to replace Core by another
    team, by switching its donations.
    
-Below are lists of our roadmap plan. Currently we're in the Request for Comments
-period. You can submit your suggestions to the public Discord server, or
-privately to [ellaismer@protonmail.ch](mailto:ellaismer@protonmail.ch). Note
+Below are lists of our roadmap plan. Currently we're in the *Request for
+Comments* period. You can submit your suggestions to the public Discord server,
+or privately to [ellaismer@protonmail.ch](mailto:ellaismer@protonmail.ch). Note
 that we only list things we plan to implement this year. That means many other
 exciting features will not be listed here. This includes:
 
