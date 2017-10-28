@@ -98,7 +98,7 @@ In the coming year, we plan to:
 
 If the community decides to incorporate new features from Ethereum and reaches
 consensus, we will prepare and implement them. We should treat them with
-caution, however, because not all of them benefits the Ellaism blockchain.
+caution, however, because not all of them benefit the Ellaism blockchain.
 Ethereum’s new features might include:
 
 * Difficulty and total difficulty fix related to uncle and GHOST protocol.
