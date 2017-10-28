@@ -19,7 +19,7 @@ points about what we are and what we aren't.
 1. **Core is run by donations.** Everyone owns the Ellaism blockchain, thus they
    have the choice of whether they want to support Core or not, by making
    donations. **We will have complete financial transperancy,** so you know
-   exactly where you donations go. Most of the donations will be used to pay
+   exactly where your donations go. Most of the donations will be used to pay
    salary for developers.
 2. **Core has a public inspectable roadmap.** And it is what you're seeing right
    now. Every year, we publish a new short-term roadmap, for the coming year,
