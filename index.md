@@ -26,6 +26,7 @@ Ellaism is an Ethereum-like network. Features include:
 ## Links
 
 * [Principles of Ellaism](/principles/)
+* [Roadmap](/roadmap/)
 * Github: [https://github.com/ellaism](https://github.com/ellaism)
 * Stats: [http://stats.ellaism.org](http://stats.ellaism.org)
 * Explorer: [https://explorer.ellaism.org](https://explorer.ellaism.org)
