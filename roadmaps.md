@@ -33,7 +33,8 @@ Below are lists of our roadmap plan. Currently we're in the *Request for
 Comments* period. You can submit your suggestions to the public Discord server,
 or privately to [ellaismer@protonmail.ch](mailto:ellaismer@protonmail.ch). Note
 that we only list things we plan to implement this year. That means many other
-exciting features will not be listed here. This includes:
+exciting features that is planned in the future will not be listed here. This
+includes:
 
 * Sharding and blockchain scaling.
 * Light client.
