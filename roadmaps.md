@@ -12,9 +12,9 @@ find more information on [Donate to Ellaism](/donations/) page.
 
 ## Funding and Community Efforts
 
-One of the most important thing that users would care about would be how Ellaism
-Core is funded and how the team would impact the community. Here we make several
-points about what we are and what we aren't.
+One of the most important things that users would care about would be how
+Ellaism Core is funded and how the team would impact the community. Here we make
+several points about what we are and what we aren't.
 
 1. **Core is run by donations.** Everyone owns the Ellaism blockchain, thus they
    have the choice of whether they want to support Core or not, by making
