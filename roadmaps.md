@@ -10,7 +10,7 @@ maintains some core infrastructures on the Ellaism blockchain.
 You can donate to Ellaism Core by supporting the **Dev Fund**, which you can
 find more information on [Donate to Ellaism](/donations/) page.
 
-## Funding and Community Effots
+## Funding and Community Efforts
 
 One of the most important thing that users would care about would be how Ellaism
 Core is funded and how the team would impact the community. Here we make several
@@ -25,7 +25,7 @@ points about what we are and what we aren't.
    now. Every year, we publish a new short-term roadmap, for the coming year,
    three months in advance (November to February next year). Community always
    has chance to propose changes to the roadmap.
-2. **Core is replacable.** Ellaism has no pre-mine. Every time when the
+2. **Core is replaceable.** Ellaism has no pre-mine. Every time when the
    community is not happy with Core, it has chance to replace Core by another
    team, by switching its donations.
    
@@ -62,11 +62,11 @@ that allows people to actually use the network. In the coming year, we plan to:
 
 ## Governance System and Hard Forks
 
-Ellaism uses the bullet-proof goverance system – proof of work and hard/soft
-forks. Many would argue that an additional layer of democracy-like goverance
+Ellaism uses the bullet-proof governance system – proof of work and hard/soft
+forks. Many would argue that an additional layer of democracy-like governance
 system, such as a chain-level decentralized autonomous organization (chain-level
-DAO), is necessary. We respect this view, and would consider to incoperate an
-additional layer of goverance system in the future. However, we would be
+DAO), is necessary. We respect this view, and would consider to incorporate an
+additional layer of governance system in the future. However, we would be
 cautious to go through this approach and, in the short-term, use an on-chain
 optional system instead.
 
@@ -88,7 +88,7 @@ as an indicator of public opinions. This includes:
 
 In the coming year, we plan to:
 
-* Implement a public interface to incoperate CarbonVote and MinerVote. So
+* Implement a public interface to incorporate CarbonVote and MinerVote. So
   everyone can easily find out the current network opinions.
 * Support additional rules, such as voting delegation (you delegate your vote to
   other community members you trust).
@@ -96,7 +96,7 @@ In the coming year, we plan to:
 
 ## Ethereum Protocol-level New Features
 
-If the community decides to incoperate new features from Ethereum and reaches
+If the community decides to incorporate new features from Ethereum and reaches
 consensus, we will prepare and implement them. We should treat them with
 caution, however, because not all of them benefits the Ellaism blockchain.
 Ethereum’s new features might include:
@@ -121,7 +121,7 @@ We believe that multiple teams and multiple clients result in a healthy
 ecosystem for Ellaism. As a result, protocol specifications need to be created
 and maintained as a common ground. Currently, while it has been improved along
 the years, Ethereum still has many errors and missing pieces both in its Yellow
-Paper, and in the Ethereum Inprovement Proposals repository. In the coming year,
+Paper, and in the Ethereum Improvement Proposals repository. In the coming year,
 we plan to:
 
 * Create a clearly defined editor process for protocol specifications.
