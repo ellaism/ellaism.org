@@ -1,5 +1,6 @@
 ---
-title: Ellaism Roadmaps
+title: Ellaism Roadmap
+redirect_from: "/roadmaps/"
 ---
 
 Ellaism is a network without pre-mine, thus its development team is

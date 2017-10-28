@@ -1,5 +1,6 @@
 ---
 title: Donate to Ellaism
+redirect_from: "/donations/"
 ---
 
 Ellaism doesn't have an ICO and is a coin without pre-mine. Donations are welcomed to keep those that contributed to the coin rewarded. This page was set up so that you can donate to some people who have contributed code either directly or indirectly to Ellaism.

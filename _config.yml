@@ -110,3 +110,6 @@ sharing_links: # Appear at the bottom of single blog posts, uncomment and commen
   # Hacker News: "#ff6600"
   # Designer News: "#2D72D9"
   # Email: ""
+
+plugins:
+  - jekyll-redirect-from
