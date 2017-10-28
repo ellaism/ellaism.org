@@ -57,8 +57,8 @@ pieces of the network. In the coming year, we plan to:
 EVM is the central part of Ellaism, and developer tools are important pieces
 that allow people to actually use the network. In the coming year, we plan to:
 
-* Optimize the performance of Ellaism Virtual Machine. This helps the network to
-  handle more transactions.
+* Optimize the performance of Ethereum Virtual Machine. This helps the network
+  to handle more transactions.
 * Port and maintain other developer tools for Ellaism chain, if needed.
 
 ## Governance System and Hard Forks
