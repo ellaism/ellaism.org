@@ -68,7 +68,7 @@ forks. Many would argue that an additional layer of the democracy-like
 governance system, such as a chain-level decentralized autonomous organization
 (chain-level DAO), is necessary. We respect this view and would consider
 incorporating an additional layer of the governance system in the future.
-However, we would be cautious to go through this approach and, in the
+However, we would be careful when exploring this approach and, in the
 short-term, use an on-chain optional system instead.
 
 Chain-level DAOs are usually of high complexity. If implemented incorrectly, can
