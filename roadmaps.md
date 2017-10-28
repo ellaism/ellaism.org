@@ -104,7 +104,7 @@ Ethereum’s new features might include:
 * Difficulty and total difficulty fix related to uncle and GHOST protocol.
 * zkSNARK support with transaction privacy (EIP197).
 * Big integer operations support for RSA related operations (EIP196 and EIP198).
-* New EVM opcodes, including REVERT, RETURNDATASIZE, RETURNDATACOPY, STATICCALL.
+* New EVM opcodes, including `REVERT`, `RETURNDATASIZE`, `RETURNDATACOPY`, `STATICCALL`.
 
 ## BTC Relay and Masternodes
 
