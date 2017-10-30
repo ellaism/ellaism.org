@@ -21,7 +21,7 @@ Ellaism is an Ethereum-like network. Features include:
 * No difficulty bomb.
 * Replay protection enabled by default.
 
-{% include button.html text="Github" icon="github" link="https://github.com/ellaism" color="#0366d6" %} {% include button.html text="Twitter" icon="twitter" link="https://twitter.com/EllaismCoin" color="#1DA1F2" %} {% include button.html text="Donate" link="/donations/" color="#333333" %}
+{% include button.html text="Github" icon="github" link="https://github.com/ellaism" color="#0366d6" %} {% include button.html text="Twitter" icon="twitter" link="https://twitter.com/EllaismCore" color="#1DA1F2" %} {% include button.html text="Donate" link="/donations/" color="#333333" %}
 
 ## Links
 
@@ -31,7 +31,7 @@ Ellaism is an Ethereum-like network. Features include:
 * Stats: [http://stats.ellaism.org](http://stats.ellaism.org)
 * Explorer: [https://explorer.ellaism.org](https://explorer.ellaism.org)
 * IRC: [#ellaism](http://webchat.freenode.net/?channels=ellaism)
-* Twitter: [@EllaismCoin](https://twitter.com/EllaismCoin)
+* Twitter: [@EllaismCore](https://twitter.com/EllaismCore) [@EllaismCoin](https://twitter.com/EllaismCoin)
 * [Discord community](https://discord.gg/66Pn9jn)
 * [Ellaism Dev Mining Pool](https://pool.ellaism.org)
 * [Ellaism Pool Sexy](http://ella.pool.sexy)
