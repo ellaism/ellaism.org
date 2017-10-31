@@ -52,6 +52,8 @@ Ethereum and Ethereum Classic, its community is smaller. Expanse network
 consists of 11.11 million coins pre-mined in the genesis block in which the
 founder controls the private key.
 
+The Expanse network also has the Tokenlab project.
+
 ## Ubiq
 
 Ubiq is a re-launch of Jumbucks (JBS) and is advertised to be no pre-mine. While
@@ -70,10 +72,10 @@ is advertised being no pre-mine, attracts some developers.
 Pirl is a coin launched in July 2017. The coin is also advertised to be no
 pre-mine, and is probably the only cryptocurrency besides Ellaism that contains
 zero coins in genesis block (block 0). The coin, however, takes around 16% dev
-fees in every block reward. People interested in Pril usually don't consider
-this as a pre-mine, because devs are only paid if the coin is valuable. This,
-however, is sometimes criticised in other coins like Zcash, which also takes dev
-fees called "founders' reward".
+fees (for masternode and dev fund) in every block reward. People interested in
+Pril usually don't consider this as a pre-mine, because devs are only paid if
+the coin is valuable. This, however, is sometimes criticised in other coins like
+Zcash, which also takes dev fees called "founders' reward".
 
 Pirl has a slightly bigger community compared with Ellaism.
 
@@ -88,3 +90,11 @@ Ellaism's current development team (Ellaism Core) is [run by
 donations](/roadmap/). While this fact makes the coin has a good long-term
 foundation, people argue that this would result in a slower initial coin growth
 for the beginning. Ellaism's community size is also small right now.
+
+## Specialized Ethereum Networks
+
+There are also other specialized Ethereum networks that serves some specific
+functionality based on the Ethereum protocol. Notable ones include:
+
+* WhaleCoin: A social network based on Ethereum.
+* Musicoin: Direct payments for musicians.
