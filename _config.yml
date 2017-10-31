@@ -82,13 +82,13 @@ repo: "https://github.com/ellaism"
 # 8. Site navigation
 navigation_header:
   Home: /
-  Principles: /principles/
+  Roadmap: /roadmap/
   Web Wallet: https://ellaism.github.io/ellawallet
   Explorer: https://explorer.ellaism.org
   Network Stats: https://stats.ellaism.org
   ENS: https://ens.ellaism.org
   BTC Relay: /btcrelay/
-  Mining Pools: https://minerpool.net/pools/ellaism/
+  Mining: /mining/
 
 navigation_footer:
   Donate to Ellaism: /donations/
