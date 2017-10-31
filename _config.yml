@@ -77,7 +77,7 @@ url: "http://ellaism.org" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: "https://github.com/ellaism"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
-# avatarurl: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
+avatarurl: "https://www.gravatar.com/avatar/98abb59df18a837592a8079e31fd9c47" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
 
 # 8. Site navigation
 navigation_header:
