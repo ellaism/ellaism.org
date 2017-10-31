@@ -21,7 +21,7 @@ example, at the time of DAO hack, many users don't trust the result of
 CarbonVote (one-ETH-one-vote style of voting).
 
 In the recent Byzantium hard fork, Ethereum further changed coin issuance per
-block from 5 ETC to 3 ETC. This further reduces total coins that can be mined.
+block from 5 ETH to 3 ETH. This further reduces total coins that can be mined.
 And make pre-mine and the overall coin distribution more questionable.
 
 In terms of community, Ethereum has the largest groups of developers and
