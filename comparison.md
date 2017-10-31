@@ -99,3 +99,37 @@ functionalities based on the Ethereum protocol. Notable ones include:
 
 * WhaleCoin: A social network based on Ethereum.
 * Musicoin: Direct payments for musicians.
+
+## Appendix: Comparison Table
+
+<!-- Include the standard DataTables bits -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.13/css/jquery.dataTables.css">
+<script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.13/js/jquery.dataTables.js"></script>
+<script>
+  $(document).ready(function(){
+    $('div.datatable-begin').nextUntil('div.datatable-end', 'table').addClass('display');
+    $('table.display').DataTable( {
+      paging: false,
+      stateSave: false,
+      searching: false,
+      ordering: false
+    });
+  });
+</script>
+
+<div class="datatable-begin"></div>
+
+| Name             | Dev Fees | ICO Premine | Dev Premine   | Genesis Block | PCS<sup><a href="#pcs">1</a></sup> | DCS<sup><a href="#dcs">2</a></sup> |
+|------------------|----------|-------------|---------------|---------------|------------------------------------|------------------------------------|
+| Ethereum         |        0 |  60 million | 12 million    | 72 million    |                               >50% | 13%                                |
+| Ethereum Classic |        0 |  60 million | 12 million    | 72 million    |                               >50% | 13%                                |
+| Expanse          |        0 |           0 | 11.11 million | 11.11 million |                               >50% | >50%                               |
+| Ubiq             |        0 |           0 | 0             | 36 million    |                               >50% | 0                                  |
+| Pirl             |      16% |           0 | 0             | 0             |                                  0 | 16%                                |
+| Ellaism          |        0 |           0 | 0             | 0             |                                  0 | 0                                  |
+
+<div class="datatable-end"></div>
+
+<a name="pcs">1</a>: Percentage of genesis block coins in current supply.<br />
+<a name="dcs">2</a>: Percentage of mandatory developer fee or premine in current supply.
