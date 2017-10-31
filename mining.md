@@ -27,24 +27,25 @@ instructions of how to set your miners up.
 
 ### Pools that Donate to Dev Fund
 
-Ellaism Dev Pool is used to keep the Dev Fund going.
+Ellaism Dev Pool is used to keep the Dev Fund going, and other pools also donate
+to Dev Fund.
 
 * [Ellaism Dev Mining Pool](https://pool.ellaism.org)
+* [Ellaism Pool Sexy](http://ella.pool.sexy) (2.5% of mining fees)
 
 ### Pools that Donate to Community Fund
 
-Pools below usually donate 50% or more of their mining fees to the Community
-Fund.
+Pools below donate their mining fees to the Community Fund.
 
-* [Ella Minerpool](http://ella.minerpool.net)
-* [Minethis.ca](http://ella.minethis.ca)
-* [Cryptobitpool](http://ella.cryptobitpool.eu)
+* [Ella Minerpool](http://ella.minerpool.net) (50% of mining fees)
+* [Minethis.ca](http://ella.minethis.ca) (50% of mining fees)
+* [Cryptobitpool](http://ella.cryptobitpool.eu) (50% of mining fees)
+* [Ellaism Pool Sexy](http://ella.pool.sexy) (2.5% of mining fees)
 
 ### All Pools
 
 Other pools might also have advantage in their setup or shares of mining fees.
 
-* [Ellaism Pool Sexy](http://ella.pool.sexy)
 * [Ethash-coins.ru](http://ella.ethash-coins.ru)
 * [2zo.pw](http://ellaism.2zo.pw)
 * [CoinminerSpace](http://ella.coinminer.space)
