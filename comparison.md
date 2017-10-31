@@ -75,7 +75,7 @@ this as a pre-mine, because devs are only paid if the coin is valuable. This,
 however, is sometimes criticised in other coins like Zcash, which also takes dev
 fees called "founders' reward".
 
-Pirl has slightly bigger community compared with Ellaism.
+Pirl has a slightly bigger community compared with Ellaism.
 
 ## Ellaism
 
