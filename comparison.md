@@ -95,7 +95,7 @@ for the beginning. Ellaism's community size is also small right now.
 ## Specialized Ethereum Networks
 
 There are also other specialized Ethereum networks that serves some specific
-functionality based on the Ethereum protocol. Notable ones include:
+functionalities based on the Ethereum protocol. Notable ones include:
 
 * WhaleCoin: A social network based on Ethereum.
 * Musicoin: Direct payments for musicians.
