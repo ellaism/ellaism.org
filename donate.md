@@ -11,7 +11,7 @@ If you are an active developer who frequently contribute code to Ellaism, manage
 
 ## Dev Fund
 
-The Dev Fund [0x65767ec6d4d3d18a200842352485cdc37cbf3a21](https://explorer.ellaism.org/#/address/0x65767ec6d4d3d18a200842352485cdc37cbf3a21) is managed by [@ellaismer](https://github.com/ellaismer), core developer of Ellaism. Fund is used to set up the core development team, operate infrastructures of Ellaism, and support other development activities related to Ellaism blockchain. Currently the fund is used for:
+The Dev Fund [0x00522e276908428C02457d8a8747b9aA0AB52570](https://explorer.ellaism.org/#/address/0x00522e276908428C02457d8a8747b9aA0AB52570) and [0x65767ec6d4d3d18a200842352485cdc37cbf3a21](https://explorer.ellaism.org/#/address/0x65767ec6d4d3d18a200842352485cdc37cbf3a21) is managed by [@ellaismer](https://github.com/ellaismer), core developer of Ellaism. Fund is used to set up the core development team, operate infrastructures of Ellaism, and support other development activities related to Ellaism blockchain. Currently the fund is used for:
 
 * Development of Ellaism [go client](https://github.com/ellaism/go-ellaism) and support for [Parity client](https://github.com/ellaism/parity-config).
 * Ellaism explorer.
