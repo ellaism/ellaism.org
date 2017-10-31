@@ -120,14 +120,15 @@ functionalities based on the Ethereum protocol. Notable ones include:
 
 <div class="datatable-begin"></div>
 
-| Name             | Dev Fees | ICO Premine | Dev Premine   | Genesis Block | PCS<sup><a href="#pcs">1</a></sup> | DCS<sup><a href="#dcs">2</a></sup> |
+| Name             | Dev Fees | ICO Premine |   Dev Premine | Genesis Block | PCS<sup><a href="#pcs">1</a></sup> | DCS<sup><a href="#dcs">2</a></sup> |
 |------------------|----------|-------------|---------------|---------------|------------------------------------|------------------------------------|
-| Ethereum         |        0 |  60 million | 12 million    | 72 million    |                               >50% | 13%                                |
-| Ethereum Classic |        0 |  60 million | 12 million    | 72 million    |                               >50% | 13%                                |
-| Expanse          |        0 |           0 | 11.11 million | 11.11 million |                               >50% | >50%                               |
-| Ubiq             |        0 |           0 | 0             | 36 million    |                               >50% | 0                                  |
-| Pirl             |      16% |           0 | 0             | 0             |                                  0 | 16%                                |
-| Ellaism          |        0 |           0 | 0             | 0             |                                  0 | 0                                  |
+| Ethereum         |        0 |  60 million |    12 million | 72 million    |                               >50% |                                13% |
+| Ethereum Classic |        0 |  60 million |    12 million | 72 million    |                               >50% |                                13% |
+| Expanse          |        0 |           0 | 11.11 million | 11.11 million |                               >50% |                               >50% |
+| Ubiq             |        0 |           0 |             0 | 36 million    |                               >50% |                                  0 |
+| Pirl             |      16% |           0 |             0 | 0             |                                  0 |                                16% |
+| WhaleCoin        |      33% |           0 |             0 | 0             |                                  0 |                                33% |
+| Ellaism          |        0 |           0 |             0 | 0             |                                  0 |                                  0 |
 
 <div class="datatable-end"></div>
 
