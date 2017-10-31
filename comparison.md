@@ -132,4 +132,4 @@ functionalities based on the Ethereum protocol. Notable ones include:
 <div class="datatable-end"></div>
 
 <a name="pcs">1</a>: Percentage of genesis block coins in current supply.<br />
-<a name="dcs">2</a>: Percentage of mandatory developer fee or premine in current supply.
+<a name="dcs">2</a>: Percentage of mandatory developer fees or premine in current supply.
