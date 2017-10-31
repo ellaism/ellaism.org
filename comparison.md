@@ -84,7 +84,7 @@ Compared with Ubiq, the only other Ethereum-like coin here that has no pre-mine
 or dev fees, Ellaism can be argued to have a much more fair launch due to the
 fact that Ubiq is a "re-launch".
 
-Ellaism's current development team (Ellaism Core) is run by donations. While
-this fact makes the coin has a good long-term foundation, people argue that this
-would result in a slower initial coin growth for the beginning. Ellaism's
-community size is also small right now.
+Ellaism's current development team (Ellaism Core) is [run by
+donations](/roadmap/). While this fact makes the coin has a good long-term
+foundation, people argue that this would result in a slower initial coin growth
+for the beginning. Ellaism's community size is also small right now.
