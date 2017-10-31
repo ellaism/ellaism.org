@@ -63,7 +63,7 @@ makes it so that block rewards start out at 8, and decrease by 1, until it
 reaches 1 per block.
 
 The Ubiq development team is run by donations. This fact, combined with that it
-is advertised being no pre-mine, attracted some developers.
+is advertised being no pre-mine, attracts some developers.
 
 ## Pirl
 
