@@ -33,7 +33,6 @@ parts are managed by different community members.
 * [Principles](/principles/)
 * [Discord](https://discord.gg/66Pn9jn)
 * [Forum](https://ellaism.com/forum/)
-* [Community Website](https://ellaism.com)
 * [Community Twitter](https://twitter.com/EllaismCoin)
 * [Core Twitter](https://twitter.com/EllaismCore)
 * IRC: [#ellaism](http://webchat.freenode.net/?channels=ellaism)
