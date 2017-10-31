@@ -8,8 +8,8 @@ can also use MyEtherWallet and MetaMask to interact with the network.
 ## Parity Full Node
 
 Install Parity from [Parity's official
-website](https://github.com/paritytech/parity/releases). Download the Ellaism
-config file
+website](https://github.com/paritytech/parity/releases). Please use Parity
+version 1.6.10 or later. Download the Ellaism config file
 ([https://raw.githubusercontent.com/ellaism/parity-config/master/ellaism.json](https://raw.githubusercontent.com/ellaism/parity-config/master/ellaism.json)).
 Run Parity with `parity --chain /path/to/ellaism.json` (if you are on Windows,
 that would be `parity --chain X:\path\to\ellaism.json`).
