@@ -74,7 +74,7 @@ Pirl is a coin launched in July 2017. The coin is also advertised to be no
 pre-mine, and is probably the only cryptocurrency besides Ellaism that contains
 zero coins in genesis block (block 0). The coin, however, takes around 16% dev
 fees (for masternode and dev fund) in every block reward. People interested in
-Pril usually don't consider this as a pre-mine, because devs are only paid if
+Pirl usually don't consider this as a pre-mine, because devs are only paid if
 the coin is valuable. This, however, is sometimes criticised in other coins like
 Zcash, which also takes dev fees called "founders' reward".
 
