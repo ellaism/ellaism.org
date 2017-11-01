@@ -74,6 +74,7 @@ endpoint.
 
 ## Technical Information
 
+* Block time: 10 seconds.
 * Coin generation: 5 Ella per block with 20% reward reduction happens every 10 million blocks.
 * Network ID and chain ID is 0x40.
 * Most other parameters are the same as Ethereum.
