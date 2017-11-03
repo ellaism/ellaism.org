@@ -20,11 +20,11 @@ The Dev Fund [0x00522e276908428C02457d8a8747b9aA0AB52570](https://explorer.ellai
 * Ellaism Name System (ENS).
 * Other core development activities.
 
-You can also support the Dev Fund by joining the [Dev Mining Pool](https://pool.ellaism.org) and many other mining pools. You can find more information on [Mining](/mining/).
+You can also support the Dev Fund by joining the [Dev Mining Pool](https://pool.ellaism.org) and many other mining pools. You can find more information in [Mining](/mining/).
 
 ## Community Fund
 
-The Community Fund [0x46739B691C011530AAf480AAcd339C206a2046E6](https://explorer.ellaism.org/addr/0x46739B691C011530AAf480AAcd339C206a2046E6) is managed by [@Count Cryptula](https://twitter.com/talesfmthcrypto). The Community Fund is used to pay community managers and other community members for their work on Ellaism. Many mining pools donate mining fees to Community Fund. You can find more information on [Mining](/mining/).
+The Community Fund [0x46739B691C011530AAf480AAcd339C206a2046E6](https://explorer.ellaism.org/addr/0x46739B691C011530AAf480AAcd339C206a2046E6) is managed by [@Count Cryptula](https://twitter.com/talesfmthcrypto). The Community Fund is used to pay community managers and other community members for their work on Ellaism. Many mining pools donate mining fees to Community Fund. You can find more information in [Mining](/mining/).
 
 ## Developers
 
