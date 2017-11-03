@@ -50,11 +50,12 @@ this node.
 If you want to solo mine on the Ellaism network, follow the solo mining guide
 [here](/mining/) after you started a full node.
 
-## Web Wallet
+## Wallet
 
-You can access the web wallet [here](https://ellaism.github.io/ellawallet).
+* [Web Wallet](https://ellaism.github.io/ellawallet)
+* [Chrome Extension Wallet](https://chrome.google.com/webstore/detail/myellawallet/bgfofdgebpphdhddggaggeafenegbjef)
 
-Instead, you can also directly use MyEtherWallet.com by adding a custom node
+You can also directly use MyEtherWallet.com by adding a custom node
 with url `https://jsonrpc.ellaism.org`, EIP155 enabled, and chain ID `64`.
 
 ## Browser Plugin
