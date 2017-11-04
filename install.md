@@ -50,7 +50,7 @@ this node.
 If you want to solo mine on the Ellaism network, follow the solo mining guide
 [here](/mining/) after you started a full node.
 
-## Wallet
+## Wallets
 
 * [Web Wallet](https://ellaism.github.io/ellawallet)
 * [Chrome Extension Wallet](https://chrome.google.com/webstore/detail/myellawallet/bgfofdgebpphdhddggaggeafenegbjef)
