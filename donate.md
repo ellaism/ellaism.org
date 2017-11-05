@@ -7,7 +7,7 @@ Ellaism doesn't have an ICO and is a coin without pre-mine. Donations are welcom
 
 ## Add Yourself to the Page
 
-If you are an active developer who frequently contribute code to Ellaism, manage a well-known Ellaism-related project, or manage a part of the Ellaism community, please send a new pull request to [ellaism/meta](https://github.com/ellaism/meta) add your name below.
+If you are an active developer who frequently contribute code to Ellaism, manage a well-known Ellaism-related project, or manage a part of the Ellaism community, please send a new pull request to [ellaism/ellaism.org](https://github.com/ellaism/ellaism.org) to add your name below.
 
 ## Dev Fund
 
