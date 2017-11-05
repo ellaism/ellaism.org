@@ -33,6 +33,7 @@ parts are managed by different community members.
 
 * [Roadmap](/roadmap/)
 * [Principles](/principles/)
+* [Development](https://github.com/ellaism/meta)
 * [Discord](https://discord.gg/66Pn9jn)
 * [Community Twitter](https://twitter.com/EllaismCoin)
 * [Core Twitter](https://twitter.com/EllaismCore)
@@ -57,12 +58,9 @@ You might also want to follow the [installation](/install/) or
 * [Web Wallet](https://ellaism.github.io/ellawallet)
 * [Chrome Extension Wallet](https://chrome.google.com/webstore/detail/myellawallet/bgfofdgebpphdhddggaggeafenegbjef)
 
-## Volunteer
+## Get Involved
 
-There is no premine and the coin is totally community-driven. Help wanted to
-keep this coin alive
-[https://github.com/ellaism/meta/issues](https://github.com/ellaism/meta/issues).
-You can also [donate](/donate/) to Ellaism developers and community members to help this coin.
+There is no pre-mine and the coin is totally community-driven. You can find more information about how to get involved in the [ellaism/meta](https://github.com/ellaism/meta) repository and the [Discord](https://discord.gg/66Pn9jn) server. You can also [donate](/donate/) to Ellaism developers and community members to help this coin.
 
 ## Total Supply
 
