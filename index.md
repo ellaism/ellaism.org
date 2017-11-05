@@ -33,7 +33,7 @@ parts are managed by different community members.
 
 * [Roadmap](/roadmap/)
 * [Principles](/principles/)
-* [Development](https://github.com/ellaism/meta)
+* [Get Involved](https://github.com/ellaism/meta)
 * [Discord](https://discord.gg/66Pn9jn)
 * [Community Twitter](https://twitter.com/EllaismCoin)
 * [Core Twitter](https://twitter.com/EllaismCore)
