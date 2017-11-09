@@ -4,18 +4,21 @@
     {% include icon.html id="nav" %}
   </button>
   <ul class="list  list--nav">
-    {% for item in site.navigation_header %}
+      {% for item in site.navigation_header %}
 
-      {% if item[1] contains '://' %}
-      {% assign url = item[1] %}
-      {% else %}
-      {% assign url = item[1] | relative_url %}
-      {% endif %}
+        {% if item[1] contains '://' %}
+        {% assign url = item[1] %}
+        <li class="item item--nav{% if item[1] == page.url %} item--current{% endif %}">
+          <a href="{{ url }}" target="_blank">{{ item[0] }}</a>
+        </li>
+        {% else %}
+        {% assign url = item[1] | relative_url %}
+        <li class="item item--nav{% if item[1] == page.url %} item--current{% endif %}">
+          <a href="{{ url }}">{{ item[0] }}</a>
+        </li>
+        {% endif %}
 
-      <li class="item  item--nav{% if item[1] == page.url %}  item--current{% endif %}">
-        <a href="{{ url }}">{{ item[0] }}</a>
-      </li>
-    {% endfor %}
+      {% endfor %}
   </ul>
 </nav>
 {% else %}
