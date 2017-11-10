@@ -31,10 +31,7 @@ The Community Fund [0x46739B691C011530AAf480AAcd339C206a2046E6](https://explorer
 You can also donate to individual developers for their work on Ellaism. Please consider adding yourself to the list if you're an Ellaim developer by sending a pull request to [ellaism/meta](https://github.com/ellaism/meta).
 
 * [@ellaismer](https://github.com/ellaismer): Core developer of Ellaism. [0x0023ce859bD711a271C0ef4578670A1F9fa3F2BC](https://explorer.ellaism.org/addr/0x0023ce859bD711a271C0ef4578670A1F9fa3F2BC)
-
-* [@WallermaDev](https://github.com/wallermadev): Devking. [0xd874e6ae81b10887d5b3ad3edab95fb460c94951](https://explorer.ellaism.org/addr/0xd874e6ae81b10887d5b3ad3edab95fb460c94951)
-60% Of all donations will be redistributed by WallermaDev.
-
+* [@WallermaDev](https://github.com/wallermadev): Devking. 60% of all donations will be redistributed by WallermaDev. [0xd874e6ae81b10887d5b3ad3edab95fb460c94951](https://explorer.ellaism.org/addr/0xd874e6ae81b10887d5b3ad3edab95fb460c94951)
 
 ## Community Members
 
