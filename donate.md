@@ -32,6 +32,10 @@ You can also donate to individual developers for their work on Ellaism. Please c
 
 * [@ellaismer](https://github.com/ellaismer): Core developer of Ellaism. [0x0023ce859bD711a271C0ef4578670A1F9fa3F2BC](https://explorer.ellaism.org/addr/0x0023ce859bD711a271C0ef4578670A1F9fa3F2BC)
 
+* [@WallermaDev](https://github.com/wallermadev): Devking. [0xd874e6ae81b10887d5b3ad3edab95fb460c94951](https://explorer.ellaism.org/addr/0xd874e6ae81b10887d5b3ad3edab95fb460c94951)
+60% Of all donations will be redistributed by WallermaDev.
+
+
 ## Community Members
 
 Please consider adding yourself to the list of you're an active community member of Ellaism, by sending a pull request to [ellaism/meta](https://github.com/ellaism/meta).
