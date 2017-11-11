@@ -39,7 +39,9 @@ to Dev Fund.
 Pools below donate their mining fees to the Community Fund.
 
 * [Ella Minerpool](http://ella.minerpool.net) (50% of mining fees)
+* [Ellaism.io](http://pool.ellaism.io) (50% of mining fees)
 * [Ellaism Pool Sexy](http://ella.pool.sexy) (2.5% of mining fees)
+
 
 ### All Pools
 
@@ -48,4 +50,3 @@ Other pools might also have advantage in their setup or shares of mining fees.
 * [Ethash-coins.ru](http://ella.ethash-coins.ru)
 * [2zo.pw](http://ellaism.2zo.pw)
 * [CoinminerSpace](http://ella.coinminer.space)
-* [Minethis.ca](http://ella.minethis.ca)
