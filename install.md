@@ -48,7 +48,7 @@ this node.
 ## Mining
 
 If you want to solo mine on the Ellaism network, follow the solo mining guide
-[here](/mining/) after you started a full node.
+[here](/mining/) after you have started a full node.
 
 ## Wallets
 
@@ -70,4 +70,4 @@ to directly interact with many Ethereum dapps on the network. To do this:
 
 Now you can use dapps directly. For example, try out [Token
 Factory](https://tokenfactory.surge.sh) which allows you to create a new tokens
-under minutes.
+in minutes.

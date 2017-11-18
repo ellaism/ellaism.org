@@ -9,7 +9,7 @@ Ethereum and Ethereum Classic.
 
 Follow the guide in [Installation](/install/) to either set up a Parity or Geth
 full node. After that, you can use any ethash miner (such as
-[ethminer](https://github.com/ethereum-mining/ethminer)) to mine Ellasim. To
+[ethminer](https://github.com/ethereum-mining/ethminer)) to mine Ellaism. To
 mine using your GPU, run `ethminer -G -F http://localhost:8545`.
 
 ## Pools
@@ -27,8 +27,8 @@ instructions of how to set your miners up.
 
 ### Pools that Donate to Dev Fund
 
-Ellaism Dev Pool is used to keep the Dev Fund going, and other pools also donate
-to Dev Fund.
+The Ellaism Dev Pool is used to keep the Dev Fund going, and other pools also
+donate to Dev Fund.
 
 * [Ellaism Dev Mining Pool](https://pool.ellaism.org)
 * [Ellaism Pool Sexy](http://ella.pool.sexy) (2.5% of mining fees)
@@ -44,7 +44,7 @@ Pools below donate their mining fees to the Community Fund.
 
 ### All Pools
 
-Other pools might also have advantage in their setup or shares of mining fees.
+Other pools may also have advantages in their setup or shares of mining fees.
 
 * [Ethash-coins.ru](http://ella.ethash-coins.ru)
 * [2zo.pw](http://ellaism.2zo.pw)
