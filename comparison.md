@@ -10,45 +10,46 @@ philosophy, and community.
 
 ## Ethereum
 
-The chain by *Ethereum Foundation* is the oldest and currently the most valuable
-one. Launching this coin, the Foundation did an ICO of 60 million ETH and also
-included an additional of 12 million ETH pre-mine for developers. That sums up
-to a total of 72 million ETH pre-mine. In the meantime, only about 10 million
-new ETH can be mined by miners per year. Today, three years after its launch,
-all coins in genesis block (block 0) still consists of more than half of all
-coins available. This makes the coin distribution of it questionable. For
-example, at the time of DAO hack, many users don't trust the result of
+The chain by *Ethereum Foundation* is the oldest and currently the most
+valuable. Launching this coin, the Foundation issued an ICO of 60 million ETH
+and also included an additional 12 million ETH pre-mined for developers, meaning
+72 million ETH was pre-mined. Since then, only about 10 million new ETH can be
+mined by miners per year. Today, three years after its launch, all the coins in
+the genesis block (block 0) still represent more than half of all the coins
+available. This makes the coin distribution of Ethereum questionable. For
+example, at the time of the DAO hack, many users didn't trust the result of
 CarbonVote (one-ETH-one-vote style of voting).
 
-In the recent Byzantium hard fork, Ethereum further changed coin issuance per
-block from 5 ETH to 3 ETH. This further reduces total coins that can be mined.
-And make pre-mine and the overall coin distribution more questionable.
+In the recent Byzantium hard fork, Ethereum further changed the coin issuance
+per block from 5 ETH to 3 ETH. This further reduced the total coins that can be
+mined and made the pre-mine and the overall coin distribution even more
+questionable.
 
-In terms of community, Ethereum has the largest groups of developers and
+In terms of community, Ethereum has the largest group of developers and
 businesses supporting it. However, its hard forks and many changes that require
-acknowledgment from the whole community, are often criticised as being "rushed"
+acknowledgment from the whole community are often criticised as being "rushed"
 and "one person (Vitalik Buterin) decides everything". Many people argue that
 this is a good thing because it allows the coin to change much faster. Many
 others don't like this fact that a "decentralized cryptocurrency" is, in fact,
-centralized, and switch to other coins like Ethereum Classic.
+centralized, and have switched to other coins like Ethereum Classic.
 
 ## Ethereum Classic
 
-Ethereum Classic is a community split happened during the DAO hard fork.
+Ethereum Classic is a community split that happened during the DAO hard fork.
 Compared with Ethereum, it has a strong principle of "code is law" and
 "transaction finalization". Many people consider this to be more censorship
-resistance. It also has a clear monetary policy (which Ellaism borrowed from)
-that has 210 million total coin supply.
+resistant. It also has a clear monetary policy (which Ellaism borrowed from)
+that has a 210 million total coin supply.
 
 However, Ethereum Classic still has the same problem as Ethereum in terms of
-pre-mine. 72 million pre-mine, even after the 210 million coins are all mined,
-is still more than 30% in the network. Many people consider this to be a
+pre-mine. A 72 million pre-mine, even after the 210 million coins are all mined,
+still equates to more than 30% of the network. Many people consider this to be a
 problem, while others do not.
 
 ## Expanse
 
 The Expanse network is one of the early forks of Ethereum. Compared with
-Ethereum and Ethereum Classic, its community is smaller. Expanse network
+Ethereum and Ethereum Classic, its community is smaller. The Expanse network
 consists of 11.11 million coins pre-mined in the genesis block in which the
 founder controls the private key.
 
@@ -65,16 +66,16 @@ makes it so that block rewards start out at 8, and decrease by 1, until it
 reaches 1 per block.
 
 The Ubiq development team is run by donations. This fact, combined with that it
-is advertised being no pre-mine, attracts some developers. Ubiq also has the
+is advertised as being no pre-mine, attracts some developers. Ubiq also has the
 unique *Flux Difficulty Algorithm*.
 
 ## Pirl
 
 Pirl is a coin launched in July 2017. The coin is also advertised to be no
 pre-mine, and is probably the only cryptocurrency besides Ellaism that contains
-zero coins in genesis block (block 0). The coin, however, takes around 16% dev
-fees (for masternode and dev fund) in every block reward. People interested in
-Pirl usually don't consider this as a pre-mine, because devs are only paid if
+zero coins in the genesis block (block 0). The coin, however, takes around a 16%
+dev fee (for masternode and dev fund) in every block reward. People interested
+in Pirl usually don't consider this as a pre-mine, because devs are only paid if
 the coin is valuable. This, however, is sometimes criticised in other coins like
 Zcash, which also takes dev fees called "founders' reward".
 
@@ -88,9 +89,9 @@ or dev fees, Ellaism can be argued to have a much more fair launch due to the
 fact that Ubiq is a "re-launch".
 
 Ellaism's current development team (Ellaism Core) is [run by
-donations](/roadmap/). While this fact makes the coin has a good long-term
+donations](/roadmap/). While this fact makes the coin have a good long-term
 foundation, people argue that this would result in a slower initial coin growth
-for the beginning. Ellaism's community size is also small right now.
+in the beginning. Ellaism's community size is also small right now.
 
 ## Specialized Ethereum Networks
 

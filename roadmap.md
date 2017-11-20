@@ -9,12 +9,12 @@ the Ellaism blockchain. Ellaism Core is a non-profit team that develops and
 maintains some core infrastructures on the Ellaism blockchain.
 
 You can donate to Ellaism Core by supporting the **Dev Fund**, which you can
-find more information on [Donate to Ellaism](/donations/) page.
+find more information on at the [Donate to Ellaism](/donations/) page.
 
 ## Funding and Community Efforts
 
-One of the most important things that users would care about would be how
-Ellaism Core is funded and how the team would impact the community. Here we make
+One of the most important things that users should care about should be how
+Ellaism Core is funded and how the team may impact the community. Here we make
 several points about what we are and what we aren't.
 
 1. **Core is run by donations.** Everyone owns the Ellaism blockchain, thus they
@@ -26,8 +26,8 @@ several points about what we are and what we aren't.
    now. Every year, we publish a new short-term roadmap, for the coming year,
    three months in advance (November to February next year). The community
    always has the chance to propose changes to the roadmap.
-2. **Core is replaceable.** Ellaism has no pre-mine. Every time when the
-   community is not happy with Core, it has the chance to replace Core by
+2. **Core is replaceable.** Ellaism has no pre-mine. Every time the community is
+   not happy with Core, it has the chance to replace Core by
    another team, by switching its donations.
    
 Below are lists of our roadmap plan. Currently, we're in the *Request for
@@ -57,9 +57,9 @@ pieces of the network. In the coming year, we plan to:
 EVM is the central part of Ellaism, and developer tools are important pieces
 that allow people to actually use the network. In the coming year, we plan to:
 
-* Optimize the performance of Ethereum Virtual Machine. This helps the network
-  to handle more transactions.
-* Port and maintain other developer tools for Ellaism chain, if needed.
+* Optimize the performance of Ethereum Virtual Machine which will help the
+  network handle more transactions.
+* Port and maintain other developer tools for the Ellaism chain, if needed.
 
 ## Governance System and Hard Forks
 
@@ -71,8 +71,8 @@ incorporating an additional layer of the governance system in the future.
 However, we would be careful when exploring this approach and, in the
 short-term, use an on-chain optional system instead.
 
-Chain-level DAOs are usually of high complexity. If implemented incorrectly, can
-lead to tyranny of the majority. This, in case of a divide, does not help in
+Chain-level DAOs are usually highly complex. If implemented incorrectly, they
+can lead to tyranny of the majority. This, in case of a divide, does not help in
 reaching consensus – the minority might decide to hard fork and change the
 chain-level DAO rules, and it still leads to a new chain.
 
@@ -109,8 +109,8 @@ Ethereum's new features might include:
 
 ## BTC Relay and Masternodes
 
-BTC relay allows validation of Bitcoin transactions on Ellaism blockchain. In
-the coming year, we plan to:
+BTC relay allows validation of Bitcoin transactions on the Ellaism blockchain.
+In the coming year, we plan to:
 
 * Implement a new interface for BTC relay and allow easier usage.
 * Restore Bitcoin-ELLA atomic swap.
