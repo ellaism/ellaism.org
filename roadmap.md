@@ -13,7 +13,7 @@ find more information on at the [Donate to Ellaism](/donations/) page.
 
 ## Funding and Community Efforts
 
-One of the most important things that users would care about would be how
+One of the most important things that users care about is how
 Ellaism Core is funded and how the team may impact the community. Here we make
 several points about what we are and what we aren't.
 
