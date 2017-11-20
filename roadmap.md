@@ -107,14 +107,15 @@ Ethereum's new features might include:
 * Big integer operations support for RSA related operations (EIP196 and EIP198).
 * New EVM opcodes, including `REVERT`, `RETURNDATASIZE`, `RETURNDATACOPY`, `STATICCALL`.
 
-## BTC Relay and Masternodes
+## BTC Relay and Cross-chain Operations
 
 BTC relay allows validation of Bitcoin transactions on the Ellaism blockchain.
 In the coming year, we plan to:
 
 * Implement a new interface for BTC relay and allow easier usage.
 * Restore Bitcoin-ELLA atomic swap.
-* Build incentives for miners to run relays, and act as "masternodes".
+* Build incentives for miners to run relays.
+* Investigate other techniques to carry out atomic swap and cross-chain operations.
 
 ## Protocol Specification
 
