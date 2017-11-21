@@ -33,7 +33,7 @@ feature_row:
     url: "/donate/"
     btn_label: "Learn More"
 intro:
-  - excerpt: 'Follow the Ellaism community [<i class="fa fa-twitter"></i> @EllaismCoin](https://twitter.com/Ellaism){: .btn .btn--twitter} [Discord](https://discord.gg/66Pn9jn){: .btn .btn--google-plus}'
+  - excerpt: 'Follow the Ellaism community [<i class="fa fa-twitter"></i> @EllaismCoin](https://twitter.com/EllaismCoin){: .btn .btn--twitter} [Discord](https://discord.gg/66Pn9jn){: .btn .btn--google-plus}'
 ---
 
 {% include feature_row id="intro" type="center" %}
