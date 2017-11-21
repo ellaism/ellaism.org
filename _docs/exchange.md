@@ -10,4 +10,4 @@ We have three exchanges currently supporting Ellaism trading:
 
 * [Cryptobroker](https://trade.cryptobroker.io/markets/ellabtc)
 * [Stocks Exchange](https://stocks.exchange/trade/ELLA/BTC)
-* [Bisq](https://bisq.network/).
+* [Bisq](https://bisq.network/)
