@@ -1,84 +1,92 @@
 ---
 permalink: /about/
 title: "About"
-excerpt: "Minimal Mistakes is a flexible two-column Jekyll theme."
-layouts_gallery:
-  - url: mm-layout-splash.png
-    image_path: mm-layout-splash.png
-    alt: "splash layout example"
-  - url: mm-layout-single-meta.png
-    image_path: mm-layout-single-meta.png
-    alt: "single layout with comments and related posts"
-  - url: mm-layout-archive.png
-    image_path: mm-layout-archive.png
-    alt: "archive layout example"
-modified: 2016-04-18T16:39:37-04:00
+excerpt: "An Ethereum-like networks with no premine and no contentious hard forks."
+modified: 2017-11-21
 ---
 
 {% include base_path %}
 
-Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or self-hosting on your own server. As the name implies --- styling is purposely minimalistic to be enhanced and customized by you :smile:.
+Ellaism is an Ethereum-like network. Features include:
 
-The theme includes responsive layouts (`single`, `archive`, and `splash` pages) that look great on mobile and desktop browsers.
+* No pre-mine.
+* No contentious hard forks. Stability is a feature.
+* Monetary policy. 5 ELLA every block in the beginning. A reduction of 20%
+  mining rewards happens every 10 million blocks.
+* No difficulty bomb.
+* Replay protection enabled by default.
 
-{% include gallery id="layouts_gallery" caption="Examples of included layouts `splash`, `single`, and `archive`." %}
+See also [Comparison of Different Ethereum Networks](/comparison/).
 
-[Install the Theme]({{ base_path }}/docs/quick-start-guide/){: .btn .btn--success .btn--large}
+## Information and Community
 
-## Notable Features
+Ellaism has a welcoming and strong community. Its Twitter, Discord server, forum and other
+parts are managed by different community members.
 
-- Compatible with Jekyll 3.x and GitHub Pages
-- Several layout options (single, archive, splash pages)
-- SEO optimized with support for [Twitter Cards](https://dev.twitter.com/cards/overview) and [Open Graph](http://ogp.me/) data
-- Optional header images, sidebars, table of contents, galleries, related posts, breadcrumb links, and more.
-- Optional comments ([Disqus](https://disqus.com/), [Facebook](https://developers.facebook.com/docs/plugins/comments), Google+, and custom)
-- Optional analytics ([Google Analytics](https://www.google.com/analytics/) and custom)
+* [Roadmap](/roadmap/)
+* [Principles](/principles/)
+* [Get Involved](https://github.com/ellaism/meta)
+* [Discord](https://discord.gg/66Pn9jn)
+* [Community Twitter](https://twitter.com/EllaismCoin)
+* [Core Twitter](https://twitter.com/EllaismCore)
+* IRC: [#ellaism](http://webchat.freenode.net/?channels=ellaism)
 
-## Demo Pages
+## Clients
 
-| Name                                        | Description                                           |
-| ------------------------------------------- | ----------------------------------------------------- |
-| [Post with Header Image][header-image-post] | A post with a large header image. |
-| [HTML Tags and Formatting Post][html-tags-post] | A variety of common markup showing how the theme styles them. |
-| [Syntax Highlighting Post][syntax-post] | Post displaying highlighted code. |
-| [Post with a Gallery][gallery-post] | A post showing several images wrapped in `<figure>` elements. |
-| [Sample Collection Page][sample-collection] | Single page from a collection. |
-| [Categories Archive][categories-archive] | Posts grouped by category. |
-| [Tags Archive][tags-archive] | Posts grouped by tags. |
+You might also want to follow the [installation](/install/) or
+[mining](/mining/) guide for this section.
 
-For even more demo pages check the [posts archive][year-archive].
+* [Parity](https://github.com/ellaism/parity-config) (recommended)
+* [Geth](https://github.com/ellaism/go-ellaism) (beta)
 
-[header-image-post]: {{ base_path }}{% post_url 2012-03-15-layout-header-image-text-readability %}
-[gallery-post]: {{ base_path }}{% post_url 2010-09-09-post-gallery %}
-[html-tags-post]: {{ base_path }}{% post_url 2013-01-11-markup-html-tags-and-formatting %}
-[syntax-post]: {{ base_path }}{% post_url 2013-08-16-markup-syntax-highlighting %}
-[sample-collection]: {{ base_path }}/recipes/chocolate-chip-cookies/
-[categories-archive]: {{ base_path }}/categories/
-[tags-archive]: {{ base_path }}/tags/
-[year-archive]: {{ base_path }}/year-archive/
+## Exchanges
 
----
+* [Cryptobroker](https://trade.cryptobroker.io/markets/ellabtc)
+* [Stocks Exchange](https://stocks.exchange/trade/ELLA/BTC)
+* [Bisq](https://bisq.network/). Ellaism support will be in the next release.
 
-## Credits
+## Wallets
 
-### Icons + Demo Images:
+* [Web Wallet](https://ellaism.github.io/ellawallet)
+* [Chrome Extension Wallet](https://chrome.google.com/webstore/detail/myellawallet/bgfofdgebpphdhddggaggeafenegbjef)
 
-- [The Noun Project](https://thenounproject.com) -- Garrett Knoll, Arthur Shlain, and [tracy tam](https://thenounproject.com/tracytam)
-- [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
-- [Unsplash](https://unsplash.com/)
+## Get Involved
 
-### Other:
+There is no pre-mine and the coin is totally community-driven. You can find more information about how to get involved in the [ellaism/meta](https://github.com/ellaism/meta) repository and the [Discord](https://discord.gg/66Pn9jn) server. You can also [donate](/donate/) to Ellaism developers and community members to help this coin.
 
-- [Jekyll](http://jekyllrb.com/)
-- [jQuery](http://jquery.com/)
-- [Susy](http://susy.oddbird.net/)
-- [Breakpoint](http://breakpoint-sass.com/)
-- [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/)
-- [FitVids.JS](http://fitvidsjs.com/)
-- Greedy Navigation - [lukejacksonn](http://codepen.io/lukejacksonn/pen/PwmwWV)
-- [jQuery Smooth Scroll](https://github.com/kswedberg/jquery-smooth-scroll)
-- [Stickyfill](https://github.com/wilddeer/stickyfill)
+## Total Supply
 
----
+Below you will find an analysis of the total supply. The coin unit "Ella" is
+equivalent to "ETH" in Ethereum. The total supply will not exceed 280 million
+Ella. On 2027/09/15, around 50% (139 million Ella) will be mined, and on
+2050/07/20, around 90% (250 million Ella) will be mined.
 
-Minimal Mistakes is designed, developed, and maintained by Michael Rose. Just another boring, tattooed, designer from Buffalo New York.
+![Total supply](/images/total-supply.png)
+
+## JSON RPC Endpoint
+
+If you are a dapp developer, you can use
+"[https://jsonrpc.ellaism.org](https://jsonrpc.ellaism.org)" as a JSON RPC
+endpoint.
+
+## Technical Information
+
+* Block time: 10 seconds.
+* Coin generation: 5 Ella per block with 20% reward reduction happens every 10 million blocks.
+* Network ID and chain ID is 0x40.
+* Most other parameters are the same as Ethereum.
+
+This is an Ethereum network as specified in the [yellow
+paper](https://ethereum.github.io/yellowpaper/paper.pdf), with
+[Homestead](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2.md),
+[EIP150](https://github.com/ethereum/eips/issues/150),
+[EIP155](https://github.com/ethereum/eips/issues/155),
+[EIP160](https://github.com/ethereum/eips/issues/160) and
+[ECIP1017](https://github.com/ethereumproject/ECIPs/blob/master/ECIPs/ECIP-1017.md)
+applied from block 0. The era for ECIP1017 is changed to 10 million. Chain id
+and network id are both `0x40`. Difficulty bomb is diffused from block 0.
+
+Genesis block contains 0 coins (hence no premine). The initial difficulty in
+genesis block is changed to `0x40000000`, its extra data field is
+`0x0000000000000000000000000000000000000000000000000000000000000000`, and its
+initial nonce is `0x0000000000000040`.
