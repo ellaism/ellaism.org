@@ -7,6 +7,7 @@ redirect_from:
 ---
 
 {% include base_path %}
+{% include toc %}
 
 Ellaism is a network without pre-mine, thus its development team is
 decentralized. It is expected that there will be multiple teams developing on
