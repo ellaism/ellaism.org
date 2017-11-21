@@ -45,6 +45,18 @@
       {% if page.header.cta_url %}
         <p><a href="{{ cta_path }}" class="btn btn--light-outline btn--large">{{ page.header.cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
       {% endif %}
+      {% if page.header.ctas %}
+        <p>
+        {% for cta in page.header.ctas %}
+          {% if cta.cta_url contains "://" %}
+            {% capture cta_path %}{{ cta.cta_url }}{% endcapture %}
+          {% else %}
+            {% capture cta_path %}{{ cta.cta_url | prepend: base_path }}{% endcapture %}
+          {% endif %}
+          <a href="{{ cta_path }}" class="btn btn--light-outline btn--large">{{ cta.cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+        {% endfor %}
+        </p>
+      {% endif %}
     </div>
   {% else %}
     <img src="{{ img_path }}" alt="{{ page.title }}" class="page__hero-image">

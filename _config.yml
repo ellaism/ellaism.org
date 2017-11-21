@@ -9,8 +9,8 @@
 locale                   : "en-US"
 title                    : "Ellaism"
 title_separator          : "-"
-name                     : &name "Michael Rose"
-description              : &description "A flexible Jekyll theme for your blog or site with a minimalist aesthetic."
+name                     : &name "Ellaism"
+description              : &description "An Ethereum-like network with no premine and no contentious hard forks."
 url                      : https://ellaism.org # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ellaism/ellaism.org"
@@ -79,21 +79,21 @@ analytics:
 # Site Author
 author:
   name             : *name
-  avatar           : "michael-rose.jpg"
-  bio              : "Just another boring, tattooed, time traveling, designer."
-  location         : "Buffalo, NY"
+  avatar           :
+  bio              :
+  location         :
   email            :
-  uri              : "https://mademistakes.com"
+  uri              : "https://ellaism.org"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         : *facebook
   foursquare       :
-  github           : "mmistakes"
+  github           : "ellaism"
   google_plus      :
   keybase          :
-  instagram        : "mmistakes"
+  instagram        :
   lastfm           :
   linkedin         :
   pinterest        :

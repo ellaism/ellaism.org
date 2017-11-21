@@ -4,33 +4,36 @@ permalink: /
 header:
   overlay_color: "#5e616c"
   overlay_image: mm-home-page-feature.jpg
-  cta_label: "<i class='fa fa-download'></i> Install Now"
-  cta_url: "/docs/quick-start-guide/"
+  ctas:
+    - cta_label: "<i class='fa fa-building'></i> Learn More"
+      cta_url: "/about/"
+    - cta_label: "<i class='fa fa-github'></i> Github"
+      cta_url: "https://github.com/ellaism"
+    - cta_label: "<i class='fa fa-gear'></i> Roadmap"
+      cta_url: "/roadmap/"
   caption:
-excerpt: 'A flexible two-column Jekyll theme. Perfect for personal sites, blogs, and portfolios hosted on GitHub or your own server.<br /> <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/3.4.8">Latest release v3.4.8</a></small><br /><br /> {::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
+excerpt: 'An Ethereum-like network with no premine and no contentious hard forks.<br />'
 feature_row:
   - image_path: mm-customizable-feature.png
-    alt: "customizable"
-    title: "Super Customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
+    alt: "Pure Smart Contract Platform"
+    title: "Pure Smart Contract Platform"
+    excerpt: "Ellaism is a pure smart contract platform. No premine. No dev fees. Its goal is to create a smart contract platform that is both fair and trustworthy. Learn more about how Ellaism compares with other Ethereum-like platforms."
+    url: "/comparison/"
     btn_label: "Learn More"
   - image_path: mm-responsive-feature.png
-    alt: "fully responsive"
-    title: "Responsive Layouts"
-    excerpt: "Built on HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
+    alt: "Transparency and Stability"
+    title: "Transparency and Stability"
+    excerpt: "In cryptocurrency, transparency brings trust. The Core team hold strong transparency in its financial and development process. Our strong principles also build a stable platform."
+    url: "https://github.com/ellaism/meta"
     btn_label: "Learn More"
   - image_path: mm-free-feature.png
-    alt: "100% free"
-    title: "100% Free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it, whatever!"
-    url: "/docs/license/"
+    alt: "Community Driven"
+    title: "Community Driven"
+    excerpt: "We have a welcoming community and a donation-based development process. You have full control over the cryptocurrency you use, and can always choose a team you trust to develop Ellaism."
+    url: "/donate/"
     btn_label: "Learn More"
-github:
-  - excerpt: '{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
 intro:
-  - excerpt: 'Get notified when I add new stuff &nbsp; [<i class="fa fa-twitter"></i> @mmistakes](https://twitter.com/mmistakes){: .btn .btn--twitter}'
+  - excerpt: 'Follow the Ellaism community [<i class="fa fa-twitter"></i> @EllaismCoin](https://twitter.com/Ellaism){: .btn .btn--twitter} [Discord](https://discord.gg/66Pn9jn){: .btn .btn--google-plus}'
 ---
 
 {% include feature_row id="intro" type="center" %}
