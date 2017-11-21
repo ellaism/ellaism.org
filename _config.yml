@@ -14,6 +14,7 @@ description              : &description "An Ethereum-like network with no premin
 url                      : https://ellaism.org # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ellaism/ellaism.org"
+avatarurl                : "https://www.gravatar.com/avatar/98abb59df18a837592a8079e31fd9c47"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
