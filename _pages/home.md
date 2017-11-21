@@ -6,7 +6,7 @@ header:
   overlay_image: mm-home-page-feature.jpg
   ctas:
     - cta_label: "<i class='fa fa-building'></i> Learn More"
-      cta_url: "/about/"
+      cta_url: "/install/"
     - cta_label: "<i class='fa fa-github'></i> Github"
       cta_url: "https://github.com/ellaism"
     - cta_label: "<i class='fa fa-gear'></i> Roadmap"
@@ -17,7 +17,7 @@ feature_row:
   - image_path: mm-customizable-feature.png
     alt: "Pure Smart Contract Platform"
     title: "Pure Smart Contract Platform"
-    excerpt: "Ellaism is a pure smart contract platform. No premine. No dev fees. Its goal is to create a smart contract platform that is both fair and trustworthy. Learn more about how Ellaism compares with other Ethereum-like platforms."
+    excerpt: "Ellaism is a pure smart contract platform. No premine. No dev fees. Its goal is to create a smart contract platform that is both fair and trustworthy. Learn more about how Ellaism compares with other coins."
     url: "/comparison/"
     btn_label: "Learn More"
   - image_path: mm-responsive-feature.png

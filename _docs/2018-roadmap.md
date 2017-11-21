@@ -1,8 +1,9 @@
 ---
 permalink: /roadmap/
-title: Ellaism Roadmap
+title: Ellaism Roadmap in 2018
 modified: 2017-11-21
-redirect_from: "/roadmaps/"
+redirect_from:
+  - /roadmaps/
 ---
 
 {% include base_path %}

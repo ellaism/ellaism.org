@@ -1,97 +1,56 @@
-# example navigation
-foo:
-  - title: "Parent Link 1"
-    url: /parent-1-page-url/
-    children:
-      - title: "Child Link 1"
-        url: /child-1-page-url/
-      - title: "Child Link 2"
-        url: /child-2-page-url/
-
-  - title: "Parent Link 2"
-    url: /parent-2-page-url/
-    children:
-      - title: "Child Link 1"
-        url: /child-1-page-url/
-      - title: "Child Link 2"
-        url: /child-2-page-url/
-      - title: "Child Link 3"
-        url: /child-3-page-url/
-
-
 # main links links
 main:
-  - title: "Quick-Start Guide"
-    url: /docs/quick-start-guide/
+  - title: "Get Started"
+    url: /install/
 
   - title: "About"
     url: /about/
 
-  - title: "Sample Posts"
-    url: /year-archive/
+  - title: "Explorer"
+    url: https://explorer.ellaism.org
 
-  - title: "Sample Collections"
-    url: /collection-archive/
+  - title: "Web Wallet"
+    url: https://ellaism.github.io/ellawallet
 
-  - title: "Terms &amp; Privacy Policy"
-    url: /terms/
+  - title: "Network Stats"
+    url: https://stats.ellaism.org/
+
+  - title: "Exchange"
+    url: /exchange/
+
+  - title: "Mining"
+    url: /mining/
 
 
 # documentation links
 docs:
   - title: Getting Started
     children:
-      - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/
-      - title: "Structure"
-        url: /docs/structure/
       - title: "Installation"
-        url: /docs/installation/
-      - title: "Upgrading"
-        url: /docs/upgrading/
+        url: /install/
+      - title: "Mining"
+        url: /mining/
+      - title: "Exchange"
+        url: /exchange/
 
-  - title: Customization
+  - title: Community
     children:
-      - title: "Configuration"
-        url: /docs/configuration/
-      - title: "Navigation"
-        url: /docs/navigation/
-      - title: "UI Text"
-        url: /docs/ui-text/
-      - title: "Authors"
-        url: /docs/authors/
-      - title: "Layouts"
-        url: /docs/layouts/
-
-  - title: Content
-    children:
-      - title: "Working with Posts"
-        url: /docs/posts/
-      - title: "Working with Pages"
-        url: /docs/pages/
-      - title: "Working with Collections"
-        url: /docs/collections/
-      - title: "Helpers"
-        url: /docs/helpers/
-      - title: "Utility Classes"
-        url: /docs/utility-classes/
-
-  - title: Extras
-    children:
-      - title: "Stylesheets"
-        url: /docs/stylesheets/
-      - title: "JavaScript"
-        url: /docs/javascript/
+      - title: "Roadmap"
+        url: /roadmap/
+      - title: "Donate"
+        url: /donate/
+      - title: "Principles"
+        url: /principles/
+      - title: "Dapps"
+        url: /dapps/
 
   - title: Meta
     children:
-      - title: "History"
-        url: /docs/history/
-      - title: "Contributing"
-        url: /docs/contributing/
-      - title: "Old 2.2 Docs"
-        url: /docs/docs-2-2/
-      - title: "License"
-        url: /docs/license/
-      - title: "Terms &amp; Privacy Policy"
-        url: /terms/
+      - title: "Github"
+        url: https://github.com/ellaism
+      - title: "Discord"
+        url: https://discord.gg/66Pn9jn
+      - title: "Comparison"
+        url: /comparison/
+      - title: "About"
+        url: /about/
