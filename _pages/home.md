@@ -12,7 +12,7 @@ header:
     - cta_label: "<i class='fa fa-gear'></i> Roadmap"
       cta_url: "/roadmap/"
   caption:
-excerpt: 'An Ethereum-like network with no premine and no contentious hard forks. Monetary policy is enabled with a total supply of 280 million ELLA.<br />'
+excerpt: 'A stable Ethereum-like network with no premine and no dev fees. Monetary policy is enabled with a total supply of 280 million ELLA.<br />'
 feature_row:
   - image_path: mm-customizable-feature.png
     alt: "Pure Smart Contract Platform"
