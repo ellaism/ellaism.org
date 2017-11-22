@@ -27,6 +27,8 @@ parts are managed by different community members.
 * [Principles](/principles/)
 * [Get Involved](https://github.com/ellaism/meta)
 * [Discord](https://discord.gg/66Pn9jn)
+* [Reddit](https://www.reddit.com/r/ellaism/)
+* [Community Board](https://board.ellaism.io/)
 * [Community Twitter](https://twitter.com/EllaismCoin)
 * [Core Twitter](https://twitter.com/EllaismCore)
 * IRC: [#ellaism](http://webchat.freenode.net/?channels=ellaism)
