@@ -45,12 +45,18 @@ You might also want to follow the [installation](/install/) or
 
 * [Cryptobroker](https://trade.cryptobroker.io/markets/ellabtc)
 * [Stocks Exchange](https://stocks.exchange/trade/ELLA/BTC)
-* [Bisq](https://bisq.network/). Ellaism support will be in the next release.
+* [Bisq](https://bisq.network/). P2P Trading.
 
-## Wallets
+## Software Wallets
 
 * [Web Wallet](https://ellaism.github.io/ellawallet)
 * [Chrome Extension Wallet](https://chrome.google.com/webstore/detail/myellawallet/bgfofdgebpphdhddggaggeafenegbjef)
+* [Gui Wallet](https://github.com/ellaism-io) Made with help from the community.
+
+## Hardware Wallets
+
+* [Ledger Wallet](https://www.ledgerwallet.com/) Soon!
+* [Trezor](https://shop.trezor.io/)
 
 ## Get Involved
 
