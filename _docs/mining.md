@@ -48,8 +48,9 @@ Pools below donate their mining fees to the Community Fund.
 
 ### All Pools
 
-Other pools may also have advantages in their setup or shares of mining fees.
+Other pools may also have advantages in their setup or shares of mining fees. Contract [core@ellaism.org](mailto:core@ellaism.org) or ping @ellaismer on Discord if you want your pool added to this list.
 
 * [Ethash-coins.ru](http://ella.ethash-coins.ru)
 * [2zo.pw](http://ellaism.2zo.pw)
 * [CoinminerSpace](http://ella.coinminer.space)
+* [AltpoolPro](http://ella.altpool.pro)
