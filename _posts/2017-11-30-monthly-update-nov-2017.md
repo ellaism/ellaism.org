@@ -1,5 +1,5 @@
 ---
-title: "Ellaism Monthly Community Update (November 2017)"
+title: "Monthly Community Update (November 2017)"
 categories:
   - monthly-update
 ---
