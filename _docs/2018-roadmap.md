@@ -2,6 +2,7 @@
 permalink: /roadmap/
 title: Ellaism Roadmap in 2018
 modified: 2017-11-21
+excerpt: Ellaism Core's Roadmap in 2018. A stable Ethereum network without pre-mine or dev fees.
 redirect_from:
   - /roadmaps/
 ---
