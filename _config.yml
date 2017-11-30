@@ -80,7 +80,7 @@ analytics:
 # Site Author
 author:
   name             : *name
-  avatar           :
+  avatar           : "logo.jpg"
   bio              :
   location         :
   email            :
@@ -180,9 +180,9 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
-      related: true
+      related: false
   # _pages
   - scope:
       path: ""
