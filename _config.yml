@@ -48,6 +48,9 @@ staticman:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
+plugins:
+  - jekyll-redirect-from
+
 # SEO Related
 google_site_verification :
 bing_site_verification   :
