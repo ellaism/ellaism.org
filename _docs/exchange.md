@@ -6,8 +6,13 @@ modified: 2017-11-21
 
 {% include base_path %}
 
+## Supported Exchanges
+
 We have three exchanges currently supporting Ellaism trading:
 
 * [Stocks Exchange](https://stocks.exchange/trade/ELLA/BTC)
 * [Bisq](https://bisq.network/)
-* [Cryptobroker](https://trade.cryptobroker.io/markets/ellabtc)
+
+## Exchanges That Might Have Problems
+
+* [Cryptobroker](https://trade.cryptobroker.io/markets/ellabtc): Supports Ellaism trading. However, multiple users have reported that there might be problem for withdrawal.

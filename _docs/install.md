@@ -77,3 +77,7 @@ to directly interact with many Ethereum dapps on the network. To do this:
 Now you can use dapps directly. For example, try out [Token
 Factory](https://tokenfactory.surge.sh) which allows you to create a new tokens
 in minutes.
+
+## Unverified Wallets
+
+* [Ellagem](https://github.com/ellaism-io/ellagem): A Windows desktop wallet for Ellaism. The distributed binary is currently not built from a trusted source. We're working with the author to fix this issue.
