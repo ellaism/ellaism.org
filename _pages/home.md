@@ -34,8 +34,12 @@ feature_row:
     btn_label: "Learn More"
 intro:
   - excerpt: 'Follow the Ellaism community [<i class="fa fa-twitter"></i> @EllaismCoin](https://twitter.com/EllaismCoin){: .btn .btn--twitter} [Discord](https://discord.gg/66Pn9jn){: .btn .btn--google-plus}'
+monthly-update:
+  - excerpt: "Monthly Community Update - November 2017 [Read Now](/2017/11/30/monthly-update-nov-2017/){: .btn}"
 ---
 
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
+
+{% include feature_row id="monthly-update" type="center" %}
