@@ -58,11 +58,10 @@ If you want to solo mine on the Ellaism network, follow the solo mining guide
 
 ## Wallets
 
-* [Web Wallet](https://ellaism.github.io/ellawallet)
-* [Chrome Extension Wallet](https://chrome.google.com/webstore/detail/myellawallet/bgfofdgebpphdhddggaggeafenegbjef)
-
-You can also directly use MyEtherWallet.com by adding a custom node
-with url `https://jsonrpc.ellaism.org`, EIP155 enabled, and chain ID `64`.
+* [Web Wallet](https://ellaism.github.io/ellawallet): Easiest wallet option. Hosted directly on Github. Supports Trezor.
+* [Chrome Extension Wallet](https://chrome.google.com/webstore/detail/myellawallet/bgfofdgebpphdhddggaggeafenegbjef): Runs in a sandbox in your Chrome browser. Functionality is similar the web wallet, but technically safer.
+* [Ellagem](https://github.com/ellaism-io/ellagem): Windows desktop wallet by @Riddlez666. This needs to download the whole blockchain so a little bit slower than the above options.
+* [MyEllaWallet](https://myellawallet.com): You can also directly use MyEtherWallet.com by adding a custom node with url `https://jsonrpc.ellaism.org`, EIP155 enabled, and chain ID `64`.
 
 ## Browser Plugin
 
@@ -77,9 +76,3 @@ to directly interact with many Ethereum dapps on the network. To do this:
 Now you can use dapps directly. For example, try out [Token
 Factory](https://tokenfactory.surge.sh) which allows you to create a new tokens
 in minutes.
-
-## Unverified Applications
-
-Applications below are probably not scams, but we cannot yet say with certain that it is safe due to various reasons. We actively try to work with the authors to address those issues.
-
-* [Ellagem](https://github.com/ellaism-io/ellagem): A Windows desktop wallet for Ellaism. The distributed binary is currently not built from a trusted source. We're working with the author to fix this issue.
