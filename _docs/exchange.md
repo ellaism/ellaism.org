@@ -15,4 +15,4 @@ We have three exchanges currently supporting Ellaism trading:
 
 ## Exchanges That Might Have Problems
 
-* [Cryptobroker](https://trade.cryptobroker.io/markets/ellabtc): Supports Ellaism trading. However, multiple users have reported that there might be problem for withdrawal.
+* [Cryptobroker](https://trade.cryptobroker.io/markets/ellabtc): Supports Ellaism trading. However, multiple users have reported that there might be problems for withdrawal.
