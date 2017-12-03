@@ -54,3 +54,5 @@ Other pools may also have advantages in their setup or shares of mining fees. Co
 * [2zo.pw](http://ellaism.2zo.pw)
 * [CoinminerSpace](http://ella.coinminer.space)
 * [AltpoolPro](http://ella.altpool.pro)
+* [Cryptodig.ru](http://ella-solo.cryptodig.ru)
+* [Cryptobee](http://cryptobee.de)
