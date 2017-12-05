@@ -43,7 +43,7 @@
         <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
       {% endif %}
       {% if page.header.cta_url %}
-        <p><a href="{{ cta_path }}" class="btn btn--light-outline btn--large">{{ page.header.cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
+        <p><a href="{{ cta_path }}" class="btn btn--light btn--large">{{ page.header.cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
       {% endif %}
       {% if page.header.ctas %}
         <p>
@@ -53,7 +53,7 @@
           {% else %}
             {% capture cta_path %}{{ cta.cta_url | prepend: base_path }}{% endcapture %}
           {% endif %}
-          <a href="{{ cta_path }}" class="btn btn--light-outline btn--large">{{ cta.cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+          <a href="{{ cta_path }}" class="btn btn--light btn--large">{{ cta.cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
         {% endfor %}
         </p>
       {% endif %}
