@@ -8,7 +8,7 @@ modified: 2017-11-21
 
 ## Supported Exchanges
 
-We have three exchanges currently supporting Ellaism trading:
+We have four exchanges currently supporting Ellaism trading:
 
 * [Stocks Exchange](https://stocks.exchange/trade/ELLA/BTC)
 * [Bisq](https://bisq.network/)
