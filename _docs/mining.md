@@ -18,12 +18,7 @@ mine using your GPU, run `ethminer -G -F http://localhost:8545`.
 
 ## Pools
 
-Please try solo mining first! At this stage, it's more profitable and helps the
-network decentralization. If solo mining is not an option, you can use the
-mining pools below. Help is appreciated to keep the [Dev Mining
-Pool](https://pool.ellaism.org) running. This pool maintains several
-infrastructures on Ellaism, like the BTC Relay fetchd script, and contributes
-directly to the [Dev Fund](http://ellaism.org/donations/).
+Pool mining helps miners to compensate "bad luck" and share "good luck" when it comes. Help is appreciated to keep the [Dev Mining Pool](https://pool.ellaism.org) running. This pool maintains several infrastructures on Ellaism, like the BTC Relay fetchd script, and contributes directly to the [Dev Fund](https://ellaism.org/donations/).
 
 You can also find a more updated mining pool list at
 [Minerpool](https://minerpool.net/pools/ellaism/). Pools have their own
