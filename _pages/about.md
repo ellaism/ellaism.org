@@ -43,9 +43,11 @@ You might also want to follow the [installation](/install/) or
 
 ## Exchanges
 
-* [Cryptobroker](https://trade.cryptobroker.io/markets/ellabtc)
+See the complete exchange list at [here](/exchange/).
+
+* [Cryptopia](https://www.cryptopia.co.nz/Exchange?market=ELLA_BTC)
 * [Stocks Exchange](https://stocks.exchange/trade/ELLA/BTC)
-* [Bisq](https://bisq.network/) P2P exchange
+* [Bisq](https://bisq.network/)
 
 ## Wallets
 

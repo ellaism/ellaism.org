@@ -10,9 +10,9 @@ modified: 2017-11-21
 
 We have four exchanges currently supporting Ellaism trading:
 
+* [Cryptopia](https://www.cryptopia.co.nz/Exchange?market=ELLA_BTC)
 * [Stocks Exchange](https://stocks.exchange/trade/ELLA/BTC)
 * [Bisq](https://bisq.network/)
-* [Cryptopia](https://www.cryptopia.co.nz/Exchange?market=ELLA_BTC)
 
 ## Exchanges That Might Have Problems
 
