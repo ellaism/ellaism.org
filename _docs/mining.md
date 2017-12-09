@@ -30,16 +30,16 @@ The Ellaism Dev Pool is used to keep the Dev Fund going, and other pools also
 donate to Dev Fund.
 
 * [Ellaism Dev Mining Pool](https://pool.ellaism.org)
-* [Ellaism Pool Sexy](http://ella.pool.sexy) (2.5% of mining fees)
-* [Cryptobitpool](http://ella.cryptobitpool.eu) (25% of mining fees)
+* [Ellaism Pool Sexy](http://ella.pool.sexy) (2.5% of 0.25% mining fees)
+* [Cryptobitpool](http://ella.cryptobitpool.eu) (25% of 0.1% mining fees)
 
 ### Pools that Donate to Community Fund
 
 Pools below donate their mining fees to the Community Fund.
 
-* [Ella Minerpool](http://ella.minerpool.net) (50% of mining fees)
-* [Ellaism Pool Sexy](http://ella.pool.sexy) (2.5% of mining fees)
-* [Ellaism IO](http://pool.ellaism.io) (50% of mining fees)
+* [Ella Minerpool](http://ella.minerpool.net) (50% of 1% mining fees)
+* [Ellaism Pool Sexy](http://ella.pool.sexy) (2.5% of 0.25% mining fees)
+* [Ellaism IO](http://pool.ellaism.io) (50% of 1% mining fees)
 
 ### All Pools
 
