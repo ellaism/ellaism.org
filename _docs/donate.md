@@ -12,7 +12,7 @@ Ellaism didn't have an ICO and is a coin without a pre-mine. Donations are welco
 
 ## Dev Fund
 
-The Dev Fund [0x00522e276908428C02457d8a8747b9aA0AB52570](https://explorer.ellaism.org/addr/0x00522e276908428C02457d8a8747b9aA0AB52570) is managed by [@ellaismer](https://github.com/ellaismer), core developer of Ellaism. The fund is used to set up the core development team, operate infrastructures of Ellaism, and support other development activities related to the Ellaism blockchain. Currently the fund is used for:
+The Dev Fund [0x00522e276908428C02457d8a8747b9aA0AB52570](https://explorer.ellaism.org/addr/0x00522e276908428C02457d8a8747b9aA0AB52570) is managed by [@ellaismer](https://github.com/ellaismer), core developer of Ellaism. The fund is used to set up the core development team, operate infrastructures of Ellaism, and support other development activities related to the Ellaism blockchain. A financial report is [published](https://github.com/ellaism/meta/tree/master/finance) every month for transparency. Currently the fund is used for:
 
 * Development of Ellaism [go client](https://github.com/ellaism/go-ellaism) and support for [Parity client](https://github.com/ellaism/parity-config).
 * Ellaism explorer.
