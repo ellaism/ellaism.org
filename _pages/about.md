@@ -51,8 +51,9 @@ See the complete exchange list at [here](/exchange/).
 
 ## Wallets
 
-* [Web Wallet](https://ellaism.github.io/ellawallet)
-* [Chrome Extension Wallet](https://chrome.google.com/webstore/detail/myellawallet/bgfofdgebpphdhddggaggeafenegbjef)
+* [MyEtherWallet](https://myetherwallet.com/)
+* [Ellaism Web Wallet](https://ellaism.github.io/ellawallet)
+* [Ellaism Chrome Extension Wallet](https://chrome.google.com/webstore/detail/myellawallet/bgfofdgebpphdhddggaggeafenegbjef)
 
 ## Hardware Wallets
 
