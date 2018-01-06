@@ -61,7 +61,7 @@ If you want to solo mine on the Ellaism network, follow the solo mining guide
 * [MyEtherWallet](https://myetherwallet.com): Choose ELLA from the top-right dropdown menu.
 * [Ellaism Web Wallet](https://ellaism.github.io/ellawallet): Easiest wallet option besides MyEtherWallet. Hosted directly on Github. Supports Trezor hardware wallet.
 * [Ellaism Chrome Extension Wallet](https://chrome.google.com/webstore/detail/myellawallet/bgfofdgebpphdhddggaggeafenegbjef): Runs in a sandbox in your Chrome browser. Functionality is similar to the web wallet, but technically safer.
-* [Ellagem](https://github.com/ellaism-io/ellagem): Windows desktop wallet by @Riddlez666. This needs to download the whole blockchain so a little bit slower than the above options.
+* [Ellagem](https://github.com/ellaism-io/ellagem/releases): Windows desktop wallet by @Riddlez666. This needs to download the whole blockchain so a little bit slower than the above options.
 
 ## Browser Plugin
 

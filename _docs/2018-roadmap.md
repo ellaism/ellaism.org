@@ -49,7 +49,7 @@ includes:
 * Decentralized bulk storage integrated with blockchain.
 * And many others.
 
-## Client and Wallet Development and Maintainance
+## Client and Wallet Development and Maintenance
 
 Full nodes (clients) and lightweight wallets are probably the most important
 pieces of the network. In the coming year, we plan to:
