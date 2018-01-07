@@ -40,6 +40,7 @@ Pools below donate their mining fees to the Community Fund.
 * [Ella Minerpool](http://ella.minerpool.net) (50% of 1% mining fees)
 * [Ellaism Pool Sexy](http://ella.pool.sexy) (2.5% of 0.25% mining fees)
 * [Ellaism IO](http://pool.ellaism.io) (50% of 1% mining fees)
+* [Epool.io](http://ella.epool.io) (100% of 1% mining fees)
 
 ### All Pools
 
@@ -54,3 +55,4 @@ Other pools may also have advantages in their setup or shares of mining fees. Co
 * [2miners](https://2miners.com)
 * [Ellaismpool.com](http://ellaismpool.com)
 * [MegaPool](http://megapool.io/ella)
+* [Rei Do Coin](https://ella.reidocoin.com.br/)
