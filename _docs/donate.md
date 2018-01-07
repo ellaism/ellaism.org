@@ -10,7 +10,7 @@ redirect_from: "/donations/"
 
 Ellaism didn't have an ICO and is a coin without a pre-mine. Donations are welcomed to keep those that contributed to the coin rewarded. This page was set up so that you can donate to some people who have contributed code either directly or indirectly to Ellaism.
 
-Not sure about which fund you should donate? You can send your donation to [0x153CA514D9DD38fB6560Ef4a1BE26F2C9a10364A](https://explorer.ellaism.org/addr/0x153CA514D9DD38fB6560Ef4a1BE26F2C9a10364A) and it will automatically rely it to the fund with the least balance.
+Not sure about which fund you should donate? You can send your donation to [0x153CA514D9DD38fB6560Ef4a1BE26F2C9a10364A](https://explorer.ellaism.org/addr/0x153CA514D9DD38fB6560Ef4a1BE26F2C9a10364A) and it will automatically rely to the fund with the least balance. If you want something more fancy, the split contract [0x248DfAfe235AeF181E9b957a7AaB86d053C3dC9d](https://explorer.ellaism.org/addr/0x248DfAfe235AeF181E9b957a7AaB86d053C3dC9d) allows you to split your donation evenly between Dev Fund and Community Fund.
 
 ## Dev Fund
 
