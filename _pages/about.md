@@ -99,3 +99,7 @@ Genesis block contains 0 coins (hence no premine). The initial difficulty in
 genesis block is changed to `0x40000000`, its extra data field is
 `0x0000000000000000000000000000000000000000000000000000000000000000`, and its
 initial nonce is `0x0000000000000040`.
+
+## Logo Assets
+
+Ellaism's logo is created by @BL0ckchain and is released into the public domain. You can find a high resolution asset of the logo [here](https://ellaism.org/images/logo.png).
