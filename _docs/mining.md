@@ -32,6 +32,7 @@ donate to Dev Fund.
 * [Ellaism Dev Mining Pool](https://pool.ellaism.org)
 * [Ellaism Pool Sexy](http://ella.pool.sexy) (2.5% of 0.25% mining fees)
 * [Cryptobitpool](http://ella.cryptobitpool.eu) (25% of 0.1% mining fees)
+* [CryptoPools](http://ella.cryptopools.info) (25% of 1% mining fees)
 
 ### Pools that Donate to Community Fund
 
