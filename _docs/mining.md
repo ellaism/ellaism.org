@@ -59,3 +59,5 @@ Other pools may also have advantages in their setup or shares of mining fees. Co
 * [Rei Do Coin](https://ella.reidocoin.com.br/)
 * [Clona.ru](http://clona.ru)
 * [CoinsFarm](https://coins.farm/pools/ella)
+* [TetraPool](https://ellaism.tetrapool.com/)
+* [BaikelMine](http://ell.baikalmine.com)
