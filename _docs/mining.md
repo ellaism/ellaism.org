@@ -60,4 +60,4 @@ Other pools may also have advantages in their setup or shares of mining fees. Co
 * [Clona.ru](http://clona.ru)
 * [CoinsFarm](https://coins.farm/pools/ella)
 * [TetraPool](https://ellaism.tetrapool.com/)
-* [BaikelMine](http://ell.baikalmine.com)
+* [BaikalMine](http://ell.baikalmine.com)
