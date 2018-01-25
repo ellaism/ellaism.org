@@ -28,7 +28,7 @@ Besides making donations, you can also support the Dev Fund by joining the [Dev 
 
 ## Community Fund
 
-The Community Fund [0x46739B691C011530AAf480AAcd339C206a2046E6](https://explorer.ellaism.org/addr/0x46739B691C011530AAf480AAcd339C206a2046E6) is managed by [@Count Cryptula](https://twitter.com/talesfmthcrypto). The Community Fund is used to pay community managers and other community members for their work on Ellaism. Many mining pools donate mining fees to the Community Fund. You can find more information in [Mining](/mining/).
+The Community Fund [0xA2C7779077Edc618C926AB5BA7510877C187cd92](https://explorer.ellaism.org/addr/0xA2C7779077Edc618C926AB5BA7510877C187cd92) is a multisig wallet managed by [several community members](https://github.com/ellaism/meta/tree/master/multisig). The Community Fund is used to pay community managers and other community members for their work on Ellaism. Many mining pools donate mining fees to the Community Fund. You can find more information in [Mining](/mining/).
 
 ## Developers
 
