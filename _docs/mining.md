@@ -62,3 +62,4 @@ Other pools may also have advantages in their setup or shares of mining fees. Co
 * [TetraPool](https://ellaism.tetrapool.com/)
 * [BaikalMine](http://ell.baikalmine.com)
 * [Bolxcruncha](http://ella.bloxcruncha.io)
+* [MyPoolOnline](https://ella.mypool.online)
