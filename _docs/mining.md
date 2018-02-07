@@ -71,3 +71,4 @@ Other pools may also have advantages in their setup or shares of mining fees. Co
 * [BaikalMine](http://ell.baikalmine.com)
 * [Bolxcruncha](http://ella.bloxcruncha.io)
 * [MyPoolOnline](https://ella.mypool.online)
+* [PandaPool](https://pandapool.io/info/howtostart/ethash/19)
