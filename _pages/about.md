@@ -67,10 +67,8 @@ There is no pre-mine and the coin is totally community-driven. You can find more
 
 Below you will find an analysis of the total supply. The coin unit "Ella" is
 equivalent to "ETH" in Ethereum. The total supply will not exceed 280 million
-Ella. On 2027/09/15, around 50% (139 million Ella) will be mined, and on
-2050/07/20, around 90% (250 million Ella) will be mined.
-
-![Total supply](/images/total-supply.png)
+Ella. On 2031/10/12, around 50% (139 million Ella) will be mined, and on
+2063/10/05, around 90% (250 million Ella) will be mined. See [this document](https://docs.google.com/spreadsheets/d/1v3T6gRupH4C4Zx3B60fOOIqFiilItSpVTszEHjyIPIw/edit?usp=sharing) for an analysis about total supply information.
 
 ## JSON RPC Endpoint
 
