@@ -43,6 +43,8 @@ docs:
         url: /principles/
       - title: "Dapps"
         url: /dapps/
+      - title: "Faucet"
+        url: /faucet/
 
   - title: Meta
     children:
