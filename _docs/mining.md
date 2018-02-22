@@ -72,3 +72,6 @@ Other pools may also have advantages in their setup or shares of mining fees. Co
 * [Bolxcruncha](http://ella.bloxcruncha.io)
 * [MyPoolOnline](https://ella.mypool.online)
 * [PandaPool](https://pandapool.io/info/howtostart/ethash/19)
+* [HyberHash](https://ella.hyperhash.net/)
+* [RealSite](https://mine-ella.real-site.com/)
+* [CryptopoolNetwork](http://ella.cryptopool.network/)
