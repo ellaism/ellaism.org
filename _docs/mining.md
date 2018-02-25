@@ -33,6 +33,7 @@ donate to Dev Fund.
 * [Ellaism Pool Sexy](http://ella.pool.sexy) (2.5% of 0.25% mining fees)
 * [Cryptobitpool](http://ella.cryptobitpool.eu) (25% of 0.1% mining fees)
 * [CryptoPools](http://ella.cryptopools.info) (25% of 1% mining fees)
+* [Ellaismpool.com](http://ellaismpool.com) (Regular fixed-amount donations)
 
 ### Pools that Donate to Community Fund
 
@@ -42,6 +43,7 @@ Pools below donate their mining fees to the Community Fund.
 * [Ellaism Pool Sexy](http://ella.pool.sexy) (2.5% of 0.25% mining fees)
 * [Ellaism IO](http://pool.ellaism.io) (50% of 1% mining fees)
 * [Epool.io](http://ella.epool.io) (100% of 1% mining fees)
+* [Ellaismpool.com](http://ellaismpool.com) (Regular fixed-amount donations)
 
 ### Pools Using Ellaism's Version of [open-ethereum-pool](https://github.com/ellaism/open-ethereum-pool)
 
@@ -50,6 +52,7 @@ Ellaism maintains its own fork of [open-ethereum-pool](https://github.com/ellais
 * [Dev Mining Pool](https://pool.ellaism.org/)
 * [CryptobitPool](http://ella.cryptobitpool.eu/)
 * [Ellaism IO](http://pool.ellaism.io/)
+* [Ellaismpool.com](http://ellaismpool.com)
 
 ### All Pools
 
@@ -62,7 +65,6 @@ Other pools may also have advantages in their setup or shares of mining fees. Co
 * [Cryptodig.ru](http://ella-solo.cryptodig.ru)
 * [Cryptobee](http://cryptobee.de)
 * [2miners](https://2miners.com)
-* [Ellaismpool.com](http://ellaismpool.com)
 * [MegaPool](http://megapool.io/ella)
 * [Rei Do Coin](https://ella.reidocoin.com.br/)
 * [Clona.ru](http://clona.ru)
