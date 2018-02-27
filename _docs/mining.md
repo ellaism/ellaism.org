@@ -41,9 +41,15 @@ Pools below donate their mining fees to the Community Fund.
 
 * [Ella Minerpool](http://ella.minerpool.net) (50% of 1% mining fees)
 * [Ellaism Pool Sexy](http://ella.pool.sexy) (2.5% of 0.25% mining fees)
-* [Ellaism IO](http://pool.ellaism.io) (50% of 1% mining fees)
 * [Epool.io](http://ella.epool.io) (100% of 1% mining fees)
 * [Ellaismpool.com](http://ellaismpool.com) (Regular fixed-amount donations)
+
+### Pools that Donate to Contributor Fund
+
+Pools below donate their mining fees to the Contributor Fund.
+
+* [Ellaism IO](http://pool.ellaism.io) (All of 1% mining fees)
+
 
 ### Pools Using Ellaism's Version of [open-ethereum-pool](https://github.com/ellaism/open-ethereum-pool)
 
