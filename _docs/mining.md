@@ -50,7 +50,6 @@ Pools below donate their mining fees to the Contributor Fund.
 
 * [Ellaism IO](http://pool.ellaism.io) (All of 1% mining fees)
 
-
 ### Pools Using Ellaism's Version of [open-ethereum-pool](https://github.com/ellaism/open-ethereum-pool)
 
 Ellaism maintains its own fork of [open-ethereum-pool](https://github.com/ellaism/open-ethereum-pool) with improvements of memory usage, network latency and PPLNS support. Below is the list of pools using this fork.
@@ -83,3 +82,4 @@ Other pools may also have advantages in their setup or shares of mining fees. Co
 * [HyberHash](https://ella.hyperhash.net/)
 * [RealSite](https://mine-ella.real-site.com/)
 * [CryptopoolNetwork](http://ella.cryptopool.network/)
+* [NeverMining](http://ella.nevermining.org)
