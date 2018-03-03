@@ -35,7 +35,7 @@ feature_row:
 intro:
   - excerpt: 'Follow the Ellaism community [<i class="fa fa-twitter"></i> @EllaismCoin](https://twitter.com/EllaismCoin){: .btn .btn--twitter} [Discord](https://discord.gg/66Pn9jn){: .btn .btn--google-plus}'
 monthly-update:
-  - excerpt: "Monthly Community Update - January 2018 [Read Now](/2018/01/31/monthly-update-jan-2018/){: .btn}"
+  - excerpt: "Monthly Community Update - February 2018 [Read Now](/2018/03/32/monthly-update-feb-2018/){: .btn}"
 ---
 
 {% include feature_row id="intro" type="center" %}
