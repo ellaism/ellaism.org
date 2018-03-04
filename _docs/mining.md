@@ -84,3 +84,4 @@ Other pools may also have advantages in their setup or shares of mining fees. Co
 * [CryptopoolNetwork](http://ella.cryptopool.network/)
 * [NeverMining](http://ella.nevermining.org)
 * [CryptoMine.Rocks](https://ella.cryptomine.rocks)
+* [Coinaroo](http://ella.coinaroo.net)
