@@ -16,3 +16,13 @@ Additional facilities you can use on the testnet:
 
 * Explorer: [https://explorer.testnet.ellaism.org](https://explorer.testnet.ellaism.org)
 * JSONRPC Endpoint: [https://jsonrpc.testnet.ellaism.org](https://jsonrpc.testnet.ellaism.org)
+
+## Testnet Faucet
+
+To get some testnet token, go to the Discord channel, in `#ask-ella-bot` channel, run command `!testnet send <address>`. For example:
+
+```
+!testnet send 0x2cbb505641e0c1b0ada0cf0b045014383de94576
+```
+
+You will receive 10 testnet tokens each time issuing this command.
