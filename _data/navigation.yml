@@ -45,6 +45,8 @@ docs:
         url: /dapps/
       - title: "Faucet"
         url: /faucet/
+      - title: "Testnet"
+        url: /testnet/
 
   - title: Meta
     children:
