@@ -15,28 +15,11 @@ can also use MyEtherWallet and MetaMask to interact with the network.
 
 Install Parity from [Parity's official
 website](https://github.com/paritytech/parity/releases). Please use Parity
-version 1.6.10 or later. Download the Ellaism config file
-([https://raw.githubusercontent.com/ellaism/parity-config/master/ellaism.json](https://raw.githubusercontent.com/ellaism/parity-config/master/ellaism.json)).
-Run Parity with `parity --chain /path/to/ellaism.json` (if you are on Windows,
-that would be `parity --chain X:\path\to\ellaism.json`).
+version 1.9.0 or later.
+Run Parity with `parity --chain ellaism`.
 
 Include the `--author yourellaaddress` parameter if you plan to mine using this
 node.
-
-**If you're running Parity as a public node or for a mining pool**, it is
-recommended to run with `--usd-per-tx 0` because Parity cannot calculate the
-correct ELLA-USD rate.
-
-```
-parity --chain "/path/to/ellaism.json" --usd-per-tx 0
-```
-
-To set it in your Parity config file, add the following:
-
-```
-[mining]
-usd_per_tx = "0"
-```
 
 ## Go Ellaism Full Node
 
