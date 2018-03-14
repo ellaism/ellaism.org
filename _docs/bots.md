@@ -2,6 +2,7 @@
 title: "Bots"
 permalink: /bots/
 modified: 2018-03-14
+excerpt: Documentations of how to interact with various bots on the Ellaism discord server.
 ---
 
 {% include base_path %}
