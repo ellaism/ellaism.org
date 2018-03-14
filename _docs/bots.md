@@ -4,6 +4,9 @@ permalink: /bots/
 modified: 2018-03-14
 ---
 
+{% include base_path %}
+{% include toc %}
+
 The Ellaism's [Discord server](https://discord.gg/EKtynbS) has several bots to interact with the network. Here're some documentations of how you can use them.
 
 ## Twitter Faucet
