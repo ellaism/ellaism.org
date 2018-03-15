@@ -44,19 +44,12 @@ Pools below donate their mining fees to the Community Fund.
 * [Epool.io](http://ella.epool.io) (100% of 1% mining fees)
 * [Ellaismpool.com](http://ellaismpool.com) (Regular fixed-amount donations)
 
-### Pools that Donate to Contributor Fund
-
-Pools below donate their mining fees to the Contributor Fund.
-
-* [Ellaism IO](http://pool.ellaism.io) (All of 1% mining fees)
-
 ### Pools Using Ellaism's Version of [open-ethereum-pool](https://github.com/ellaism/open-ethereum-pool)
 
 Ellaism maintains its own fork of [open-ethereum-pool](https://github.com/ellaism/open-ethereum-pool) with improvements of memory usage, network latency and PPLNS support. Below is the list of pools using this fork.
 
 * [Dev Mining Pool](https://pool.ellaism.org/)
 * [CryptobitPool](http://ella.cryptobitpool.eu/)
-* [Ellaism IO](http://pool.ellaism.io/)
 * [Ellaismpool.com](http://ellaismpool.com)
 
 ### All Pools

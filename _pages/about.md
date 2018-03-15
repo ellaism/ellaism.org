@@ -29,7 +29,6 @@ parts are managed by different community members.
 * [Discord](https://discord.gg/EKtynbS)
 * [Telegram](https://t.me/ellaismcoin)
 * [Reddit](https://www.reddit.com/r/ellaism/)
-* [Community Board](https://board.ellaism.io/)
 * [Community Twitter](https://twitter.com/EllaismProject)
 * [Core Twitter](https://twitter.com/EllaismCore)
 * IRC: [#ellaism](http://webchat.freenode.net/?channels=ellaism)
