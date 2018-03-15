@@ -96,6 +96,13 @@ The conflict also raises concerns about several Ellaism's community
 management efforts. Some of them are still open questions, and we hope
 that as a community we can work together to solve them.
 
+### Leaving the Old Discord Server
+
+During the conflict, Ellaismer left the old Discord server, which caused
+the conflict to get even more heated. This behavior should be avoided,
+and leaving should at least not be immediate and until all other negotiations
+have failed. 
+
 ### Financial Interests
 
 One thing discussed in the conflict is the MINING token. This is a
