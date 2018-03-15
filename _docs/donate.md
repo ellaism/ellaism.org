@@ -30,22 +30,11 @@ The [transparency page](https://transparency.ellaism.org/dev) shows all the outg
 
 ## Community Fund
 
+*The current status of Community Fund is unknown. Please be aware that because of some signers being inactive, the fund might be frozen.*
+
 The Community Fund [0xA2C7779077Edc618C926AB5BA7510877C187cd92](https://explorer.ellaism.org/addr/0xA2C7779077Edc618C926AB5BA7510877C187cd92) is a multisig wallet managed by [several community members](https://github.com/ellaism/meta/tree/master/multisig). The Community Fund is used to pay community managers and other community members for their work on Ellaism. Many mining pools donate mining fees to the Community Fund. You can find more information in [Mining](/mining/).
 
 The [transparency page](https://transparency.ellaism.org/community) shows all the outgoing transactions from the Community Fund.
-
-## Developers
-
-You can also donate to individual developers for their work on Ellaism. Please consider adding yourself to the list if you're an Ellaism developer by sending a pull request to [ellaism/meta](https://github.com/ellaism/meta).
-
-* [@ellaismer](https://github.com/ellaismer): Core developer of Ellaism. [0x0023ce859bD711a271C0ef4578670A1F9fa3F2BC](https://explorer.ellaism.org/addr/0x0023ce859bD711a271C0ef4578670A1F9fa3F2BC)
-* [@riddlez666](https://github.com/ellaism-io): Web administrator of [ellaism.io](https://ellaism.io) and Ellagem Maintainer also Ellaism Forum manager. [0xc393659c2918a64cdfb44d463de9c747aa4ce3f7](https://explorer.ellaism.org/addr/0xc393659c2918a64cdfb44d463de9c747aa4ce3f7)
-
-## Community Members
-
-Please consider adding yourself to the list if you're an active community member of Ellaism, by sending a pull request to [ellaism/meta](https://github.com/ellaism/meta).
-
-* [@DragonFyZex](https://github.com/DragonFyZex): Ellaism Discord admin. [0xeE834d84B8B606F00a012bA5203F53a4A8D2Ce17](https://explorer.ellaism.org/addr/0xeE834d84B8B606F00a012bA5203F53a4A8D2Ce17)
 
 ## Add Yourself to the Page
 
