@@ -20,9 +20,7 @@ mine using your GPU, run `ethminer -G -F http://localhost:8545`.
 
 Pool mining helps miners to compensate "bad luck" and share "good luck" when it comes. Help is appreciated to keep the [Dev Mining Pool](https://pool.ellaism.org) running. This pool maintains several infrastructures on Ellaism, like the BTC Relay fetchd script, and contributes directly to the [Dev Fund](https://ellaism.org/donations/).
 
-You can also find a more updated mining pool list at
-[this Wiki page](https://github.com/ellaism/meta/wiki/Pool-List). Pools have their own
-instructions of how to set your miners up.
+You can also check out the current pool hashrates in Explorer's [miners' ranking](https://explorer.ellaism.org/miners). Pools have their own instructions of how to set your miners up.
 
 ### Pools that Donate to Dev Fund
 
