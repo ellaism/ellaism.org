@@ -33,7 +33,7 @@ feature_row:
     url: "/donate/"
     btn_label: "Learn More"
 intro:
-  - excerpt: 'Follow the Ellaism community [<i class="fa fa-twitter"></i> @EllaismProject](https://twitter.com/ellaismproject){: .btn .btn--twitter} [Discord](https://discord.gg/EKtynbS){: .btn .btn--google-plus}'
+  - excerpt: 'Follow the Ellaism community [<i class="fa fa-twitter"></i> @EllaismProject](https://twitter.com/ellaismproject){: .btn .btn--twitter} [Discord](https://discord.gg/gz9tURY){: .btn .btn--google-plus}'
 monthly-update:
   - excerpt: "Monthly Community Update - February 2018 [Read Now](/2018/03/02/monthly-update-feb-2018/){: .btn}"
 ---
