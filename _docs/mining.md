@@ -37,6 +37,8 @@ donate to Dev Fund.
 
 ### Pools that Donate to Community Fund
 
+*The current status of Community Fund is unknown. Please be aware that because of some signers being inactive, the fund might be frozen.*
+
 Pools below donate their mining fees to the Community Fund.
 
 * [Ella Minerpool](http://ella.minerpool.net) (50% of 1% mining fees)
