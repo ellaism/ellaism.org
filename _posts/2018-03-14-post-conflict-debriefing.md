@@ -14,6 +14,11 @@ different opinions on different parties involved. If you are
 interested in that, please visit the old Discord server, which
 contains the complete logs in `#general` chat.
 
+EGEM team decided to leave Ellaism development. The team's action, and
+the Twitter account `@EllaismCoin`, are not associated with Ellaism in
+any case. Ellaism community also moved to a
+[new Discord server](https://discord.gg/EKtynbS).
+
 ## Tokens and Principles
 
 The conflict started when EGEM team wants to deploy a "token" that
@@ -101,7 +106,7 @@ that as a community we can work together to solve them.
 During the conflict, Ellaismer left the old Discord server, which caused
 the conflict to get even more heated. This behavior should be avoided,
 and leaving should at least not be immediate and until all other negotiations
-have failed. 
+have failed.
 
 ### Financial Interests
 
