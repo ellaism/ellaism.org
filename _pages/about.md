@@ -26,7 +26,7 @@ parts are managed by different community members.
 * [Roadmap](/roadmap/)
 * [Principles](/principles/)
 * [Get Involved](https://github.com/ellaism/meta)
-* [Discord](https://discord.gg/EKtynbS)
+* [Discord](https://discord.gg/gz9tURY)
 * [Telegram](https://t.me/ellaismcoin)
 * [Reddit](https://www.reddit.com/r/ellaism/)
 * [Community Twitter](https://twitter.com/EllaismProject)
