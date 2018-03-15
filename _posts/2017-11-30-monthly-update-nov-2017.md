@@ -4,7 +4,7 @@ categories:
   - monthly-update
 ---
 
-A lot of new things happened in the Ellaism community this month. Here is a list of what's in the works and what's planned in the near-term future. As a cryptocurrency without pre-mine or dev fees, we need your help. Join the [Discord](https://discord.gg/66Pn9jn) server and [learn how to get involved](https://github.com/ellaism/meta) in Ellaism developments.
+A lot of new things happened in the Ellaism community this month. Here is a list of what's in the works and what's planned in the near-term future. As a cryptocurrency without pre-mine or dev fees, we need your help. Join the [Discord](https://discord.gg/gz9tURY) server and [learn how to get involved](https://github.com/ellaism/meta) in Ellaism developments.
 
 ## Wallets and Explorers
 

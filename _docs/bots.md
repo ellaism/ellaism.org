@@ -8,7 +8,7 @@ excerpt: Documentations of how to interact with various bots on the Ellaism disc
 {% include base_path %}
 {% include toc %}
 
-The Ellaism's [Discord server](https://discord.gg/EKtynbS) has several bots to interact with the network. Here're some documentations of how you can use them.
+The Ellaism's [Discord server](https://discord.gg/gz9tURY) has several bots to interact with the network. Here're some documentations of how you can use them.
 
 ## Twitter Faucet
 

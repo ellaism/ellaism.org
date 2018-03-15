@@ -61,7 +61,7 @@ See the complete exchange list at [here](/exchange/).
 
 ## Get Involved
 
-There is no pre-mine and the coin is totally community-driven. You can find more information about how to get involved in the [ellaism/meta](https://github.com/ellaism/meta) repository and the [Discord](https://discord.gg/66Pn9jn) server. You can also [donate](/donate/) to Ellaism developers and community members to help this coin.
+There is no pre-mine and the coin is totally community-driven. You can find more information about how to get involved in the [ellaism/meta](https://github.com/ellaism/meta) repository and the [Discord](https://discord.gg/gz9tURY) server. You can also [donate](/donate/) to Ellaism developers and community members to help this coin.
 
 ## Total Supply
 

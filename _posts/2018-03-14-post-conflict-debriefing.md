@@ -17,7 +17,7 @@ contains the complete logs in `#general` chat.
 EGEM team decided to leave Ellaism development. The team's action, and
 the Twitter account `@EllaismCoin`, are not associated with Ellaism in
 any case. Ellaism community also moved to a
-[new Discord server](https://discord.gg/EKtynbS).
+[new Discord server](https://discord.gg/gz9tURY).
 
 ## Tokens and Principles
 

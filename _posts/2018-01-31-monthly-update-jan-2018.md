@@ -4,7 +4,7 @@ categories:
   - monthly-update
 ---
 
-Here is a list of the recent progress from Ellaism developers and community members. As a cryptocurrency without pre-mine or dev fees, we need your help. Join the [Discord](https://discord.gg/66Pn9jn) server, [donate to Ellaism](https://ellaism.org/donate) and [learn how to get involved](https://github.com/ellaism/meta) in Ellaism developments.
+Here is a list of the recent progress from Ellaism developers and community members. As a cryptocurrency without pre-mine or dev fees, we need your help. Join the [Discord](https://discord.gg/gz9tURY) server, [donate to Ellaism](https://ellaism.org/donate) and [learn how to get involved](https://github.com/ellaism/meta) in Ellaism developments.
 
 ## Development
 
