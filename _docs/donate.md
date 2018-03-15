@@ -27,11 +27,7 @@ The [transparency page](https://transparency.ellaism.org/dev) shows all the outg
 
 ## Community Fund
 
-*The current status of Community Fund is unknown. Please be aware that because of some signers being inactive, the fund might be frozen.*
-
-The Community Fund [0xA2C7779077Edc618C926AB5BA7510877C187cd92](https://explorer.ellaism.org/addr/0xA2C7779077Edc618C926AB5BA7510877C187cd92) is a multisig wallet managed by [several community members](https://github.com/ellaism/meta/tree/master/multisig). The Community Fund is used to pay community managers and other community members for their work on Ellaism. Many mining pools donate mining fees to the Community Fund. You can find more information in [Mining](/mining/).
-
-The [transparency page](https://transparency.ellaism.org/community) shows all the outgoing transactions from the Community Fund.
+*Please be aware that because of some signers being inactive, the fund is most likely to have been frozen.*
 
 ## Add Yourself to the Page
 

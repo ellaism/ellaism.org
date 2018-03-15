@@ -26,24 +26,13 @@ instructions of how to set your miners up.
 
 ### Pools that Donate to Dev Fund
 
-The Ellaism Dev Pool is used to keep the Dev Fund going, and other pools also
+The Dev Mining Pool is used to keep the Dev Fund going, and other pools also
 donate to Dev Fund.
 
-* [Ellaism Dev Mining Pool](https://pool.ellaism.org)
-* [Ellaism Pool Sexy](http://ella.pool.sexy) (2.5% of 0.25% mining fees)
+* [Dev Mining Pool](https://pool.ellaism.org)
+* [Pool Sexy](http://ella.pool.sexy) (2.5% of 0.25% mining fees)
 * [Cryptobitpool](http://ella.cryptobitpool.eu) (25% of 0.1% mining fees)
 * [CryptoPools](http://ella.cryptopools.info) (25% of 1% mining fees)
-* [Ellaismpool.com](http://ellaismpool.com) (Regular fixed-amount donations)
-
-### Pools that Donate to Community Fund
-
-*The current status of Community Fund is unknown. Please be aware that because of some signers being inactive, the fund might be frozen.*
-
-Pools below donate their mining fees to the Community Fund.
-
-* [Ella Minerpool](http://ella.minerpool.net) (50% of 1% mining fees)
-* [Ellaism Pool Sexy](http://ella.pool.sexy) (2.5% of 0.25% mining fees)
-* [Epool.io](http://ella.epool.io) (100% of 1% mining fees)
 * [Ellaismpool.com](http://ellaismpool.com) (Regular fixed-amount donations)
 
 ### Pools Using Ellaism's Version of [open-ethereum-pool](https://github.com/ellaism/open-ethereum-pool)
@@ -80,3 +69,6 @@ Other pools may also have advantages in their setup or shares of mining fees. Co
 * [NeverMining](http://ella.nevermining.org)
 * [CryptoMine.Rocks](https://ella.cryptomine.rocks)
 * [Coinaroo](http://ella.coinaroo.net)
+* [Ella Minerpool](http://ella.minerpool.net)
+* [Epool.io](http://ella.epool.io)
+* [Ellaismpool.com](http://ellaismpool.com)
