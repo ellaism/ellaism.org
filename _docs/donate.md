@@ -25,10 +25,6 @@ Besides making donations, you can also support the Dev Fund by joining the [Dev 
 
 The [transparency page](https://transparency.ellaism.org/dev) shows all the outgoing transactions from the Dev Fund.
 
-## Community Fund
-
-*Please be aware that because of some signers being inactive, the fund is most likely to have been frozen.*
-
 ## Add Yourself to the Page
 
 We list donation addresses of developers and members that are active in the Ellaism community. To qualify for this list, you would need to have either authored a project directly related to Ellaism, contributed a significant amount of code to one of the core projects, or played a leading role in maintaining a part of the Ellaism community. If you think you should be added, please send a new pull request to [ellaism/ellaism.org](https://github.com/ellaism/ellaism.org).
