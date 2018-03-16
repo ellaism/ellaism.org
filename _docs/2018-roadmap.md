@@ -37,8 +37,8 @@ several points about what we are and what we aren't.
    not happy with Core, it has the chance to replace Core by
    another team, by switching its donations.
 
-Below are lists of our roadmap plan. Currently, we're in the *Request for
-Comments* period. You can submit your suggestions to the public Discord server,
+Below are lists of our roadmap plan. You can submit your suggestions regarding
+this roadmap to the public Discord server,
 or privately to [core@ellaism.org](mailto:core@ellaism.org). Note
 that we only list things we plan to implement this year. That means many other
 exciting features that are planned in the future will not be listed here. This
