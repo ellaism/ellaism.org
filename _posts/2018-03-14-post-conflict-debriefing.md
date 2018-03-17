@@ -74,42 +74,37 @@ some other people.
 
 ### Sidechains
 
-It is mentioned in some other sources that this "token" EGEM planned
-to launch might actually be a "sidechain", which uses the Blake2s
-Proof of Work algorithm and to design it so that it can be dual-mined
-with Ellaism. This is then combined with an "exchange" to allow tokens
-to be swapped.
+The EGEM token proposal included the prospect of using a "sidechain" for the launch of the token.  This would then be combined with an "exchange" to allow tokens to be swapped.
 
-If this is the case, then Core team's concern is that, while EGEM
-might have designed this with good intention, in practice, sidechains
-that work like this usually creates direct competition with the parent
-chain. In addition, because sidechain requires a huge amount of extra
-efforts to design, the author usually ended up just creating another
-totally separate chain, with no relationship with the originally
-planned parent chain. Using a normal exchange to allow swapping also
-raises centralization concerns.
+The Core team's concern in this case was that while EGEM
+had designed this with the best of intentions, in practice sidechains
+that work like this usually create direct competition with the parent
+chain. In addition, because a sidechain requires a huge amount of extra
+efforts to design, in most cases the author usually ends up just creating another
+totally separate chain with no relationship to the originally
+planned parent chain. Also, using a normal exchange to allow swapping could also
+raise centralization concerns.
 
-During the conflicts with EGEM team, Ellaismer used the Callisto
-example, but failed to express clearly about the above concerns. This
-is something that Core team should have done better.
+During the discussion with the EGEM team, Ellaismer used the Callisto
+example, but failed to express clearly all of his above concerns. This
+is something he and the Core team endeavor to improve upon for future project proposals.
 
 ## Community Management
 
-The conflict also raises concerns about several Ellaism's community
-management efforts. Some of them are still open questions, and we hope
+The conflict also raises concerns about several of Ellaism's community
+management efforts. Some of them are still open to question, and we hope
 that as a community we can work together to solve them.
 
 ### Leaving the Old Discord Server
 
 During the conflict, Ellaismer left the old Discord server, which caused
-the conflict to get even more heated. This behavior should be avoided,
-and leaving should at least not be immediate and until all other negotiations
+the conflict to become even more heated. This behavior was rash and should be avoided.  In the future, any serious or impactful actions should at least not be immediate, and especially not used until all other negotiation attempts
 have failed.
 
 ### Financial Interests
 
-One thing discussed in the conflict is the MINING token. This is a
-no-premine no-airdrop token, but is only applied on Dev Pool. This
+One issue discussed in the conflict was a MINING token. This is a
+no-premine no-airdrop token, but it is only applied on Dev Pool. This
 additional feature on Dev Pool caused some miners to switch from other
 mining pools. We still think this is totally reasonable here. Many
 mining pools contains different features, and miners might switch
@@ -147,3 +142,9 @@ server.
 * We don't have any private chatrooms any more.
 
 And we're looking for more inputs on how we can better handle this.
+
+### A Positive Discord Community
+
+In the interests of creating a more positive and inclusive community, we are considering restrictions on excessively vulgar language and disrespectful attitudes toward other members.  The social, off-topic, and possibly other sections of Discord could have this policing removed.
+
+We are open to discussion regarding this with the wider community.  The hope is to not just prevent future issues, but to promote a welcoming and professional environment for developers, investors, outside projects, and members.
