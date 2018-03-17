@@ -74,24 +74,20 @@ some other people.
 
 ### Sidechains
 
-It is mentioned in some other sources that this "token" EGEM planned
-to launch might actually be a "sidechain", which uses the Blake2s
-Proof of Work algorithm and to design it so that it can be dual-mined
-with Ellaism. This is then combined with an "exchange" to allow tokens
-to be swapped.
+The EGEM token proposal included the prospect of using a "sidechain" for the launch of the token.  This would then be combined with an "exchange" to allow tokens to be swapped.
 
-If this is the case, then Core team's concern is that, while EGEM
-might have designed this with good intention, in practice, sidechains
-that work like this usually creates direct competition with the parent
-chain. In addition, because sidechain requires a huge amount of extra
-efforts to design, the author usually ended up just creating another
-totally separate chain, with no relationship with the originally
-planned parent chain. Using a normal exchange to allow swapping also
-raises centralization concerns.
+The Core team's concern in this case was that while EGEM
+had designed this with the best of intentions, in practice sidechains
+that work like this usually create direct competition with the parent
+chain. In addition, because a sidechain requires a huge amount of extra
+efforts to design, in most cases the author usually ends up just creating another
+totally separate chain with no relationship to the originally
+planned parent chain. Also, using a normal exchange to allow swapping could also
+raise centralization concerns.
 
-During the conflicts with EGEM team, Ellaismer used the Callisto
-example, but failed to express clearly about the above concerns. This
-is something that Core team should have done better.
+During the discussion with the EGEM team, Ellaismer used the Callisto
+example, but failed to express clearly all of his above concerns. This
+is something he and the Core team endeavor to improve upon for future project proposals.
 
 ## Community Management
 
