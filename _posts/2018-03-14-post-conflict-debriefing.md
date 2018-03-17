@@ -4,19 +4,17 @@ categories:
   - debriefing
 ---
 
-If you have been following Ellaism along recently, you may have heard
-of the conflict with EGEM team related to a token planned to deploy on
+If you have been following Ellaism recently, you may have heard
+of a conflict with the EGEM team related to a token planned for deployment on
 the Ellaism network. In this post, we aim to provide a post-conflict
-debriefing on what we can learn about it, and what we can do better if
-similar incidents happen next time. We won't provide the transcript of
-how the incident was actually carried out, due to its complexity, and
-different opinions on different parties involved. If you are
-interested in that, please visit the old Discord server, which
-contains the complete logs in `#general` chat.
+debriefing regarding what we can learn about the event and what we can do better if
+similar incidents happen again. We won't provide a transcript of
+how the exact details transpired due to its complexity and the
+different opinions of different parties involved. If you are
+interested in that, please visit the old Discord server which
+contains the complete log in `#general` chat.
 
-EGEM team decided to leave Ellaism development. The team's action, and
-the Twitter account `@EllaismCoin`, are not associated with Ellaism in
-any case. Ellaism community also moved to a
+To the best of our knowledge, the EGEM team has decided to leave the Ellaism project. Any future actions by that team including the use of the Twitter account, `@EllaismCoin`, should not be associated with Ellaism.  In addition the Ellaism community has moved to a
 [new Discord server](https://discord.gg/gz9tURY).
 
 ## Tokens and Principles
