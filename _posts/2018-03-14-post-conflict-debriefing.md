@@ -143,7 +143,7 @@ server.
 
 And we're looking for more inputs on how we can better handle this.
 
-### A positive Discord Community
+### A Positive Discord Community
 
 In the interests of creating a more positive and inclusive community, we are considering restrictions on excessively vulgar language and disrespectful attitudes toward other members.  The social, off-topic, and possibly other sections of Discord could have this policing removed.
 
