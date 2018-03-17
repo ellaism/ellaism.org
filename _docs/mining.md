@@ -70,3 +70,4 @@ Other pools may also have advantages in their setup or shares of mining fees. Co
 * [Ella Minerpool](http://ella.minerpool.net)
 * [Epool.io](http://ella.epool.io)
 * [Ellaismpool.com](http://ellaismpool.com)
+* [Swedishpool](http://swedishpool.se/)
