@@ -47,6 +47,8 @@ docs:
         url: /bots/
       - title: "Testnet"
         url: /testnet/
+      - title: "Media"
+        url: /media/
 
   - title: Meta
     children:
