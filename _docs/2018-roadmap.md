@@ -54,9 +54,8 @@ includes:
 Full nodes (clients) and lightweight wallets are probably the most important
 pieces of the network. In the coming year, we plan to:
 
-* Develop the [go-ellaism client](https://github.com/ellaism/go-ellaism).
-* Maintain support for [Parity
-  client](https://github.com/ellaism/parity-config).
+* Develop the [go-ellaism client](https://github.com/ellaism/go-ellaism) and [multi-geth client](https://github.com/ellaism/multi-geth).
+* Maintain support for [Parity client](https://github.com/ellaism/parity-config).
 * Develop the [ellawallet](https://ellaism.github.io/ellawallet).
 
 ## Ethereum Virtual Machine and Developer Tools
