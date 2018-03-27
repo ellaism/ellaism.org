@@ -19,6 +19,16 @@ Please use Parity version 1.9.0 or later. Run Parity with `parity --chain ellais
 Include the `--author yourellaaddress` parameter if you plan to mine using this
 node.
 
+## Multi-geth Full Node
+
+Download multi-geth from the [release page](https://github.com/ellaism/multi-geth/releases). Run with:
+
+```
+geth --ellaism
+```
+
+Include the `--etherbase yourellaaddress` parameter if you plan to mine using this node.
+
 ## Go Ellaism Full Node
 
 Download Geth from the [release
