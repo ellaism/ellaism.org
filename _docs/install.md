@@ -8,7 +8,7 @@ modified: 2017-11-21
 {% include base_path %}
 {% include toc %}
 
-We have two clients available you can use to connect to the Ellaism network. You
+We have three clients available you can use to connect to the Ellaism network. You
 can also use MyEtherWallet and MetaMask to interact with the network.
 
 ## Parity Full Node
