@@ -9,7 +9,7 @@ modified: 2017-11-21
 {% include toc %}
 
 We have three clients available you can use to connect to the Ellaism network. You
-can also use MyEtherWallet and MetaMask to interact with the network.
+can also use MyEtherWallet, MyCrypto and MetaMask to interact with the network.
 
 ## Parity Full Node
 
@@ -49,6 +49,7 @@ If you want to solo mine on the Ellaism network, follow the solo mining guide
 
 ## Wallets
 
+* [MyCrypto](https://mycrypto.com): Choose ELLA from the top-right dropdown menu.
 * [MyEtherWallet](https://myetherwallet.com): Choose ELLA from the top-right dropdown menu.
 * [Ellaism Web Wallet](https://ellaism.github.io/ellawallet): Easiest wallet option besides MyEtherWallet. Hosted directly on Github. Supports Trezor hardware wallet.
 * [Ellaism Chrome Extension Wallet](https://chrome.google.com/webstore/detail/myellawallet/bgfofdgebpphdhddggaggeafenegbjef): Runs in a sandbox in your Chrome browser. Functionality is similar to the web wallet, but technically safer.
