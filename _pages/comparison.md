@@ -1,7 +1,7 @@
 ---
 permalink: /comparison/
 title: "Comparison of Different Ethereum Networks"
-excerpt: "Ethereum, Ethereum Classic, Ubiq, Expanse, Pirl and Ellaism."
+excerpt: "Ethereum, Ethereum Classic, Ubiq, Expanse and Ellaism."
 modified: 2017-11-21
 ---
 
