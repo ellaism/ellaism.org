@@ -74,18 +74,6 @@ The Ubiq development team is run by donations. This fact, combined with that it
 is advertised as being no pre-mine, attracts some developers. Ubiq also has the
 unique *Flux Difficulty Algorithm*.
 
-## Pirl
-
-Pirl is a coin launched in July 2017. The coin is also advertised to be no
-pre-mine, and is probably the only cryptocurrency besides Ellaism that contains
-zero coins in the genesis block (block 0). The coin, however, takes around a 16%
-dev fee (for masternode and dev fund) in every block reward. People interested
-in Pirl usually don't consider this as a pre-mine, because devs are only paid if
-the coin is valuable. This, however, is sometimes criticised in other coins like
-Zcash, which also takes dev fees called "founders' reward".
-
-Pirl has a slightly bigger community compared with Ellaism.
-
 ## Ellaism
 
 Ellaism is designed to be a "pure" coin. A coin that is as fair as Bitcoin.
@@ -114,7 +102,6 @@ functionalities based on the Ethereum protocol. Notable ones include:
 | Ethereum Classic |        0 |  60 million |    12 million | 72 million    |                               >50% |                                13% |
 | Expanse          |        0 |           0 | 11.11 million | 11.11 million |                               >50% |                               >50% |
 | Ubiq             |        0 |           0 |             0 | 36 million    |                               >50% |                                  0 |
-| Pirl             |      16% |           0 |             0 | 0             |                                  0 |                                16% |
 | WhaleCoin        |      33% |           0 |             0 | 0             |                                  0 |                                33% |
 | Ellaism          |        0 |           0 |             0 | 0             |                                  0 |                                  0 |
 
