@@ -7,16 +7,9 @@ modified: 2017-11-21
 
 {% include base_path %}
 
-Ellaism is an Ethereum-like network. Features include:
+Ellaism is an Ethereum clone using a blend of ETC and ETH code, and intends to use exclusively “proof of work” to secure the blockchain.  It benefits from a zero pre-mine and has no mandatory developer fees with all support and development donated freely by the community.  We believe this makes our coin one of the most honest pure Ethereum projects, and something that is uniquely interesting as a platform for serious developers, educators, and enthusiasts.
 
-* No pre-mine.
-* No contentious hard forks. Stability is a feature.
-* Monetary policy. 5 ELLA every block in the beginning. A reduction of 20%
-  mining rewards happens every 10 million blocks.
-* No difficulty bomb.
-* Replay protection enabled by default.
-
-See also [Comparison of Different Ethereum Networks](/comparison/).
+Ellaism also has a clearly defined monetary policy, with around 280 million coins in total. See also [Comparison of Different Ethereum Networks](/comparison/).
 
 ## Information and Community
 
@@ -82,7 +75,9 @@ endpoint.
 * Average block time: 14 seconds.
 * Expected block time: 10-19 seconds (inclusive).
 * Coin generation: 5 Ella per block with 20% reward reduction happens every 10 million blocks.
-* Network ID and chain ID is 0x40.
+* Network ID is 0x40.
+* Replay protection enabled by default, and chain ID is 0x40.
+* No difficulty bomb.
 * Most other parameters are the same as Ethereum.
 
 This is an Ethereum network as specified in the [yellow
