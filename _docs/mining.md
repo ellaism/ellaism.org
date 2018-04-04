@@ -28,6 +28,7 @@ The Dev Mining Pool is used to keep the Dev Fund going, and other pools also
 donate to Dev Fund.
 
 * [Dev Mining Pool](https://pool.ellaism.org)
+* [Nonlocal](https://pool.nonlocal.ca)
 * [Pool Sexy](http://ella.pool.sexy) (2.5% of 0.25% mining fees)
 * [Cryptobitpool](http://ella.cryptobitpool.eu) (25% of 0.1% mining fees)
 * [CryptoPools](http://ella.cryptopools.info) (25% of 1% mining fees)
@@ -38,6 +39,7 @@ donate to Dev Fund.
 Ellaism maintains its own fork of [open-ethereum-pool](https://github.com/ellaism/open-ethereum-pool) with improvements of memory usage, network latency and PPLNS support. Below is the list of pools using this fork.
 
 * [Dev Mining Pool](https://pool.ellaism.org/)
+* [Nonlocal](https://pool.nonlocal.ca)
 * [Cryptobitpool](http://ella.cryptobitpool.eu/)
 * [Ellaismpool.com](http://ellaismpool.com)
 
