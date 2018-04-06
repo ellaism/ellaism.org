@@ -33,6 +33,7 @@ donate to Dev Fund.
 * [CryptoPools](http://ella.cryptopools.info) (25% of 1% mining fees)
 * [Ellaismpool.com](http://ellaismpool.com) (Regular fixed-amount donations)
 * [Nonlocal](https://pool.nonlocal.ca)
+* [uCrypto](https://ucrypto.net/currency/?curr=ELLA)
 
 ### Pools Using Ellaism's Version of [open-ethereum-pool](https://github.com/ellaism/open-ethereum-pool)
 
@@ -75,4 +76,3 @@ Other pools may also have advantages in their setup or shares of mining fees. Co
 * [Swedishpool](http://swedishpool.se/)
 * [LDVPool](http://ella.ldvpool.com)
 * [SoloPool](https://ella.solopool.org/)
-* [uCrypto](https://ucrypto.net/currency/?curr=ELLA)
