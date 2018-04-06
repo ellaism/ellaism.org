@@ -31,7 +31,6 @@ donate to Dev Fund.
 * [Pool Sexy](http://ella.pool.sexy) (2.5% of 0.25% mining fees)
 * [Cryptobitpool](http://ella.cryptobitpool.eu) (25% of 0.1% mining fees)
 * [CryptoPools](http://ella.cryptopools.info) (25% of 1% mining fees)
-* [Ellaismpool.com](http://ellaismpool.com) (Regular fixed-amount donations)
 * [Nonlocal](https://pool.nonlocal.ca)
 * [uCrypto](https://ucrypto.net/currency/?curr=ELLA)
 
@@ -76,3 +75,4 @@ Other pools may also have advantages in their setup or shares of mining fees. Co
 * [Swedishpool](http://swedishpool.se/)
 * [LDVPool](http://ella.ldvpool.com)
 * [SoloPool](https://ella.solopool.org/)
+* [Ellaismpool.com](http://ellaismpool.com)
