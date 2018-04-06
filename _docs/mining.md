@@ -32,6 +32,7 @@ donate to Dev Fund.
 * [Cryptobitpool](http://ella.cryptobitpool.eu) (25% of 0.1% mining fees)
 * [CryptoPools](http://ella.cryptopools.info) (25% of 1% mining fees)
 * [Ellaismpool.com](http://ellaismpool.com) (Regular fixed-amount donations)
+* [Nonlocal](https://pool.nonlocal.ca)
 
 ### Pools Using Ellaism's Version of [open-ethereum-pool](https://github.com/ellaism/open-ethereum-pool)
 
@@ -40,6 +41,7 @@ Ellaism maintains its own fork of [open-ethereum-pool](https://github.com/ellais
 * [Dev Mining Pool](https://pool.ellaism.org/)
 * [Cryptobitpool](http://ella.cryptobitpool.eu/)
 * [Ellaismpool.com](http://ellaismpool.com)
+* [Nonlocal](https://pool.nonlocal.ca)
 
 ### All Pools
 
