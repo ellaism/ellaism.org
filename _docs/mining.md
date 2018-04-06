@@ -31,8 +31,8 @@ donate to Dev Fund.
 * [Pool Sexy](http://ella.pool.sexy) (2.5% of 0.25% mining fees)
 * [Cryptobitpool](http://ella.cryptobitpool.eu) (25% of 0.1% mining fees)
 * [CryptoPools](http://ella.cryptopools.info) (25% of 1% mining fees)
-* [Nonlocal](https://pool.nonlocal.ca)
-* [uCrypto](https://ucrypto.net/currency/?curr=ELLA)
+* [Nonlocal](https://pool.nonlocal.ca) (1% of 1% mining fees)
+* [uCrypto](https://ucrypto.net/currency/?curr=ELLA) (5% of 0.5% mining fees)
 
 ### Pools Using Ellaism's Version of [open-ethereum-pool](https://github.com/ellaism/open-ethereum-pool)
 
