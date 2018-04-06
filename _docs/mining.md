@@ -73,3 +73,4 @@ Other pools may also have advantages in their setup or shares of mining fees. Co
 * [Swedishpool](http://swedishpool.se/)
 * [LDVPool](http://ella.ldvpool.com)
 * [SoloPool](https://ella.solopool.org/)
+* [uCrypto](https://ucrypto.net/currency/?curr=ELLA)
