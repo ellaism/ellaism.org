@@ -77,3 +77,4 @@ Other pools may also have advantages in their setup or shares of mining fees. Co
 * [SoloPool](https://ella.solopool.org/)
 * [Ellaismpool.com](http://ellaismpool.com)
 * [Comining](http://comining.io/)
+* [DigiPools](http://ella.digipools.org/)
