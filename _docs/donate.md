@@ -25,6 +25,10 @@ Besides making donations, you can also support the Dev Fund by joining the [Dev 
 
 The [transparency page](https://transparency.ellaism.org/dev) shows all the outgoing transactions from the Dev Fund.
 
+## Community Fund
+
+The Community Fund [0x01ff0FFd25B64dE2217744fd7d4dc4aA3cAbceE7](https://explorer.ellaism.org/addr/0x01ff0FFd25B64dE2217744fd7d4dc4aA3cAbceE7) multisig wallet is managed by community members to support community activities on the Ellaism blockchain. You can find the current signer information and deployment details from [this document](https://github.com/ellaism/meta/tree/master/multisig). The [transparency page](https://transparency.ellaism.org/community) shows all the outgoing transactions from the Community Fund.
+
 ## Add Yourself to the Page
 
 We list donation addresses of developers and members that are active in the Ellaism community. To qualify for this list, you would need to have either authored a project directly related to Ellaism, contributed a significant amount of code to one of the core projects, or played a leading role in maintaining a part of the Ellaism community. If you think you should be added, please send a new pull request to [ellaism/ellaism.org](https://github.com/ellaism/ellaism.org).
