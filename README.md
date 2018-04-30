@@ -4,6 +4,15 @@ This is the Ellaism Core website. Live page is at http://ellaism.org
 
 ## Building
 
+It is recommended to [install RVM](https://rvm.io/rvm/install) and use Ruby 2.3.3
+
+```
+. ~/.rvm/scripts/rvm
+rvm use 2.3.3
+rvm gemset create ellaism.org
+rvm gemset use ellaism.org
+```
+
 ### Dependencies
 
 `gem install bundle`
@@ -29,3 +38,6 @@ https://jekyllrb.com/docs/usage/
 
 http://localhost:4000/
 
+### Build JavaScript
+
+`npm run-script build:js`
