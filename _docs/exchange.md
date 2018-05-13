@@ -10,10 +10,5 @@ To protect your money, it is recommended that you enable two-factor authenticati
 
 ## Supported Exchanges
 
-We have four exchanges currently supporting Ellaism trading:
-
-* [LDVBank](https://ldvbank.com/en-us/trading/)
-* [Cryptopia](https://www.cryptopia.co.nz/Exchange?market=ELLA_BTC)
-* [Stocks Exchange](https://stocks.exchange/trade/ELLA/BTC)
-* [Cryptobroker](https://trade.cryptobroker.io/markets/ellabtc)
-* [Bisq](https://bisq.network/)
+<div class="wiki-loader"></div>
+<div id="wiki-page-content" data-wiki-page="https://wiki.ellaism.org/Supported-Exchanges" data-wiki-fail-message="View the complete list of exchanges on the wiki"></div>

@@ -8,13 +8,7 @@
       <li>
         {% if nav.url %}
           {% comment %}internal/external URL check{% endcomment %}
-          {% if nav.url contains "://" %}
-            {% assign domain = "" %}
-          {% else %}
-            {% assign domain = base_path %}
-          {% endif %}
-
-          <a href="{{ domain }}{{ nav.url }}"><span class="nav__sub-title">{{ nav.title }}</span></a>
+          <a href="{{ nav.url }}"><span class="nav__sub-title">{{ nav.title }}</span></a>
         {% else %}
           <span class="nav__sub-title">{{ nav.title }}</span>
         {% endif %}
@@ -23,12 +17,6 @@
         <ul>
           {% for child in nav.children %}
             {% comment %}internal/external URL check{% endcomment %}
-            {% if child.url contains "://" %}
-              {% assign domain = "" %}
-            {% else %}
-              {% assign domain = base_path %}
-            {% endif %}
-
             {% comment %}set "active" class on current page{% endcomment %}
             {% if child.url == page.url %}
               {% assign active = "active" %}
@@ -36,7 +24,7 @@
               {% assign active = "" %}
             {% endif %}
 
-            <li><a href="{{ domain }}{{ child.url }}" class="{{ active }}">{{ child.title }}</a></li>
+            <li><a href="{{ child.url }}" class="{{ active }}">{{ child.title }}</a></li>
           {% endfor %}
         </ul>
         {% endif %}
