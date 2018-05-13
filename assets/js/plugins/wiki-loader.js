@@ -50,6 +50,21 @@
 				}
 			});
 
+			function display_fail()
+			{
+				for (var i in selectors) {
+					var s = selectors[i];
+					var fail_message = 'Read more about it here.';
+					if ($(s).attr('data-wiki-fail-message'))
+					{
+						fail_message = $(s).attr('data-wiki-fail-message');
+					}
+					var content = '<a href="' + page + s + '">' + fail_message + '</a>.';
+					$(s).html(content);
+				}
+				loading_element.hide();
+			}
+
 			for (var page in all_pages)
 			{
 				var selectors = all_pages[page];
@@ -61,22 +76,16 @@
 						for (var i in selectors) {
 							var s = selectors[i];
 							var content = $(s, wikiPage).html();
-							$(s).empty().append(content);
+							if (content) {
+								$(s).empty().append(content);
+							} else {
+								display_fail();
+							}
 						}
 						loading_element.hide();
 					})
 					.fail(function() {
-						for (var i in selectors) {
-							var s = selectors[i];
-							var fail_message = 'Read more about it here.';
-							if ($(s).attr('data-wiki-fail-message'))
-							{
-								fail_message = $(s).attr('data-wiki-fail-message');
-							}
-							var content = '<a href="' + page + s + '">' + fail_message + '</a>.';
-							$(s).html(content);
-						}
-						loading_element.hide();
+						display_fail();
 					});
 			}
 		}
