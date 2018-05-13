@@ -32,13 +32,28 @@ feature_row:
     excerpt: "We have a welcoming community and a donation-based development process. You have full control over the cryptocurrency you use, and can always choose a team you trust to develop Ellaism."
     url: "/donate/"
     btn_label: "Learn More"
-intro:
-  - excerpt: 'Follow the Ellaism community [<i class="fa fa-twitter"></i> @EllaismProject](https://twitter.com/ellaismproject){: .btn .btn--twitter} [Discord](https://discord.ellaism.org/){: .btn .btn--google-plus}'
 monthly-update:
   - excerpt: "Monthly Community Update - April 2018 [Read Now](/2018/05/05/monthly-update-apr-2018/){: .btn}"
 ---
 
-{% include feature_row id="intro" type="center" %}
+{% capture social_media %}
+  <div style="vertical-align: top; display: inline-block;">Follow the Ellaism community</div>
+  <div style="display: inline-block;">
+    <div>
+      <a href="https://twitter.com/ellaismproject" class="btn btn--twitter"><i class="fab fa-twitter"></i> @EllaismProject</a>
+      <a href="https://discord.ellaism.org/" class="btn btn--google-plus"><i class="fab fa-discord"></i> Discord</a>
+    </div>
+    <div class="social-links">
+      <a href="https://github.com/ellaism"><i class="fab fa-github"></i></a>
+      <a href="https://www.reddit.com/r/ellaism"><i class="fab fa-reddit"></i></a>
+      <a href="https://t.me/ellaismcoin"><i class="fab fa-telegram"></i></a>
+      <a href="https://www.facebook.com/Ellaism-290479708156909"><i class="fab fa-facebook"></i></a>
+      <a href="https://bitcointalk.org/index.php?topic=2168042"><i class="fab fa-bitcoin"></i></a>
+    </div>
+  </div>
+{% endcapture %}
+
+{% include feature_row excerpt=social_media type="center" %}
 
 {% include feature_row %}
 
