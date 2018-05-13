@@ -46,7 +46,7 @@ It will tell you how many carbons that particular option address has got.
 As requested, we have a bot (SplitBot) that allows you to donate a fixed percentage of mining rewards to a donation fund of your choice. In `#bots` channel, use:
 
 ```
-!split <dev|community|contrib|default> <percentage> <address>
+!split <dev|community|token|default> <percentage> <address>
 ```
 
 For all mining rewards sent to this address, it donates `<percentage>` to Dev Fund, Community Fund, Contributor Fund or the split address for Dev Fund and Community Fund, and then sends the rest of the funds to `<address>`. For example:

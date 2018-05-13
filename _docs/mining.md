@@ -24,4 +24,3 @@ You can also check out the current pool hashrates in Explorer's [miners' ranking
 
 <div class="wiki-loader"></div>
 <div id="wiki-page-content" data-wiki-page="https://wiki.ellaism.org/Pool-List" data-wiki-fail-message="View the complete pool list on the wiki"></div>
-
