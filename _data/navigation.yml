@@ -49,6 +49,8 @@ docs:
         url: /testnet/
       - title: "Media"
         url: /media/
+      - title: "Wiki"
+        url: https://wiki.ellaism.org
 
   - title: Meta
     children:
@@ -56,6 +58,16 @@ docs:
         url: https://github.com/ellaism
       - title: "Discord"
         url: https://discord.gg/gz9tURY
+      - title: "Twitter"
+        url: https://twitter.com/ellaismproject
+      - title: "Reddit"
+        url: https://www.reddit.com/r/ellaism
+      - title: "Telegram"
+        url: https://t.me/ellaismcoin
+      - title: "Facebook"
+        url: https://www.facebook.com/Ellaism-290479708156909
+      - title: "Bitcointalk"
+        url: https://bitcointalk.org/index.php?topic=2168042
       - title: "Comparison"
         url: /comparison/
       - title: "About"
