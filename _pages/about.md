@@ -2,7 +2,7 @@
 permalink: /about/
 title: "About"
 excerpt: "An Ethereum-like networks with no premine and no contentious hard forks."
-modified: 2017-11-21
+modified: 2018-05-13
 ---
 
 {% include base_path %}
@@ -37,11 +37,8 @@ You might also want to follow the [installation](/install/) or
 
 ## Exchanges
 
-See the complete exchange list at [here](/exchange/).
-
-* [Cryptopia](https://www.cryptopia.co.nz/Exchange?market=ELLA_BTC)
-* [Stocks Exchange](https://stocks.exchange/trade/ELLA/BTC)
-* [Bisq](https://bisq.network/)
+<div class="wiki-loader"></div>
+<div id="wiki-page-content" data-wiki-page="https://wiki.ellaism.org/Supported-Exchanges" data-wiki-fail-message="View the complete list of exchanges on the wiki"></div>
 
 ## Wallets
 
