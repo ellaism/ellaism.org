@@ -7,9 +7,9 @@ header:
   ctas:
     - cta_label: "<i class='fa fa-building'></i> Learn More"
       cta_url: "/install/"
-    - cta_label: "<i class='fa fa-github'></i> Github"
+    - cta_label: "<i class='fab fa-github'></i> Github"
       cta_url: "https://github.com/ellaism"
-    - cta_label: "<i class='fa fa-gear'></i> Roadmap"
+    - cta_label: "<i class='fas fa-cog'></i> Roadmap"
       cta_url: "/roadmap/"
   caption:
 excerpt: 'A stable Ethereum-like network with no premine and no dev fees. Monetary policy is enabled with a total supply of 280 million ELLA.<br />'
