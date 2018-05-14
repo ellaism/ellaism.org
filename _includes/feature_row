@@ -1,10 +1,21 @@
 {% include base_path %}
 
-{% if include.id %}
-  {% assign feature_row = page.[include.id] %}
+{% if include.excerpt %}
+<div class="feature__wrapper">
+  <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
+    <div class="archive__item-body">
+      <div class="archive__item-excerpt">
+        {{ include.excerpt }}
+      </div>
+    </div>
+  </div>
+</div>
 {% else %}
-  {% assign feature_row = page.feature_row %}
-{% endif %}
+  {% if include.id %}
+    {% assign feature_row = page.[include.id] %}
+  {% else %}
+    {% assign feature_row = page.feature_row %}
+  {% endif %}
 
 <div class="feature__wrapper">
 
@@ -50,3 +61,5 @@
   {% endfor %}
 
 </div>
+
+{% endif %}
