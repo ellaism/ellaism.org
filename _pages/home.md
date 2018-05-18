@@ -37,9 +37,9 @@ monthly-update:
 ---
 
 {% capture social_media %}
-  <div style="vertical-align: top; display: inline-block;">Follow the Ellaism community</div>
-  <div style="display: inline-block;">
-    <div>
+  <div class="social-intro" style="vertical-align: top;">Follow the Ellaism community</div>
+  <div>
+    <div class="social-buttons">
       <a href="https://twitter.com/ellaismproject" class="btn btn--twitter"><i class="fab fa-twitter"></i> @EllaismProject</a>
       <a href="https://discord.ellaism.org/" class="btn btn--google-plus"><i class="fab fa-discord"></i> Discord</a>
     </div>
