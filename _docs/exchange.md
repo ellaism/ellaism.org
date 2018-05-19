@@ -11,4 +11,4 @@ To protect your money, it is recommended that you enable two-factor authenticati
 ## Supported Exchanges
 
 <div class="wiki-loader"></div>
-<div id="wiki-page-content" data-wiki-page="https://wiki.ellaism.org/Supported-Exchanges" data-wiki-fail-message="View the complete list of exchanges on the wiki"></div>
+<div id="wiki-page-content" data-wiki-page="https://wiki.ellaism.org/exchanges" data-wiki-fail-message="View the complete list of exchanges on the wiki"></div>
