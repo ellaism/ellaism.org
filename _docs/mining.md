@@ -23,4 +23,4 @@ Pool mining helps miners to compensate "bad luck" and share "good luck" when it 
 You can also check out the current pool hashrates in Explorer's [miners' ranking](https://explorer.ellaism.org/miners). Pools have their own instructions of how to set your miners up.
 
 <div class="wiki-loader"></div>
-<div id="wiki-page-content" data-wiki-page="https://wiki.ellaism.org/Pool-List" data-wiki-fail-message="View the complete pool list on the wiki"></div>
+<div id="wiki-page-content" data-wiki-page="https://wiki.ellaism.org/mining/pools" data-wiki-fail-message="View the complete pool list on the wiki"></div>
