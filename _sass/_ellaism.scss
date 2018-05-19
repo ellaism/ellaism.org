@@ -3,8 +3,27 @@ img.loading {
 	height: 64px;
 }
 
+.social-intro {
+  margin-bottom: 30px;
+
+  font-size: 1.3em;
+}
+
+.social-buttons {
+  margin-bottom: 30px;
+
+  .btn {
+    padding: 10px 30px;
+    font-size: 1em;
+  }
+}
+
 .social-links {
-    margin-left: -15px;
+  margin-bottom: 50px;
+
+  .fab {
+    font-size: 1.5em;
+  }
 }
 
 .social-links a {
