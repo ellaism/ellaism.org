@@ -11,6 +11,14 @@ modified: 2017-11-21
 We have three clients available you can use to connect to the Ellaism network. You
 can also use MyEtherWallet, MyCrypto and MetaMask to interact with the network.
 
+## Wallets
+
+* [Ellaism Shell](https://github.com/ellaism/shell/releases): Ellaism-branded desktop wallet and dapp browser.
+* [MyCrypto](https://mycrypto.com): Choose ELLA from the top-right dropdown menu.
+* [MyEtherWallet](https://myetherwallet.com): Choose ELLA from the top-right dropdown menu.
+* [Ellaism Web Wallet](https://ellaism.github.io/ellawallet): Easiest wallet option besides MyEtherWallet. Hosted directly on Github. Supports Trezor hardware wallet.
+* [Ellaism Chrome Extension Wallet](https://chrome.google.com/webstore/detail/myellawallet/bgfofdgebpphdhddggaggeafenegbjef): Runs in a sandbox in your Chrome browser. Functionality is similar to the web wallet, but technically safer.
+
 ## Parity Full Node
 
 Install Parity from [Parity's official website](https://github.com/paritytech/parity/releases).
@@ -19,40 +27,10 @@ Please use Parity version 1.9.0 or later. Run Parity with `parity --chain ellais
 Include the `--author yourellaaddress` parameter if you plan to mine using this
 node.
 
-## Multi-geth Full Node
-
-Download multi-geth from the [release page](https://github.com/ellaism/multi-geth/releases). Run with:
-
-```
-geth --ellaism
-```
-
-Include the `--etherbase yourellaaddress` parameter if you plan to mine using this node.
-
-## Go Ellaism Full Node
-
-Download Geth from the [release
-page](https://github.com/ellaism/go-ellaism/releases). You can then extract the
-executable and run it:
-
-```
-./geth
-```
-
-Include the `--etherbase yourellaaddress` parameter if you plan to mine using
-this node.
-
 ## Mining
 
 If you want to solo mine on the Ellaism network, follow the solo mining guide
 [here](/mining/) after you have started a full node.
-
-## Wallets
-
-* [MyCrypto](https://mycrypto.com): Choose ELLA from the top-right dropdown menu.
-* [MyEtherWallet](https://myetherwallet.com): Choose ELLA from the top-right dropdown menu.
-* [Ellaism Web Wallet](https://ellaism.github.io/ellawallet): Easiest wallet option besides MyEtherWallet. Hosted directly on Github. Supports Trezor hardware wallet.
-* [Ellaism Chrome Extension Wallet](https://chrome.google.com/webstore/detail/myellawallet/bgfofdgebpphdhddggaggeafenegbjef): Runs in a sandbox in your Chrome browser. Functionality is similar to the web wallet, but technically safer.
 
 ## Browser Plugin
 
