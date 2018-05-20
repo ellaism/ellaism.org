@@ -3,8 +3,8 @@ main:
   - title: "Get Started"
     url: /install/
 
-  - title: "About"
-    url: /about/
+  - title: "Wiki"
+    url: https://wiki.ellaism.org
 
   - title: "Explorer"
     url: https://explorer.ellaism.org
