@@ -33,7 +33,7 @@ feature_row:
     url: "/donate/"
     btn_label: "Learn More"
 monthly-update:
-  - excerpt: "Monthly Community Update - April 2018 [Read Now](/2018/05/05/monthly-update-apr-2018/){: .btn}"
+  - excerpt: "Monthly Community Update - May 2018 [Read Now](/2018/06/03/monthly-update-may-2018/){: .btn}"
 ---
 
 {% capture social_media %}
