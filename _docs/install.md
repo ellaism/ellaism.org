@@ -22,7 +22,7 @@ can also use MyEtherWallet, MyCrypto and MetaMask to interact with the network.
 ## Parity Full Node
 
 Install Parity from [Parity's official website](https://github.com/paritytech/parity/releases).
-Please use Parity version 1.10.3 or later. Run Parity with `parity --chain ellaism`.
+Please use Parity version 1.10.6 or later. Run Parity with `parity --chain ellaism`.
 
 Include the `--author yourellaaddress` parameter if you plan to mine using this
 node.
