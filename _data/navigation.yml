@@ -35,6 +35,8 @@ docs:
 
   - title: Community
     children:
+      - title: "People"
+        url: /people/
       - title: "Roadmap"
         url: /roadmap/
       - title: "Donate"
