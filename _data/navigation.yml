@@ -9,8 +9,8 @@ main:
   - title: "Explorer"
     url: https://explorer.ellaism.org
 
-  - title: "Web Wallet"
-    url: https://ellaism.github.io/ellawallet
+  - title: "People"
+    url: /people/
 
   - title: "Network Stats"
     url: https://stats.ellaism.org/
