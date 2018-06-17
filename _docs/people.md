@@ -31,6 +31,7 @@ Working groups represent efforts in the community to improve some specific aspec
 * **Code of Conduct Working Group** (*#code-of-conduct*): Discuss and improve Ellaism community [Code of Conduct](https://github.com/ellaism/meta/blob/master/conduct.md), moderate community channels to provide a healthy environment, and fight with spams.
 * **Summer of Code Working Group** (*#summer-of-code*): Initiated by **"limax"**. A set of development tutorials on blockchain, happening this summer.
 * **WebAssembly Hard Fork Working Group** (*#wasm-hardfork*): Discuss and communicate Ellaism's August hard fork information to users, exchanges and mining pools.
+* **Website Development Working Group** (*#website-development*): Design and develop a better website for Ellaism.
 * **Exchange Listings Working Group** (*#exchange-listings*): Work on getting Ellaism listed in more exchanges.
 * **Social Networks Working Group** (*#social-networks*): Discuss and manage various Ellaism-related social network accounts.
 * **Swag Store Working Group** (*#swag-store*): Initiated by **Nathan R. Fish**. Provide gears and other items related to Ellaism.
