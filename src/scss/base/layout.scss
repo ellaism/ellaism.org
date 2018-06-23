@@ -1,0 +1,116 @@
+//flex-grid
+//
+.bc{
+  &-flex, &-flex-start, &-flex-arroud{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+  }
+  &-flex{
+  justify-content: space-between;
+    &-start{
+    justify-content: flex-start;
+    }
+    &-arroud{
+    justify-content: space-around;
+    }
+  }
+
+  &-grid-l{
+    &-2{
+    -webkit-box-flex: 0;
+      -webkit-flex: 0 0 20%;
+      -ms-flex: 0 0 20%;
+      flex: 0 0 20%;
+    }
+
+    &-3{
+     -webkit-box-flex: 0;
+      -webkit-flex: 0 0 32%;
+      -ms-flex: 0 0 32%;
+      flex: 0 0 32%;
+    }
+
+    &-4{
+      -webkit-box-flex: 0;
+       -webkit-flex: 0 0 30%;
+       -ms-flex: 0 0 30%;
+       flex: 0 0 30%;
+    }
+
+    &-5{
+     -webkit-box-flex: 0;
+      -webkit-flex: 0 0 50%;
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+    }
+
+    &-6{
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 70%;
+      -ms-flex: 0 0 70%;
+      flex: 0 0 70%;
+    }
+
+    &-8{
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 80%;
+      -ms-flex: 0 0 80%;
+      flex: 0 0 80%;
+    }
+
+    &-9{
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 90%;
+      -ms-flex: 0 0 90%;
+      flex: 0 0 90%;
+    }
+
+    &-10{
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 100%;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+    }
+
+  }
+
+}
+
+*[class*="bc-grid-l-"]{
+  overflow: hidden;
+}
+
+
+ @media screen and (max-width: $screen-md-max) {
+  .bc-grid-md-10{
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+  }
+
+}
+
+ @media screen and (max-width: $screen-sm-max) {
+  .bc-grid-s-10{
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+  }
+
+  .bc-grid-sm-3{
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 32%;
+    -ms-flex: 0 0 32%;
+    flex: 0 0 32%;
+  }
+}

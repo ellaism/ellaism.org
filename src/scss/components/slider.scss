@@ -1,0 +1,43 @@
+.bl{
+  &-main-banner{
+   &-wrapper{
+    position: relative;
+    height: 450px;
+    @media screen and (max-width: $screen-sm-max) {
+          height: auto;
+        }
+   }
+
+    &-animation{
+      position: absolute;
+      display: block;
+      top: 0;
+      left: 0;
+      z-index: 0;
+      opacity: 0.4;
+      @media screen and (max-width: $screen-sm-max) {
+          display: none;
+        }
+    }
+    &-contents{
+      margin: 100px auto 0;
+      width: calc(100% - 40px);
+      text-align: center;
+      position: relative;
+      z-index: 1;
+      @media screen and (max-width: $screen-sm-max) {
+          padding-bottom: 30px;
+        }
+    }
+    &-slogan{
+      font-size: 24px;
+      padding: 5px 0;
+    }
+
+    // &-author{
+    //   white-space: pre-line;
+    //   margin-left: 200px;
+    //   display: block;
+    // }
+  }
+}

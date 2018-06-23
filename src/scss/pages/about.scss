@@ -1,0 +1,39 @@
+.bl{
+	&-spacer-about{
+		@media screen and (min-width: $screen-md-max) {
+			margin-top: 50px;
+		}
+
+	}
+
+	&-about-bg{
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	&-right-info-wrapper{
+		margin-top: 120px;
+		padding: 30px;
+		white-space: pre-line;
+		text-align: left;
+		border: 1px solid #DDDDDD;
+	}
+	&-road-map-border{
+		&-b{
+			hr{
+				border-top: 3px solid $bl-secondary-color;
+				width: 218px;
+			}
+		}
+
+		&-l{
+			border-left: 3px solid $bl-secondary-color;
+    		height: 800px;
+    		position: absolute;
+    		top: 40px;
+    		left: 15px;
+    		@media screen and (max-width: $screen-sm-max) {
+    			left: 3px;
+    		}
+		}
+	}
+}

@@ -1,0 +1,42 @@
+{{> head title='Ellaism'}}
+  <body>
+  	 {{> header/main-header}}
+
+    <main class="bl-spacer-mob-t-p-30">
+      {{> home/slider/main-slider}}
+    	{{> home/float-mini-footer}}
+      {{> home/why-ellaism}}
+       {{> home/community-update}}
+    </main>
+
+    {{> footer mini-footer=true}}
+    
+    <script src="js/libs/jquery.min.js"></script>
+    <script src="js/bundle.js"></script>
+    <script src="js/libs/particles.min.js"></script>
+
+    <script>
+     window.onload = function() {
+        Particles.init({
+          selector: '.bl-main-banner-animation',
+          color: '#979797',
+          maxParticles: 130,
+          connectParticles: true,
+          responsive: [
+            {
+              breakpoint: 768,
+              options: {
+                maxParticles: 80
+              }
+            }, {
+              breakpoint: 375,
+              options: {
+                maxParticles: 50
+              }
+            }
+          ]
+        });
+      };
+    </script>
+  </body>
+</html>

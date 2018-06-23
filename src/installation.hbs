@@ -1,0 +1,95 @@
+{{> head title='Ellaism'}}
+  <body>
+  	 {{> header/main-header instalaltion=true getparent=true}}
+
+    <main class="bl-spacer-t-m-50 bl-spacer-mob-t-p-30">
+     <div class="container">
+       <div class="row">
+         <div class="col-md-10">
+           <h1>Installation</h1>
+           <p>
+             We have three clients available you can use to connect to the Ellaism network. You can also use MyEtherWallet, MyCrypto and MetaMask to interact with the network.
+           </p>
+
+          {{!-- wallet --}}
+           <h5 id="wallet" class="bl-h5-common-spacer">Wallet</h5>
+           <ul class="bl-list-bullet bl-spacer-b-m-40 bl-spacer-l-m-40 bl-spacer-mob-l-m-30">
+            <li><a href="https://github.com/ellaism/shell/releases" target="_blank" class="bl-text-secondary-underline">Ellaism Shell </a>: Ellaism-branded desktop wallet and dapp browser.</li>
+            <li><a href="https://mycrypto.com/account" target="_blank" class="bl-text-secondary-underline">MyCrypto </a>: Choose ELLA from the top-right dropdown menu.</li>
+            <li><a href="https://www.myetherwallet.com/" target="_blank" class="bl-text-secondary-underline">MyEtherWallet </a>: Choose ELLA from the top-right dropdown menu.</li>
+            <li><a href="https://ellaism.github.io/ellawallet/" target="_blank" class="bl-text-secondary-underline">Ellaism Web Wallet </a>: Easiest wallet option besides MyEtherWallet. Hosted directly on Github. Supports Trezor hardware wallet.</li>
+            <li><a href="https://chrome.google.com/webstore/detail/myellawallet/bgfofdgebpphdhddggaggeafenegbjef" target="_blank" class="bl-text-secondary-underline">Ellaism Chrome Extension Wallet :</a> Runs in a sandbox in your Chrome browser. Functionality is similar to the web wallet, but technically safer.</li>  
+           </ul>
+          
+          {{!-- Browser Plugin --}}
+           <h5 class="plugin">Browser Plugin</h5>
+           <p>You can also use the MetaMask browser plugin on Ellaism. This plugin allows you to directly interact with many Ethereum dapps on the network. To do this:</p>
+           <ul class="bl-list-bullet bl-spacer-b-m-40 bl-spacer-l-m-40 bl-spacer-mob-l-m-30">
+              <li>Download <a href="https://metamask.io/" target="_blank" class="bl-text-secondary-underline">MetaMask</a> from the official website.</li>
+              <li>After installation, click the MetaMask icon, and choose (in the top left corner of the pop</li>
+               up) network selection.</li>
+              <li>Choose “Custom RPC” and Enter <code class="highlighter-rouge">https://jsonrpc.ellaism.org</code>. Click “Save”.</li>
+           </ul>
+           <p class="bl-spacer-b-m-40">
+             Now you can use dapps directly. For example, try out <a target="_blank" class="bl-text-secondary-underline" href="http://thetokenfactory.com/#/">Token Factory </a> which allows you to create a new tokens in minutes.
+           </p>
+          
+          {{!-- Parity Full Node --}}
+           <h5 id="fullnode">
+             Parity Full Node
+           </h5>
+           <p class="bl-spacer-b-m-40">
+             Install <a href="https://github.com/paritytech/parity/releases" target="_blank" class="bl-text-secondary-underline">Parity from Parity’s official website.</a> Please use Parity version 1.9.0 or later. Run Parity with <code class="highlighter-rouge">parity --chain ellaism</code>.
+
+Include the <code class="highlighter-rouge">--author yourellaaddress</code> parameter if you plan to mine using this node.
+           </p>
+
+          {{!-- Parity Full Node --}}
+           <h5 id="fullnode">
+             Mining
+           </h5>
+           <p>
+            If you want to solo mine on the Ellaism network, follow the solo mining guide <a href="mining.html" target="_blank" class="bl-text-secondary-underline">here</a> after you have started a full node.
+           </p>
+         </div>
+
+
+       
+        
+        {{!-- sticky sidebar --}}
+         <div class="col-md-2">
+           <div class="bl-float-navigation-wrapper hidden-xs hidden-sm">
+             <span class="bl-float-heading">
+               On this page
+             </span>
+             <ul class="bl-float-navigation-list">
+              <a href="#wallet">
+                 <li>
+                   Wallet
+                 </li>
+               </a>
+
+               <a href="#plugin">
+               <li>
+                Browser Plugin
+               </li>
+             </a>
+
+               <a href="#fullnode"> 
+               <li>
+                Parity Full Node
+               </li>
+                </a>
+             </ul>
+           </div>
+         </div>
+       </div>
+     </div>
+    </main>
+       {{> home/float-mini-footer stick-bottom=true}}
+      {{> footer clear-top=true}}
+    <script src="js/libs/jquery.min.js"></script>
+    <script src="js/bundle.js"></script>
+    <script src="js/libs/particles.min.js"></script>
+  </body>
+</html>

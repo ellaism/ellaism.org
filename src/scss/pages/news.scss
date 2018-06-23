@@ -1,0 +1,46 @@
+.bl{
+	&-news-container{
+		.bl{
+			&-selection-wrapper{
+				li{
+					vertical-align: top;
+   					margin-right: 10px;
+				}    
+			}
+			&-news{
+				&.bl-visible{
+					display: block;
+				}
+				
+				display: none;
+
+			}
+		}
+	}
+	&-social-wrapper{
+		#{$a-tags-hover} {
+			color: $bl-primary-color;
+		}
+	}
+
+	&-social-medial-spacer{
+		padding: 7px 25px;
+		border-radius: 2px;
+		margin-left: 10px;
+	}
+	&-twitter{
+		background: #55ACEE;
+	}
+	&-facebook{
+		background: #3B5998;
+	}
+	&-google{
+		background: #DD4B39;
+	}
+	&-linkedin{
+		background: #007BB6;
+	}
+	&-selector{
+		border-radius: 1px;
+	}
+}

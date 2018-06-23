@@ -1,0 +1,60 @@
+{{> head title='Ellaism'}}
+  <body>
+  	 {{> header/main-header testnet=true getparent=true}}
+
+    <main class="bl-spacer-t-m-50 bl-spacer-mob-t-p-30">
+     <div class="container">
+       <div class="row">
+         <div class="col-md-12">
+           <h1>Testnet</h1>
+           <p>
+            Ellaism has a Proof of Authority (PoA) testnet called “Shikinseki”. 
+            <br>
+            To connect to the testnet,
+             <a href="" class="bl-text-secondary">
+                  download
+                </a>
+                this file and run:
+           </p>
+           
+          <div class="bl-highlight-wrapper"><pre class="highlight"><code>parity --chain shikinseki.json
+          </code></pre></div>
+
+          <p class="bl-pre-line">
+            We choose PoA consensus algorithm because it provides a stable experience. It is known that PoW testnets can be unstable due to lack of nodes. And please note that the testnet might be restarted at any time with all states cleared. Don’t use it to store anything important.
+
+            Additional facilities you can use on the testnet:
+          </p>
+           <ul class="bl-list-bullet bl-spacer-b-m-40 bl-spacer-l-m-40 bl-spacer-mob-l-m-30">
+                <li>Explorer: <a href="" target="_blank" class="bl-text-secondary-underline">https://explorer.testnet.ellaism.org</a></li>
+                <li>JSONRPC Endpoint: <a href="" target="_blank" class="bl-text-secondary-underline">
+                    https://jsonrpc.testnet.ellaism.org
+                </a></li>
+           </ul>
+           <h5>
+             Shikinseki Faucet
+           </h5>
+           <p>
+             To get some testnet token, go to the Discord channel, in #bots channel, run command <code class="highlighter-rouge">!testnet send &lt;address&gt;</code> For example:
+           </p>
+
+           <div class="bl-highlight-wrapper">
+            <pre class="highlight"><code>!testnet send 0x2cbb505641e0c1b0ada0cf0b045014383de94576
+          </code></pre></div>
+          
+          <p>
+            You will receive 10 testnet tokens each time issuing this command.
+          </p>
+           <p class="bl-font-small">Updated: March 05, 2017</p>
+         </div>
+
+       </div>
+     </div>
+    </main>
+       {{> home/float-mini-footer stick-bottom=true}}
+      {{> footer clear-top=true}}
+    <script src="js/libs/jquery.min.js"></script>
+    <script src="js/bundle.js"></script>
+    <script src="js/libs/particles.min.js"></script>
+  </body>
+</html>

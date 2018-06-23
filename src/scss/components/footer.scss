@@ -1,0 +1,40 @@
+.bl{
+	&-main-footer-wrapper {
+		background: $bl-gray-30;
+		padding:30px 0;
+		margin-top: 60px;
+		
+		&.bl-mini-sticky{
+			@media screen and (max-width: $screen-sm-max) {
+			          margin-bottom: 30px;
+			       }
+		}
+		
+		&-d-space{
+			margin-top: 60px;
+		}
+
+		&-clear-d-space{
+			margin-top: 0;
+		}
+
+		.bl{
+			&-footer{
+				&-a{
+					font-family: $rubik-regular;
+					a{
+						color: $bl-gray-40;
+						text-decoration: none;
+						padding-bottom:10px;
+						display: block;
+					}
+				}
+			}
+		}
+		&.bl-fix-height{
+			position: fixed;
+			bottom: 0;
+			width: 100%
+		}
+	}
+}

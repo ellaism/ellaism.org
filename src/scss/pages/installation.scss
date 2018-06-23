@@ -1,0 +1,40 @@
+.bl{
+	&-float-heading{
+		color: $bl-white;
+		background: $bl-gray-10;
+		display: inline-block;
+		width: 100%;
+		text-align: center;
+		padding: 3px 0;
+	}
+	&-float-navigation-list{
+		background: $bl-primary-color;
+		li{
+			display: block;
+			width: 100%;
+			padding: 15px 20px;
+			transition: all .1s ease-out;
+			&:hover, &:active{
+				background: $bl-secondary-color;
+				cursor: pointer;
+				
+					color: $bl-white;
+				
+			}
+		}
+		a{
+			color: $bl-gray-10;
+		}
+	}
+}
+
+.highlighter-rouge{
+		padding-top: 0.1rem;
+	    padding-bottom: 0.1rem;
+	    background: #fafafa;
+	    border: 1px solid #f2f3f3;
+	    border-radius: 4px;
+	    color: $bl-gray-10;
+	    font-size: 14px;
+	    box-shadow: 0 1px 1px rgba(0,0,0,0.125);
+	}

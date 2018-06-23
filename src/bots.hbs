@@ -1,0 +1,169 @@
+{{> head title='Ellaism'}}
+  <body>
+  	 {{> header/main-header bots=true getparent=true}}
+
+    <main class="bl-spacer-t-m-50 bl-spacer-mob-t-p-30">
+     <div class="container">
+       <div class="row">
+         <div class="col-md-10">
+           <h1>Bots</h1>
+           <p class="">
+            The Ellaism’s <a href="" class="bl-text-secondary">Discord</a> server has several bots to interact with the 
+            network. Here’re some documentations of how you can use them.
+           </p>
+
+           <h5 id="twitterfaucet">Twitter Faucet</h5>
+           <p class="bl-pre-line">
+             <code class="highlighter-rouge">https://twitter.com/ellaismcore/status/958926185991254016</code> the Tweet ID is the digits in the end <code class="highlighter-rouge">958926185991254016</code>.
+
+            Then, go to the Ellaism discord. In #bots channel, send a message <code class="highlighter-rouge">!faucet claim &lt;tweet id&gt; &lt;destination address&gt;</code>.
+
+            For example, <code class="highlighter-rouge">!faucet claim 958926462907658241 0xe9C2d958E6234c862b4AfBD75b2fd241E9556303</code>. The bot will then send you 1/2000 of the current balance in faucet, or 0.1 ELLA, whichever is lower.
+
+            If you want to donate to the faucet, the address is <a href="" target="_blank" class="bl-text-secondary">0x231ea5595788f704522c630a22c0b7cc49318ef6</a>.
+
+            Special thanks to <a href="https://keybase.io/tbates76" class="bl-text-secondary">TBates</a> and <a href="https://keybase.io/buzzkillb" class="bl-text-secondary">Buzzkillb</a> for the initial donations that made the faucet possible. And <a href="https://pool.ellaism.org/" target="_blank" class="bl-text-secondary">Dev</a> Pool sponsors the transaction fees.
+           </p>
+
+          <h5 id="carbonvote">Carbon Vote</h5>
+          <p>
+            Carbon Vote is a voting process that your weight of voting is based on the ELLA coins you own. The Carbon Vote bot on the Discord server allows you to easily create a new Carbon Vote process yourself. To do this, first list all the voting options, in <code class="highlighter-rouge">#bots</code> channel, for each option, run:
+          </p>
+
+          <div class="bl-highlight-wrapper"><pre class="highlight"><code>!carbon new
+          </code></pre></div>
+
+          <p class="bl-pre-line">
+           Collect the resulting addresses and ask voters to send a zero-value transaction to a particular address if they’re for a particular option. At any time, you can issue:
+          </p>
+
+          <div class="bl-highlight-wrapper">
+            <pre class="highlight"><code>!carbon &lt;address&gt;
+            </code></pre>
+          </div>
+
+          <p>It will tell you how many carbons that particular option address has got.</p>
+
+          <h5 id="splitdonations">Split Donations</h5>
+
+          <p class="bl-pre-line">
+            As requested, we have a bot (SplitBot) that allows you to donate a fixed percentage of mining rewards to a donation fund of your choice. In #bots channel, use:
+          </p>
+
+          <div class="bl-highlight-wrapper">
+            <pre class="highlight">
+              <code>!split &lt;dev|community|token|default&gt; &lt;percentage&gt; &lt;address&gt;
+              </code>
+            </pre>
+          </div>
+
+          <p class="bl-pre-line">
+            For all mining rewards sent to this address, it donates <percentage> to Dev Fund, Community Fund, Contributor Fund or the split address for Dev Fund and Community Fund, and then sends the rest of the funds to <address>. For example:
+          </p>
+
+          <div class="bl-highlight-wrapper"><pre class="highlight">
+            <code>!split dev 5% 0x65767ec6d4d3d18a200842352485cdc37cbf3a21
+            </code>
+          </pre>
+        </div>
+
+          <p class="bl-pre-line">
+            This would donate an additional 5% to Dev Fund, and sends the rest of the balance to <code class="highlighter-rouge">0x65767ec6d4d3d18a200842352485cdc37cbf3a21</code>. The bot will then give you an contract address. After that, you simply need to mine to this split contract address.
+
+            Pools like Dev Pool has the additional features of MINING token. If you mined to a split contract address, at any time, you can run:
+          </p>
+
+           <div class="bl-highlight-wrapper">
+            <pre class="highlight">
+            <code>!mining withdraw &lt;split contract address&gt;
+            </code>
+            </pre>
+          </div>
+
+          <p>
+            And all your MINING tokens will be automatically sent to your wallet.
+          </p>
+
+          <h5 id="testnetfaucet">Testnet Faucet</h5>
+          <p class="bl-pre-line">
+            Ellaism has a testnet called Shikinseki, and we have a bot that allows you to get some money for testing on this testnet. See <a href="https://ellaism.org/testnet/" class="bl-text-secondary">Testnet</a> for more information.
+          </p>
+
+          <h5 id="rsvpbot">RSVP Bot</h5>
+          <p class="bl-pre-line">
+            We hold weekly development meetings every Saturday 4pm UTC. It is recommended that you run the command below in <code class="highlighter-rouge">#development</code> channel on the Discord server, so that we have a good estimate on how many people will be there.
+          </p>
+
+          <div class="bl-highlight-wrapper"><pre class="highlight"><code>!rsvp yes
+          </code></pre></div>
+
+          <h5 id="blockchaindiscordlogs">Blockchain Discord Logs</h5>
+          <p class="bl-pre-line">
+            We also log most of the moderation actions of our Discord server directly to the Ellaism blockchain. Below are current logging addresses:
+          </p>
+           <ul class="bl-list-bullet bl-spacer-b-m-40 bl-spacer-l-m-40 bl-spacer-mob-l-m-30">
+                <li>ELLA Ethusiasts role changes:  <a href="https://explorer.ellaism.org/account/0x69808D56a15A4465F898Fd61a8a54beb24788Eb0" target="_blank" class="bl-text-secondary-underline">0x69808D56a15A4465F898Fd61a8a54beb24788Eb0</a></li>
+                <li>ELLA Regulars role changes: <a href="https://explorer.ellaism.org/account/0x05d12A005524Db8791A25C61B884eAD293a12F2a" target="_blank" class="bl-text-secondary-underline">
+                    0x05d12A005524Db8791A25C61B884eAD293a12F2a
+                </a></li>
+           </ul>
+           
+           <p class="bl-font-small">Updated: March 05, 2017</p>
+         </div>
+
+         {{!-- sticky sidebar --}}
+         <div class="col-md-2">
+           <div class="bl-float-navigation-wrapper hidden-xs hidden-sm">
+             <span class="bl-float-heading">
+               On this page
+             </span>
+             <ul class="bl-float-navigation-list">
+              <a href="#twitterfaucet">
+                 <li>
+                   Twitter Faucet
+                 </li>
+               </a>
+
+               <a href="#carbonvote">
+               <li>
+                Carbon Vote
+               </li>
+             </a>
+
+              <a href="splitdonations"> 
+               <li>
+                Split Donations
+               </li>
+                </a>
+
+                 <a href="#testnetfaucet"> 
+               <li>
+                Testnet Faucet
+               </li>
+                </a>
+
+                 <a href="#rsvpbot"> 
+               <li>
+                RSVP Bot
+               </li>
+                </a>
+
+                 <a href="#blockchaindiscordlogs"> 
+               <li>
+                Blockchain Discord Logs
+               </li>
+                </a>
+             </ul>
+           </div>
+         </div>
+
+       </div>
+     </div>
+    </main>
+       {{> home/float-mini-footer stick-bottom=true}}
+      {{> footer clear-top=true}}
+    <script src="js/libs/jquery.min.js"></script>
+    <script src="js/bundle.js"></script>
+    <script src="js/libs/particles.min.js"></script>
+  </body>
+</html>

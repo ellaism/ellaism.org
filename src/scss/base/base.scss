@@ -1,0 +1,309 @@
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+body {
+  background: $bl-white;
+  margin: 0;
+  font-size: $font-size-small;
+  font-family: $rubik-regular;
+  -webkit-font-smoothing: subpixel-antialiased;
+  height: 100%;
+  width: 100%;
+  line-height: 1.25;
+  color: $bl-gray-10;
+// height:6018px; //delete
+}
+
+a {
+  color: $bl-white;
+  text-decoration: none;
+  &:hover,
+  &:active {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+ul li {
+  list-style-type: none;
+  line-height: 1.6;
+}
+
+p {
+  line-height: $line-height-base;
+  margin-top: 0;
+  font-family: $rubik-regular;
+  font-size: 18px;
+}
+
+
+
+
+.bl {
+  &-bg{
+      &-primary-color{
+        background: $bl-primary-color;
+      }
+      &-secondary-color{
+        background: $bl-secondary-color;
+      }
+      &-gray-10{
+        background: $bl-gray-10;
+      }
+      &-gray-20{
+        background: $bl-gray-20;
+      }
+      &-white{
+        background: $bl-white;
+      }
+    }
+
+  &-text{
+    &-primary{
+       
+       &-r{
+        color: $bl-gray-10;
+          &:hover{
+          color: $bl-secondary-color;
+        }
+       }
+
+      &-b{
+        font-family: $rubik-bold;
+        color: $bl-gray-10;
+        &:hover{
+          color: $bl-secondary-color;
+        }
+        &-d{
+             font-family: $rubik-bold;
+        color: $bl-gray-10;
+        }
+      }
+      &-m{
+        font-family: $rubik-medium;
+        color: $bl-gray-10;
+        &:hover{
+          color: $bl-secondary-color;
+        }
+      }
+    }
+
+    &-secondary{
+       color: $bl-secondary-color;
+      &-b{
+        font-family: $rubik-bold;
+        color: $bl-secondary-color;
+        &:hover{
+          color: $bl-gray-10; 
+        }
+      }
+      &-m{
+        font-family: $rubik-medium;
+        color: $bl-secondary-color;
+        &:hover{
+          color: $bl-gray-10; 
+        }
+      }
+
+      &-underline{
+        text-decoration: underline;
+         color: $bl-secondary-color;
+      }
+
+      &:hover{
+        color: $bl-gray-10; 
+      }
+    }
+
+    &-white{
+      color: $bl-white;
+    }
+    &-italic{
+      font-style: italic;
+    }
+  }  
+  
+  &-back-button{
+    color: #828282;
+     font-size: 14px;
+     display: block;
+     padding-bottom: 10px;
+  }
+
+  &-center {
+    text-align: center;
+  }
+
+  &-left {
+    text-align: left;
+  }
+
+  &-right {
+    text-align: right;
+  }
+
+  &-heighlight {
+    font-family: $rubik-bold;
+    &-medium{
+      font-family: $rubik-medium;
+      &-secondary-color{
+        color: $bl-secondary-color;
+      }
+    }
+  }
+
+
+
+  &-relative {
+    position: relative;
+  }
+
+  &-inline {
+    &-block{
+      li{
+        display: inline-block;
+      }
+    }
+    li {
+      display: inline;
+    }
+  }
+  &-list-bullet{
+    li{
+      list-style-type: disc;
+    }
+  }
+  &-list-number{
+   line-height: 1.6;
+  }
+
+  &-h5-common-spacer{
+    margin-top: 40px;
+  }
+  &-pre-line{
+    white-space: pre-line;
+  }
+  &-font {
+    &-small {
+      font-size: $font-size-small - 2;
+    }
+  }
+  &-clearboth{
+    clear: both;
+  }
+}
+
+.clearfix{
+  clear:both;
+}
+
+//common spacer-desktop
+@media screen and (min-width: $screen-md-min) {
+  @for $i from 1 through 100{
+    .bl{
+      &-spacer{
+        &-t{
+          &-p{
+            &-#{$i}{padding-top: 1px * $i;}
+          }
+          &-m{
+            &-#{$i}{margin-top: 1px * $i;}
+          }
+        }
+        &-r{
+          &-p{
+            &-#{$i}{padding-right: 1px * $i;}
+          }
+          &-m{
+            &-#{$i}{margin-right: 1px * $i;}
+          }
+        }
+        &-b{
+          &-p{
+            &-#{$i}{padding-bottom: 1px * $i;}
+          }
+          &-m{
+            &-#{$i}{margin-bottom: 1px * $i;}
+          }
+        }
+        &-l{
+          &-p{
+            &-#{$i}{padding-left: 1px * $i;}
+          }
+          &-m{
+            &-#{$i}{margin-left: 1px * $i;}
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $screen-sm-max) {
+    //common spacer
+  @for $i from 1 through 100{
+    .bl{
+      &-spacer-mob{
+        &-t{
+          &-p{
+            &-#{$i}{padding-top: 1px * $i;}
+          }
+          &-m{
+            &-#{$i}{margin-top: 1px * $i;}
+          }
+        }
+        &-r{
+          &-p{
+            &-#{$i}{padding-right: 1px * $i;}
+          }
+          &-m{
+            &-#{$i}{margin-right: 1px * $i;}
+          }
+        }
+        &-b{
+          &-p{
+            &-#{$i}{padding-bottom: 1px * $i;}
+          }
+          &-m{
+            &-#{$i}{margin-bottom: 1px * $i;}
+          }
+        }
+        &-l{
+          &-p{
+            &-#{$i}{padding-left: 1px * $i;}
+          }
+          &-m{
+            &-#{$i}{margin-left: 1px * $i;}
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+

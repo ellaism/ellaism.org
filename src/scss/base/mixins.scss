@@ -1,0 +1,115 @@
+//font-path
+@mixin font-family($font-family, $file-path ) {
+  @font-face {
+    font-family: $font-family;
+    src: url('#{$file-path}.ttf');
+    src: url('#{$file-path}.eot?#iefix') format('embedded-opentype'),
+    url('#{$file-path}.ttf') format('truetype'),
+    url('#{$file-path}.svg##{$font-family}') format('svg');
+  }
+}
+
+//Fonts
+@include font-family('Rubik-r', '../fonts/Rubik/Rubik-Regular');
+@include font-family('Rubik-m', '../fonts/Rubik/Rubik-Medium');
+@include font-family('Rubik-b', '../fonts/Rubik/Rubik-Bold');
+@include font-family('Rubik-black', '../fonts/Rubik/Rubik-Black');
+
+// font-awsome-icons
+@mixin bc-icon-font($content, $color, $font-size){
+    content: $content;
+    font: normal normal normal $font-size FontAwesome;
+    text-decoration: inherit;
+    color: $color;
+    text-transform: none;
+    position: absolute;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+// Transition-effects
+@mixin ci-transition($property: all, $duration: 500ms, $timing: ease-in-out, $delay: 0ms) {
+  transition: $property $duration;
+  -webkit-transition: $property $duration;
+  -moz-transition: $property $duration;
+  -ms-transition: $property $duration;
+  -o-transition: $property $duration;
+}
+
+// headlines
+@mixin headline($font-size-headline2, $font-family-thin, $ci-gray-15, $margin-bottom){
+  font-size: $font-size-headline2;
+  font-family: $font-family-thin;
+  color: $ci-gray-15;
+  margin-bottom: $margin-bottom;
+  font-weight: inherit;
+}
+
+// 2-color-gradient-top-to-bottom
+@mixin two-gradient-t-b($color1, $color2) {
+  /* fallback/image non-cover color */
+  background: $color1;
+
+  background: -moz-linear-gradient(top, $color1 0%, $color2 100%); /* FF3.6-15 */
+
+  background: -webkit-linear-gradient(top, $color1 0%,$color2 100%); /* Chrome10-25,Safari5.1-6 */
+
+  background: linear-gradient(to bottom, $color1 0%,$color2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 );
+  
+  background-repeat: no-repeat;
+}
+
+// 2-color-gradient-left-to-right
+@mixin two-gradient-l-r($color1, $color2) {
+  /* fallback/image non-cover color */
+  background: $color1;
+
+  background: -moz-linear-gradient(left, $color1 0%, $color2 100%); /* FF3.6-15 */
+
+  background: -webkit-linear-gradient(top, $color1 0%,$color2 100%); /* Chrome10-25,Safari5.1-6 */
+
+  background: linear-gradient(to left, $color1 0%,$color2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 );
+  
+  background-repeat: no-repeat;
+}
+
+// 2-color-gradient-left-to-right
+@mixin three-gradient-t-b($color1, $color2, $color3) {
+  /* fallback/image non-cover color */
+  background: $color1;
+
+  background: -moz-linear-gradient(top, $color1 0%, $color2 49%, $color3 100%); /* FF3.6-15 */
+
+  background: -webkit-linear-gradient(top, $color1 0%,$color2 49%,$color3 100%); /* Chrome10-25,Safari5.1-6 */
+
+  background: linear-gradient(to bottom, $color1 0%,$color2 49%,$color3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#181d45', endColorstr='#181d45',GradientType=0 );
+  
+  background-repeat: no-repeat;
+}
+
+// buttons
+@mixin bc-button($padding, $color, $font-size, $background, $radius){
+  padding: $padding;
+  color: $color;
+  font-size: $font-size;
+  background: $background;
+  border-radius: $radius;
+}
+
+
+//shadow
+@mixin bc-shadow($x, $y, $blur, $spread){
+    -webkit-box-shadow: $x $y $blur $spread rgba(0, 0, 0, 0.38);
+    -moz-box-shadow: $x $y $blur $spread rgba(0, 0, 0, 0.38);
+    box-shadow: $x $y $blur $spread rgba(0, 0, 0, 0.38);
+}
+
+
+
