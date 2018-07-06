@@ -1,0 +1,22 @@
+.bc-text-transform {
+    text-transform: uppercase;
+}
+
+.bc-text-wrapper {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.bc-highlight{
+	font-family: $rubik-bold;
+}
+
+.bc-stroke{
+	text-decoration: line-through;
+}
+
+@media screen and (max-width: $screen-sm-max) {
+    .bc-text-wrapper {
+       width:100%;
+    }
+}

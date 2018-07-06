@@ -1,0 +1,10 @@
+.bl{
+	&-notification{
+		padding: 10px;
+		text-align: center;
+		font-size: $font-size-base;
+		@media screen and (max-width: $screen-md-max) {
+		font-size: $font-size-small;
+		}
+	}
+}

@@ -1,0 +1,85 @@
+/* form starting stylings ------------------------------- */
+.bc-group        { 
+  position:relative; 
+  margin-bottom:$bl-spacer-30; 
+  
+  
+  textarea{
+    width:100%;
+    min-height:$bl-spacer-100 * 2;
+    border-radius: 5px;
+    color: black;
+    padding:$bl-spacer-10;
+  }
+
+  input         {
+  padding:$bl-spacer-10;
+  display:block;
+  width:100%;
+  border:none;
+  border-bottom:1px solid #757575;
+  border-radius: 4px;
+  font-size: $font-size-base - 3;
+  color: black;
+}
+
+input:focus     { outline:none; }
+
+/* LABEL ======================================= */
+label          {
+  color:#999; 
+  font-size:$font-size-base - 3;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:$bl-spacer-10 + 5;
+  top:$bl-spacer-10;
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+
+/* active state */
+input:focus ~ label, input:valid ~ label, textarea:focus ~ label, textarea:valid ~ label{
+  top:-$bl-spacer-20;
+  left: 10px;
+  font-size:14px;
+  color:$bl-white;
+}
+
+/* active state */
+
+/* HIGHLIGHTER ================================== */
+.highlight {
+  position:absolute;
+  height:60%; 
+  width:$bl-spacer-100; 
+  top:25%; 
+  left:0;
+  pointer-events:none;
+  opacity:0.5;
+}
+
+/* active state */
+input:focus ~ .highlight {
+  -webkit-animation:inputHighlighter 0.3s ease;
+  -moz-animation:inputHighlighter 0.3s ease;
+  animation:inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+  from { background:#5264AE; }
+  to  { width:0; background:transparent; }
+}
+@-moz-keyframes inputHighlighter {
+  from { background:#5264AE; }
+  to  { width:0; background:transparent; }
+}
+@keyframes inputHighlighter {
+  from { background:#5264AE; }
+  to  { width:0; background:transparent; }
+}
+
+
+}

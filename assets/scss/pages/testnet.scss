@@ -1,0 +1,13 @@
+.highlight{
+    position: relative;
+    background: transparent;
+    padding: 30px 60px 10px;
+    border-radius: 3px;
+    border: 1px solid #DDDDDD;
+    margin-bottom: 20px;
+    &:before{
+        @include bc-icon-font('\f121', $bl-gray-10, 18px);
+        right: 5px;
+        top: 5px;
+    }
+}

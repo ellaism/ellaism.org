@@ -1,0 +1,13 @@
+.bl{
+	&-dev-exception{
+		font-size: 24px;
+		color: $bl-secondary-color;
+		font-family: $rubik-medium;
+	}
+	&-donate-address-wrapper{
+		background: $bl-primary-color;
+		padding: 10px 0;
+		margin-top: 10px;
+		font-family: $rubik-medium;;
+	}
+}

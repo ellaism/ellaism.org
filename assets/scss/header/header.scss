@@ -1,0 +1,7 @@
+header{
+	@media screen and (max-width: $screen-md-max) {
+		position: fixed;
+		width: 100%;
+		z-index: 6;
+	}
+}

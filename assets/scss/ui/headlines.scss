@@ -1,0 +1,39 @@
+
+h1, h2, h3, h4 {
+  margin-top: 0;
+}
+
+.bl{
+	&-h1{
+	 @include headline($bl-h1, $rubik-regular, $bl-gray-10, $bl-spacer-20 + 2);
+
+	 @media screen and (max-width: $screen-md-max) {
+	 	font-size:$bl-h1 - 10;
+	 	 margin-top: $bl-spacer-100 + 20;
+	 }	
+
+	 &.light{
+			color: $bl-color-40;
+	 }
+	 
+	}
+	
+	&-h4{
+		 @include headline($bl-h4, $rubik-regular, $bl-gray-10, $bl-spacer-10 );
+
+	}
+
+	&-h5{
+		 @include headline($bl-h5, $rubik-medium, $bl-gray-10, $bl-spacer-10 );
+
+	}
+
+	&-h6{
+		 @include headline($bl-h6, $rubik-bold, $bl-gray-10, $bl-spacer-10);
+
+	}
+}
+
+
+
+

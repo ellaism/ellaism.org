@@ -1,0 +1,23 @@
+.bl{
+	&-why-block-main-wrapper{
+		padding: 60px 0;
+		text-align: center;
+		img{
+			min-height: 60px;
+		}
+
+		h6{
+			margin-top: 30px;
+			font-family: $rubik-bold;
+			font-size: 18px;
+		}
+	}
+
+	&-community-update-wrapper{
+		padding: 40px 0;
+
+		.bc-btn-primary{
+			padding: 5px 0;
+		}
+	}
+}

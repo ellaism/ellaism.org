@@ -1,0 +1,70 @@
+.bl{
+	&-mini-footer{
+		&-main-wrapper{
+			float: left;
+			i{
+				font-size: 22px;
+			}
+			&-right{
+				float: right;
+				i{
+					font-size: 22px;
+				}
+			}
+			.bl-discord-img{
+				width: 20px;
+			}
+		}
+
+		&-contents{
+		padding: 10px 0;
+		margin: 0;
+		li{
+			margin-left: 20px;
+			@media screen and (max-width: $screen-sm-max) {
+    			margin-left: 0px;
+    			padding: 0 4px;
+    		}
+    		@media screen and (max-width: $screen-xs-max) {
+    			margin-left: 0px;
+    			padding: 0 2px;
+    		}
+			a{
+				&:hover, &:active, &:focus{
+					color: $bl-secondary-color;
+					text-decoration: none;
+				}
+			}
+		}
+
+		}
+		&-content-wrapper{
+		// position: fixed;
+		width: 100%;
+		z-index: 1;
+		transition: all .5s ease-in-out 0s;
+		bottom: 0;
+		@media screen and (max-width: $screen-xs-max) {
+	    			bottom: 0;
+	    }
+
+		&.bl-stick-to-bottom{
+			bottom: 104px;
+			transition: all .5s ease-in-out 0s;
+			@media screen and (max-width: $screen-xs-max) {
+    			bottom: 0;
+    		}
+		}
+
+		&.bl-mini-stick{
+			position: relative;
+			bottom: 0;
+			margin-top: 30px;
+		}
+		&.bl-fix-height{
+			position: fixed;
+			bottom: 110px;
+		}
+	}
+	}
+}
