@@ -121,9 +121,9 @@ exclude:
   - .bundle
   - .jekyll-assets-cache
   - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
+  - assets/node_modules
+  - assets/scss
+  - assets/js
   - Capfile
   - CHANGELOG
   - config
