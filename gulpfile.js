@@ -97,7 +97,7 @@ gulp.task('scripts', () => {
         .pipe(gulp.dest(paths.dist.javascript));
 });
 
-gulp.task('uglify', () => {
+gulp.task('uglify', ['scripts'], () => {
     return gulp.src([paths.src.libs])
         .pipe(uglify())
         .on('error', util.log)
