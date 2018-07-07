@@ -14,6 +14,7 @@ const ghPages     = require('gulp-gh-pages');
 const sassGlob    = require('gulp-sass-bulk-import');
 const watch       = require('gulp-watch');
 const babel       = require('gulp-babel');
+const prettyUrl   = require("gulp-pretty-url");
 
 var paths = {
     src: { root: 'src' },
@@ -41,29 +42,6 @@ var paths = {
     },
 }.init();
 
-var watcher = (function(){
-    var count = 0;
-    var callback = function(){};
-
-    return {
-        start: function () {
-            count++;
-        },
-        end: function () {
-            count--;
-            if (count <= 0) {
-                callback();
-            }
-        },
-        wait: function (fn) {
-            callback = fn;
-        }
-    }
-})();
-
-
-
-
 gulp.task('serve', () => {
     browserSync.init({
         server: paths.dist.root,
@@ -76,8 +54,7 @@ gulp.task('serve', () => {
 });
 
 gulp.task('styles', () => {
-    watcher.start();
-    gulp.src([paths.src.sass])
+    return gulp.src([paths.src.sass])
         .pipe(sassGlob())
         .on('error', util.log)
         .pipe(sass({
@@ -92,38 +69,24 @@ gulp.task('styles', () => {
         .on('error', util.log)
         .pipe(prefixer('last 2 versions'))
         .on('error', util.log)
-        .pipe(gulp.dest(paths.dist.css))
-        .on('end',watcher.end)
-        .pipe(browserSync.reload({stream: true}));
+        .pipe(gulp.dest(paths.dist.css));
 });
 
-/*
-* Compile handlebars/partials into html
-*/
 gulp.task('templates', () => {
     var opts = {
         ignorePartials: true,
         batch: ['src/partials'],
     };
-    watcher.start();
-    gulp.src([paths.src.root + '/*.hbs'])
+    return gulp.src([paths.src.root + '/*.hbs'])
+        .pipe(prettyUrl())
+        .on('error', util.log)
         .pipe(handlebars(null, opts))
         .on('error', util.log)
-        .pipe(rename({
-            extname: '.html',
-        }))
-        .on('error', util.log)
-        .pipe(gulp.dest(paths.dist.root))
-        .on('end',watcher.end)
-        .pipe(browserSync.reload({stream: true}));
+        .pipe(gulp.dest(paths.dist.root));
 });
 
-/*
-* Bundle all javascript files
-*/
 gulp.task('scripts', () => {
-    watcher.start();
-    gulp.src(paths.src.javascript)
+    return gulp.src(paths.src.javascript)
         .pipe(babel({
             presets: ['es2015'],
         }))
@@ -131,85 +94,54 @@ gulp.task('scripts', () => {
         .on('error', util.log)
         .pipe(uglify())
         .on('error', util.log)
-        .pipe(gulp.dest(paths.dist.javascript))
-        .on('end',watcher.end)
-        .pipe(browserSync.reload({stream: true}));
+        .pipe(gulp.dest(paths.dist.javascript));
+});
 
-    /*
-    * Uglify JS libs and move to dist folder
-    */
-    watcher.start()
-    gulp.src([paths.src.libs])
+gulp.task('uglify', () => {
+    return gulp.src([paths.src.libs])
         .pipe(uglify())
         .on('error', util.log)
         .pipe(rename({
             suffix: '.min',
         }))
         .on('error', util.log)
-        .pipe(gulp.dest(paths.dist.libs))
-        .on('end',watcher.end)
-        .pipe(browserSync.reload({stream: true}));
-});
+        .pipe(gulp.dest(paths.dist.libs));
+})
 
 gulp.task('images', () => {
-    watcher.start();
-    gulp.src([paths.src.images])
-        .pipe(gulp.dest(paths.dist.images))
-        .on('end',watcher.end);
+    return gulp.src([paths.src.images])
+        .pipe(gulp.dest(paths.dist.images));
 });
 
 gulp.task('videos', () => {
-    watcher.start();
-    gulp.src([paths.src.videos])
-        .pipe(gulp.dest(paths.dist.videos))
-        .on('end',watcher.end);
+    return gulp.src([paths.src.videos])
+        .pipe(gulp.dest(paths.dist.videos));
 });
 
 gulp.task('fonts', () => {
-    watcher.start();
-    gulp.src([paths.src.fonts])
-        .pipe(gulp.dest(paths.dist.fonts))
-        .on('end',watcher.end);
+    return gulp.src([paths.src.fonts])
+        .pipe(gulp.dest(paths.dist.fonts));
 });
 
 gulp.task('files', () => {
-    watcher.start();
-    gulp.src([paths.src.files])
-        .pipe(gulp.dest(paths.dist.root))
-        .on('end',watcher.end);
+    return gulp.src([paths.src.files])
+        .pipe(gulp.dest(paths.dist.root));
 });
 
 gulp.task('json', () => {
-    watcher.start();
-    gulp.src([paths.src.data])
-        .pipe(gulp.dest(paths.dist.data))
-        .on('end',watcher.end);
-});
-
-watch(paths.src.images, () => {
-    gulp.start('images');
-});
-
-watch(paths.src.videos, () => {
-    gulp.start('videos');
-});
-
-watch(paths.src.fonts, () => {
-    gulp.start('fonts');
-});
-
-watch(paths.src.files, () => {
-    gulp.start('files');
-});
-
-watch(paths.src.data, () => {
-    gulp.start('json');
+    return gulp.src([paths.src.data])
+        .pipe(gulp.dest(paths.dist.data));
 });
 
 gulp.task('watch', () => {
     gulp.watch('src/scss/**/*.scss', ['styles']);
-    gulp.watch(paths.src.javascript, ['scripts']);
+    gulp.watch(paths.src.javascript, ['scripts', 'uglify']);
     gulp.watch(paths.src.templates, ['templates']);
+    gulp.watch(paths.src.images, ['images']);
+    gulp.watch(paths.src.videos, ['videos']);
+    gulp.watch(paths.src.fonts, ['fonts']);
+    gulp.watch(paths.src.files, ['files']);
+    gulp.watch(paths.src.data, ['data']);
 });
 
 gulp.task('deploy', ['generate'], () => {
@@ -219,4 +151,4 @@ gulp.task('deploy', ['generate'], () => {
 
 gulp.task('default', ['watch', 'serve', 'generate']);
 
-gulp.task('generate', ['videos', 'images', 'fonts', 'files', 'styles', 'scripts', 'templates', 'json']);
+gulp.task('generate', ['videos', 'images', 'fonts', 'files', 'styles', 'uglify', 'scripts', 'templates', 'json']);
