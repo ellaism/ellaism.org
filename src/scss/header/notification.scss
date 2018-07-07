@@ -8,3 +8,8 @@
 		}
 	}
 }
+
+#fork-countdown { display: inline-block; }
+#fork-alert { visibility: hidden; }
+
+#fork-alert.lightSpeedIn { visibility: visible; }
