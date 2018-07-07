@@ -26,13 +26,13 @@ var paths = {
         this.src.data        = this.src.root + '/data/**/*.json';
         this.src.images      = this.src.root + '/images/**/*.{jpg,jpeg,svg,png,gif}';
         this.src.videos      = this.src.root + '/videos/*.{mp4,webm,mpeg,wmv,avi,flv}';
-        this.src.fonts      =  this.src.root + '/fonts/**/*.{ttf,woff,woff2}';
-        this.src.files       = this.src.root + '/*.{html,txt,xml}';
+        this.src.fonts       = this.src.root + '/fonts/**/*.{ttf,woff,woff2}';
+        this.src.files       = this.src.root + '/files/**/*';
 
         this.dist.css        = this.dist.root + '/css';
         this.dist.images     = this.dist.root + '/images';
         this.dist.videos     = this.dist.root + '/videos';
-        this.dist.fonts     = this.dist.root + '/fonts';
+        this.dist.fonts      = this.dist.root + '/fonts';
         this.dist.javascript = this.dist.root + '/js';
         this.dist.libs       = this.dist.root + '/js/libs';
         this.dist.data       = this.dist.root + '/data';
@@ -212,20 +212,11 @@ gulp.task('watch', () => {
     gulp.watch(paths.src.templates, ['templates']);
 });
 
-gulp.task('deploy', () => {
+gulp.task('deploy', ['generate'], () => {
     return gulp.src([paths.dist.root + '/**/*'])
         .pipe(ghPages());
 });
 
+gulp.task('default', ['watch', 'serve', 'generate']);
 
-gulp.task('default', ['watch', 'serve', 'images', 'videos', 'fonts', 'files', 'styles', 'scripts', 'templates', 'json']);
-
-gulp.task('generate', ['videos','images','fonts','files','styles','scripts','templates', 'json'], () => {
-    setTimeout(()=>{
-        console.log('Writing files to disk, please wait..');
-    },1);
-    watcher.wait(()=>{
-        console.log('Done!');
-        process.exit();
-    });
-});
+gulp.task('generate', ['videos', 'images', 'fonts', 'files', 'styles', 'scripts', 'templates', 'json']);
