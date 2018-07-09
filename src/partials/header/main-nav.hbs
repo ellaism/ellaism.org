@@ -1,114 +1,116 @@
 <div class="bl-bg-primary-color bl-main-nav-wrapper">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-1 col-lg-1">
-				<a href="/"><img class="bl-main-logo" src="/images/ellaism-main-logo.png" alt=""></a>
-			</div>
-			<div class="col-md-6 col-lg-6">
-				<div class="bl-main-nav-menu-wrapper bl-center">
-					<ul class="bl-menu">
-						<li class="bl-dropdown">
-							{{!-- <a class="{{# if instalaltion}}bl-active-nav{{/if}} bl-drop-down" href="#">
-								Get Started <i class="fa fa-caret-down" aria-hidden="true"></i>
-							</a> --}}
-							<a  class="{{# if getparent}}bl-active-nav{{/if}}" data-toggle="dropdown">Get Started <b class="caret"></b></a>
-				              <ul class="dropdown-menu bl-dropdown-menu-wrapper bl-start">
-				                <li><a class="bc-main-nav-highlight bl-active-nav" >Installation</a>
-				                	<ul>
-				                		<li><a class="{{# if instalaltion}}bl-active-nav{{/if}}" href="/installation/">Wallet</a></li>
-				                	</ul>
-				                </li>
-				                <li><a class="{{# if mining}}bl-active-nav{{/if}}" href="/mining/">Mining</a></li>
-				                <li><a class="{{# if exchange}}bl-active-nav{{/if}}" href="/exchange/">Exchange</a></li>
-				                {{!-- <li class="divider"></li> --}}
-				                <li><a class="bc-main-nav-highlight bl-active-nav" >For Developers</a>
-								<ul>
-				                	<li><a class="{{# if testnet}}bl-active-nav{{/if}}" href="/testnet/">Testnet</a></li>
-				                	<li><a class="{{# if daaps}}bl-active-nav{{/if}}" href="/dapps/">DApps</a></li>
-				                	<li><a class="{{# if bots}}bl-active-nav{{/if}}" href="/bots/">Bots</a></li>
-				                </ul>
-				                </li>
-				                 <li role="separator" class="divider"></li>
-				                <li><a class="{{# if faq}}bl-active-nav{{/if}}" href="/faq/">FAQ</a></li>
-				              </ul>
-						</li>
-						<li>
-							<a class="{{# if about}}bl-active-nav{{/if}}" href="/about/">
-								About
-							</a>
-						</li>
-						<li class="bl-dropdown">
-							<a class="dropdown-toggle {{# if newsparent}}bl-active-nav{{/if}}" data-toggle="dropdown">News <b class="caret"></b></a>
-				              <ul class="dropdown-menu bl-dropdown-menu-wrapper bl-news">
-				                <li><a class="bc-main-nav-highlight bl-active-nav">News</a>
-									<ul>
-				                		<li><a class="{{# if newsupdate}}bl-active-nav{{/if}}" href="/news-update/">Monthly Community Updates</a></li>
-									</ul>
-								</li>
-								<li><a class="bc-main-nav-highlight bl-active-nav">Financial</a>
-									<ul>
-				                		<li><a href="https://transparency.ellaism.org/dev/">Dev Fund</a></li>
-				                		<li><a href="https://transparency.ellaism.org/community/">Community Fund</a></li>
-									</ul>
-								</li>
-				              </ul>
-						</li>
-						<li class="bl-dropdown">
-							<a href="#" class="dropdown-toggle {{# if communityparent}}bl-active-nav{{/if}}" data-toggle="dropdown">Join Community<b class="caret"></b></a>
-				              <ul class="dropdown-menu bl-dropdown-menu-wrapper bl-join bc-exceptional">
-				                <ul class="bl-exception-nav">
-									<div class="bl-block-left">
-					                <li><a href="https://t.me/ellaismcoin" class="" target="_blank" >Telegram <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
-					                <li><a href="https://www.reddit.com/r/ellaism/" class="" target="_blank">Reddit <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
-									</div>
-									
-									<div class="bl-block-right">
-					                <li><a href="https://discordapp.com/invite/gz9tURY" class="" target="_blank">Discord <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
-					                <li><a href="https://twitter.com/EllaismProject" class="" target="_blank">Community Twitter <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
-					                <li><a href="https://twitter.com/EllaismCore" class="" target="_blank">Core Twitter <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
-									</div>
-				                </ul>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-1 col-lg-1">
+        <a href="/"><img class="bl-main-logo" src="/images/ellaism-main-logo.png" alt=""></a>
+      </div>
+      <div class="col-md-6 col-lg-6">
+        <div class="bl-main-nav-menu-wrapper bl-center">
+          <ul class="bl-menu">
+            <li class="bl-dropdown">
+              {{!-- <a class="{{# if instalaltion}}bl-active-nav{{/if}} bl-drop-down" href="#">
+              Get Started <i class="fa fa-caret-down" aria-hidden="true"></i>
+            </a> --}}
+              <a class="{{# if getparent}}bl-active-nav{{/if}}" data-toggle="dropdown">Get Started <b class="caret"></b></a>
+              <ul class="dropdown-menu bl-dropdown-menu-wrapper bl-start">
+                <li><a class="bc-main-nav-highlight bl-active-nav">Installation</a>
+                  <ul>
+                    <li><a class="{{# if instalaltion}}bl-active-nav{{/if}}" href="/installation/">Wallet</a></li>
+                  </ul>
+                </li>
+                <li><a class="{{# if mining}}bl-active-nav{{/if}}" href="/mining/">Mining</a></li>
+                <li><a class="{{# if exchange}}bl-active-nav{{/if}}" href="/exchange/">Exchange</a></li>
+                {{!--
+                <li class="divider"></li>
+                --}}
+                <li><a class="bc-main-nav-highlight bl-active-nav">For Developers</a>
+                  <ul>
+                    <li><a class="{{# if testnet}}bl-active-nav{{/if}}" href="/testnet/">Testnet</a></li>
+                    <li><a class="{{# if daaps}}bl-active-nav{{/if}}" href="/dapps/">DApps</a></li>
+                    <li><a class="{{# if bots}}bl-active-nav{{/if}}" href="/bots/">Bots</a></li>
+                  </ul>
+                </li>
+                <li role="separator" class="divider"></li>
+                <li><a class="{{# if faq}}bl-active-nav{{/if}}" href="/faq/">FAQ</a></li>
+              </ul>
+            </li>
+            <li>
+              <a class="{{# if about}}bl-active-nav{{/if}}" href="/about/">
+                About
+              </a>
+            </li>
+            <li class="bl-dropdown">
+              <a class="dropdown-toggle {{# if newsparent}}bl-active-nav{{/if}}" data-toggle="dropdown">News <b class="caret"></b></a>
+              <ul class="dropdown-menu bl-dropdown-menu-wrapper bl-news">
+                <li><a class="bc-main-nav-highlight bl-active-nav">News</a>
+                  <ul>
+                    <li><a class="{{# if newsupdate}}bl-active-nav{{/if}}" href="/news-update/">Monthly Community Updates</a></li>
+                  </ul>
+                </li>
+                <li><a class="bc-main-nav-highlight bl-active-nav">Financial</a>
+                  <ul>
+                    <li><a href="https://transparency.ellaism.org/dev/">Dev Fund</a></li>
+                    <li><a href="https://transparency.ellaism.org/community/">Community Fund</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="bl-dropdown">
+              <a href="#" class="dropdown-toggle {{# if communityparent}}bl-active-nav{{/if}}" data-toggle="dropdown">Join Community<b class="caret"></b></a>
+              <ul class="dropdown-menu bl-dropdown-menu-wrapper bl-join bc-exceptional">
+                <ul class="bl-exception-nav">
+                  <div class="bl-block-left">
+                    <li><a href="https://t.me/ellaismcoin" class="" target="_blank">Telegram <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.reddit.com/r/ellaism/" class="" target="_blank">Reddit <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                  </div>
 
-				                <hr class="bl-clearboth bl-clear-spacer">
-				                 <ul class="bl-exception-nav">
-									<div class="bl-block-left">
- 										<li><a class="{{# if codeofconduct}}bl-active-nav{{/if}}" href="/codeofconduct/">Code of Conduct</a></li>
- 										<li><a class="{{# if donate}}bl-active-nav{{/if}}" href="/donate/">Donate</a></li>
-									</div>
-									<div class="bl-block-right">
- 										<li><a href="https://github.com/ellaism/meta/tree/master/logs" class="" target="_blank">Meetings <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
-									</div>
-								</ul>		
-				              </ul>
-						</li>
-					</ul>
-				</div>
-			</div>
+                  <div class="bl-block-right">
+                    <li><a href="https://discordapp.com/invite/gz9tURY" class="" target="_blank">Discord <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                    <li><a href="https://twitter.com/EllaismProject" class="" target="_blank">Community Twitter <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                    <li><a href="https://twitter.com/EllaismCore" class="" target="_blank">Core Twitter <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                  </div>
+                </ul>
 
-			<div class="col-md-5 col-lg-5">
-				<div class="bl-main-nav-menu-wrapper-secondary bl-right">
-					<ul class="bl-main-nav-menu-wrapper-secondary-wrapper">
-						<li>
-							<a class="bl-secondary-default-nav-active" href="https://wiki.ellaism.org/" target="_blank">
-								Ellaism Wiki
-							</a>
-						</li>
-						<li>
-							<a href="https://stats.ellaism.org/" target="_blank">
-								Network Stats
-							</a>
-						</li>
-						<li>
-							<a href="https://explorer.ellaism.org/" target="_blank">
-								Explorer
-							</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="burger-menu">
+                <hr class="bl-clearboth bl-clear-spacer">
+                <ul class="bl-exception-nav">
+                  <div class="bl-block-left">
+                    <li><a class="{{# if codeofconduct}}bl-active-nav{{/if}}" href="/codeofconduct/">Code of Conduct</a></li>
+                    <li><a class="{{# if donate}}bl-active-nav{{/if}}" href="/donate/">Donate</a></li>
+                  </div>
+                  <div class="bl-block-right">
+                    <li><a href="https://github.com/ellaism/meta/tree/master/logs" class="" target="_blank">Meetings <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                  </div>
+                </ul>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-5 col-lg-5">
+        <div class="bl-main-nav-menu-wrapper-secondary bl-right">
+          <ul class="bl-main-nav-menu-wrapper-secondary-wrapper">
+            <li>
+              <a class="bl-secondary-default-nav-active" href="https://wiki.ellaism.org/" target="_blank">
+                Ellaism Wiki
+              </a>
+            </li>
+            <li>
+              <a href="https://stats.ellaism.org/" target="_blank">
+                Network Stats
+              </a>
+            </li>
+            <li>
+              <a href="https://explorer.ellaism.org/" target="_blank">
+                Explorer
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="burger-menu">
     <div class="burger-click-region">
       <span class="burger-menu-piece"></span>
       <span class="burger-menu-piece"></span>
