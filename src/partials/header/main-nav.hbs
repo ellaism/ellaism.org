@@ -8,21 +8,15 @@
         <div class="bl-main-nav-menu-wrapper bl-center">
           <ul class="bl-menu">
             <li class="bl-dropdown">
-              {{!-- <a class="{{# if instalaltion}}bl-active-nav{{/if}} bl-drop-down" href="#">
-              Get Started <i class="fa fa-caret-down" aria-hidden="true"></i>
-            </a> --}}
               <a class="{{# if getparent}}bl-active-nav{{/if}}" data-toggle="dropdown">Get Started <b class="caret"></b></a>
               <ul class="dropdown-menu bl-dropdown-menu-wrapper bl-start">
                 <li><a class="bc-main-nav-highlight bl-active-nav">Installation</a>
                   <ul>
                     <li><a class="{{# if instalaltion}}bl-active-nav{{/if}}" href="/installation/">Wallet</a></li>
+                    <li><a class="{{# if mining}}bl-active-nav{{/if}}" href="/mining/">Mining</a></li>
+                    <li><a class="{{# if exchange}}bl-active-nav{{/if}}" href="/exchange/">Exchange</a></li>
                   </ul>
                 </li>
-                <li><a class="{{# if mining}}bl-active-nav{{/if}}" href="/mining/">Mining</a></li>
-                <li><a class="{{# if exchange}}bl-active-nav{{/if}}" href="/exchange/">Exchange</a></li>
-                {{!--
-                <li class="divider"></li>
-                --}}
                 <li><a class="bc-main-nav-highlight bl-active-nav">For Developers</a>
                   <ul>
                     <li><a class="{{# if testnet}}bl-active-nav{{/if}}" href="/testnet/">Testnet</a></li>
