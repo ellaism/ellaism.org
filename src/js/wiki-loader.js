@@ -46,20 +46,24 @@
 				}
 				if (e.id) {
 					var selector = '#' + e.id;
-					all_pages[page].push({selector: selector, callback: $(e).attr('data-wiki-post-process')});
+					all_pages[page].push({selector: selector, callback: $(e).attr('data-wiki-post-process'), showWikiLink: $(e).attr('data-wiki-show-link')});
 				}
 			});
 
-			function display_fail()
+			function fail_message(selector) {
+				var fail_message = 'Read more about it here.';
+				if ($(selector).attr('data-wiki-fail-message'))
+				{
+					fail_message = $(selector).attr('data-wiki-fail-message');
+				}
+				return fail_message;
+			}
+
+			function display_fail(page, selectors)
 			{
 				for (var i in selectors) {
 					var s = selectors[i];
-					var fail_message = 'Read more about it here.';
-					if ($(s.selector).attr('data-wiki-fail-message'))
-					{
-						fail_message = $(s.selector).attr('data-wiki-fail-message');
-					}
-					var content = '<a href="' + page + s.selector + '">' + fail_message + '</a>.';
+					var content = '<a href="' + page + s.selector + '">' + fail_message(s.selector) + '</a>.';
 					$(s.selector).html(content);
 				}
 				loading_element.hide();
@@ -85,8 +89,13 @@
 									}
 								}
 								$(s.selector).empty().append(content.html());
+								if (s.showWikiLink === "true")
+								{
+									var link = '<a href="' + page + s.selector + '">' + fail_message(s.selector) + '</a>';
+									$(s.selector).append(link);
+								}
 							} else {
-								display_fail();
+								display_fail(page, selectors);
 							}
 						}
 						loading_element.hide();
