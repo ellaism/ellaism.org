@@ -44,9 +44,9 @@
 				if (!(page in all_pages)) {
 					all_pages[page] = [];
 				}
-				var selector = '#' + e.id;
-				if (selector) {
-					all_pages[page].push(selector)
+				if (e.id) {
+					var selector = '#' + e.id;
+					all_pages[page].push({selector: selector, callback: $(e).attr('data-wiki-post-process')});
 				}
 			});
 
@@ -55,12 +55,12 @@
 				for (var i in selectors) {
 					var s = selectors[i];
 					var fail_message = 'Read more about it here.';
-					if ($(s).attr('data-wiki-fail-message'))
+					if ($(s.selector).attr('data-wiki-fail-message'))
 					{
-						fail_message = $(s).attr('data-wiki-fail-message');
+						fail_message = $(s.selector).attr('data-wiki-fail-message');
 					}
-					var content = '<a href="' + page + s + '">' + fail_message + '</a>.';
-					$(s).html(content);
+					var content = '<a href="' + page + s.selector + '">' + fail_message + '</a>.';
+					$(s.selector).html(content);
 				}
 				loading_element.hide();
 			}
@@ -75,10 +75,16 @@
 						var wikiPage = $(data);
 						for (var i in selectors) {
 							var s = selectors[i];
-							var content = $(s, wikiPage).html();
-							if (content) {
-								// search for tables in content, add the classes we need for wiki to appear on website
-								$(s).empty().append(content);
+							var content = $(s.selector, wikiPage);
+							if (content.length > 0) {
+								if (s.callback) {
+									var post_process;
+									eval("post_process = " + s.callback);
+									if (typeof(post_process) !== "undefined") {
+										post_process(content);
+									}
+								}
+								$(s.selector).empty().append(content.html());
 							} else {
 								display_fail();
 							}
