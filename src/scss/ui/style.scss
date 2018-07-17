@@ -12,3 +12,17 @@
 		}
 	}
 }
+
+img.loading {
+	width: 64px;
+	height: 64px;
+}
+
+main a {
+	color: $bl-secondary-color;
+}
+
+main a:hover {
+	text-decoration: underline;
+	color: $bl-secondary-color;
+}

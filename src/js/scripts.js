@@ -170,6 +170,9 @@ function updateBlockCounter() {
 	});
 }
 
-setInterval(updateBlockCounter, 15000);
-updateBlockCounter();
+$(document).ready(function() {
+	setInterval(updateBlockCounter, 15000);
+	updateBlockCounter();
+	$(".wiki-loader").WikiLoader();
+});
 
