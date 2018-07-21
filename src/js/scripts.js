@@ -160,7 +160,7 @@ function updateBlockCounter() {
 				}
 			}
 
-			var result = 'Byzantium & WebAssembly enabled in ' + times.join(' and ') + '. ' + blocksRemaining.toLocaleString() + ' blocks from now.';
+			var result = 'Byzantium & WebAssembly enabled in ' + times.join(' and ') + '. ' + blocksRemaining.toLocaleString() + ' blocks from now. <a href="https://wiki.ellaism.org/hardfork">Learn more</a>.';
 
 			var f = $('#fork-alert');
 			f.addClass('lightSpeedIn');
