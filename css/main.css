@@ -13714,6 +13714,17 @@ h1, h2, h3, h4 {
   border-radius: 3px;
   border: 1px solid #f6f5f5; }
 
+img.loading {
+  width: 64px;
+  height: 64px; }
+
+main a {
+  color: #01c85c; }
+
+main a:hover {
+  text-decoration: underline;
+  color: #01c85c; }
+
 .bc-text-transform {
   text-transform: uppercase; }
 
