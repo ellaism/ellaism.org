@@ -14,9 +14,7 @@
           {{!-- solo-mining --}}
            <h5 id="solomining" class="bl-h5-common-spacer">Solo Mining</h5>
            <p class="bl-spacer-b-m-40">
-             Follow the guide in <a href="/installation/" class="bl-text-secondary-underline">
-                  Installation
-                </a> to either set up a Parity or Geth full node. After that, you can use any ethash miner (such as <a href="https://github.com/ethereum-mining/ethminer" target="_blank" class="bl-text-secondary-underline">ethminer</a>) to mine Ellaism. To mine using your GPU, run ethminer <code class="highlighter-rouge">ethminer -G -F http://localhost:8545</code>.
+             Follow the guide in <a href="/installation/" class="bl-text-secondary-underline">Installation</a> to either set up a Parity or Geth full node. After that, you can use any ethash miner (such as <a href="https://github.com/ethereum-mining/ethminer" target="_blank" class="bl-text-secondary-underline">ethminer</a>) to mine Ellaism. To mine using your GPU, run ethminer <code class="highlighter-rouge">ethminer -G -F http://localhost:8545</code>.
            </p>
           
           {{!-- pools --}}
@@ -34,47 +32,8 @@ You can also check out the current pool hashrates in Explorer’s <a href="https
            </h6>
             
           <div class="table-responsive bl-spacer-t-m-20">
-             <table class="table table-bordered bl-pool-table">
-             <thead>
-                <tr>
-                   <th>Pool</th>
-                   <th>Donation (% from fee)</th>
-                   <th>Mining Fee</th>
-                </tr>
-             </thead>
-             <tbody>
-                <tr>
-                   <td><a href="https://pool.ellaism.org/#/" target="_blank" class="bl-text-secondary">Dev Pool</a></td>
-                   <td>100</td>
-                   <td>1</td>
-                </tr>
-                <tr>
-                   <td><a href="http://ella.pool.sexy/#/" target="_blank" class="bl-text-secondary">Pool Sexi</a></td>
-                   <td>2.5</td>
-                   <td>0.25</td>
-                </tr>
-                <tr>
-                   <td><a href="http://ella.cryptobitpool.eu/#/" target="_blank" class="bl-text-secondary">Cryptobitpool</a></td>
-                   <td>25</td>
-                   <td>0.1</td>
-                </tr>
-                 <tr>
-                   <td><a href="http://ella.cryptopools.info/" target="_blank" class="bl-text-secondary">cryptobitpool.info</a></td>
-                   <td>25</td>
-                   <td>1</td>
-                </tr>
-                 <tr>
-                   <td><a href="https://pool.nonlocal.ca/#/" target="_blank" class="bl-text-secondary">Nonlocal</a></td>
-                   <td>100</td>
-                   <td>1</td>
-                </tr>
-                 <tr>
-                   <td><a href="https://ucrypto.net/currency/?curr=ELLA" target="_blank" class="bl-text-secondary">uCrypto</td>
-                   <td>5</td>
-                   <td>0.5</td>
-                </tr>
-             </tbody>
-          </table>
+            <div class="wiki-loader"></div>
+            <div id="dev-pools" data-wiki-post-process="function(html) { $('table', html).addClass('table table-bordered bl-pool-table'); };" data-wiki-page="https://wiki.ellaism.org/mining/pools" data-wiki-fail-message="View the complete list of dev pools on the wiki"></div>
         </div>
 
            <h6>
@@ -86,54 +45,8 @@ Below is the list of pools using this fork.
            </p>
           
           <div class="table-responsive bl-spacer-t-m-20">
-             <table class="table table-bordered bl-pool-table">
-             <thead>
-                <tr>
-                   <th>Pool</th>
-                   <th>Country</th>
-                   <th>Client</th>
-                   <th>Version</th>
-                </tr>
-             </thead>
-             <tbody>
-                <tr>
-                   <td><a href="https://pool.ellaism.org/" target="_blank" class="bl-text-secondary">Dev Mining Pool</a></td>
-                   <td></td>
-                   <td>Parity</td>
-                   <td>1.9.5</td>
-                </tr>
-                <tr>
-                   <td><a href="http://ella.cryptobitpool.eu/#/" target="_blank" class="bl-text-secondary">Cryptobitpool</a></td>
-                   <td></td>
-                   <td>Geth</td>
-                   <td>1.8.3</td>
-                </tr>
-                <tr>
-                   <td><a href="http://ellaismpool.com/#/" target="_blank" class="bl-text-secondary">ellaismpool.com</a></td>
-                   <td></td>
-                   <td></td>
-                   <td></td>
-                </tr>
-                 <tr>
-                   <td><a href="https://pool.nonlocal.ca/#/" target="_blank" class="bl-text-secondary">Nonlocal</a></td>
-                   <td></td>
-                   <td>Parity</td>
-                   <td>1.10.3</td>
-                </tr>
-                 <tr>
-                   <td><a href="http://ella.poolhub.org/#/" target="_blank" class="bl-text-secondary">PoolHUB</a></td>
-                   <td></td>
-                   <td></td>
-                   <td></td>
-                </tr>
-                 <tr>
-                   <td><a href="https://ella.mypool.online" target="_blank" class="bl-text-secondary">MyPool.Online</a></td>
-                   <td></td>
-                   <td>Parity</td>
-                   <td></td>
-                </tr>
-             </tbody>
-          </table>
+            <div class="wiki-loader"></div>
+            <div id="oep-pools" data-wiki-post-process="function(html) { $('table', html).addClass('table table-bordered bl-pool-table'); };" data-wiki-page="https://wiki.ellaism.org/mining/pools" data-wiki-fail-message="View the complete list of Open Ethereum pools on the wiki"></div>
         </div>
 
 
@@ -145,37 +58,26 @@ Below is the list of pools using this fork.
 Contact <a href="mailto:core@ellaism.org" target="_blank" class="bl-text-secondary">core@ellaism.org</a> or ping @ellaismer on <a href="https://discordapp.com/invite/gz9tURY" target="_blank" class="bl-text-secondary">Discord</a> if you want your pool added to this list.
            </p>
            <div class="row">
-             <div class="col-md-6">
-               <ul class="bl-list-bullet bl-spacer-b-m-40 bl-spacer-l-m-40 bl-spacer-mob-l-m-30">
-                <li><a href="https://ella.solopool.org/" target="_blank" class="bl-text-secondary">Ethash-coins.ru</a></li>
-                <li><a href="http://ella.coinminer.space/" target="_blank" class="bl-text-secondary">CoinminerSpace</a></li>
-                <li><a href="http://ella.altpool.pro/" target="_blank" class="bl-text-secondary">AltpoolPro</a></li>
-                <li><a href="http://ella-solo.cryptodig.ru/" target="_blank" class="bl-text-secondary">Cryptodig.ru</a></li>
-                <li><a href="http://cryptobee.de/" target="_blank" class="bl-text-secondary">Cryptobee</a></li>
-                <li><a href="https://2miners.com/" target="_blank" class="bl-text-secondary">2miners</a></li>
-                <li><a href="http://ellaismpool.com/" target="_blank" class="bl-text-secondary">Ellaismpool.com</a></li>
-                <li><a href="https://megapool.io/ella" target="_blank" class="bl-text-secondary">MegaPool</a></li>
-                <li><a href="http://clona.ru/" target="_blank" class="bl-text-secondary">Clona.ru</a></li>
-                <li><a href="https://ella.upool.in/" target="_blank" class="bl-text-secondary">Upool.in</a></li>
-           </ul>
-         </div>
-             <div class="col-md-6">
-               <ul class="bl-list-bullet bl-spacer-b-m-40 bl-spacer-l-m-40 bl-spacer-mob-l-m-30">
-                <li><a href="http://ell.baikalmine.com/#/" target="_blank" class="bl-text-secondary">BaikalMine</a></li>
-                <li><a href="https://ella.cryptopool.network/#/" target="_blank" class="bl-text-secondary">cryptopool.network</a></li>
-                <li><a href="http://ella.minerpool.net/#/" target="_blank" class="bl-text-secondary">Ella Minerpool</a></li>
-                <li><a href="https://ella.epool.io/#/" target="_blank" class="bl-text-secondary">Epool.io</a></li>
-                <li><a href="http://swedishpool.se/" target="_blank" class="bl-text-secondary">Swedishpool</a></li>
-                <li><a href="http://ella.ldvpool.com/" target="_blank" class="bl-text-secondary">LDVPool</a></li>
-                <li><a href="https://ella.solopool.org/#/" target="_blank" class="bl-text-secondary">SoloPool</a></li>
-                <li><a href="https://comining.io/" target="_blank" class="bl-text-secondary">Comining</a></li>
-                <li><a href="http://ella.digipools.org/" target="_blank" class="bl-text-secondary">DigiPools</a></li>
-                <li><a href="http://ella.nevermining.org/" target="_blank" class="bl-text-secondary">Nevermining</a></li>
-                <li><a href="https://ella.cubepool.eu/" target="_blank" class="bl-text-secondary">Cubepool</a></li>
-           </ul>
-             </div>
+             <div class="wiki-loader"></div>
+             <div id="all-pools" data-wiki-post-process="function(html) {
+										var list = $('li', html);
+										var half = Math.ceil(list.length / 2);
+										var new_list = '<div class=\'col-md-6\'><ul class=\'bl-list-bullet bl-spacer-b-m-40 bl-spacer-l-m-40 bl-spacer-mob-l-m-30\'>';
+										for (var i = 0; i < half; i++) {
+											if (list[i]) {
+												new_list = new_list + list[i].outerHTML;
+											}
+										}
+										new_list = new_list + '</ul></div><div class=\'col-md-6\'><ul class=\'bl-list-bullet bl-spacer-b-m-40 bl-spacer-l-m-40 bl-spacer-mob-l-m-30\'>';
+										for (var i = half; i < list.length; i++) {
+											if (list[i]) {
+												new_list = new_list + list[i].outerHTML;
+											}
+										}
+										new_list = new_list + '</ul></div>';
+										html.empty().append(new_list);
+									};" data-wiki-page="https://wiki.ellaism.org/mining/pools" data-wiki-fail-message="View the complete list of mining pools on the wiki"></div>
            </div>
-            <p class="bl-font-small">Updated: November 21, 2017</p>
          </div>
         
         {{!-- sticky sidebar --}}
