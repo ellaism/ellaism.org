@@ -34,14 +34,18 @@ body {
 // height:6018px; //delete
 }
 
-.bl-text-white a {
-  color: $bl-white;
+a {
+	color: $bl-secondary-color;
   text-decoration: none;
   &:hover,
   &:active {
     text-decoration: none;
     color: inherit;
   }
+}
+
+.bl-text-white a {
+	color: $bl-white;
 }
 
 ul li {
