@@ -105,74 +105,7 @@ if(windowHeight > 700){
   };
 };
 
-
-function updateBlockCounter() {
-	$.ajax({
-		method: "post",
-		url: 'https://jsonrpc.ellaism.org',
-		data: '{"method":"eth_blockNumber","params":[],"id":1,"jsonrpc":"2.0"}',
-		contentType: 'application/json'
-	}).done(function (data) {
-		var currentBlock = parseInt(data.result);
-		var targetBlock = 2000000;
-		var blocksRemaining = targetBlock - currentBlock;
-		if (blocksRemaining > 0) {
-			var secondsRemaining = (blocksRemaining * 14);
-
-			var times = [];
-			var monthsSpan = (60 * 60 * 24 * 31);
-			var months = Math.floor(secondsRemaining / monthsSpan);
-			secondsRemaining = secondsRemaining - (months * monthsSpan);
-			if (months > 0) {
-				times.push(months + ' ' + (months == 1 ? 'month' : 'months'));
-			}
-
-			var weeksSpan = (60 * 60 * 24 * 7);
-			var weeks = Math.floor(secondsRemaining / weeksSpan);
-			secondsRemaining = secondsRemaining - (weeks * weeksSpan);
-			if (weeks > 0) {
-				times.push(weeks + ' ' + (weeks == 1 ? 'week' : 'weeks'));
-			}
-
-			if (times.length < 2) {
-				var daysSpan = (60 * 60 * 24);
-				var days = Math.floor(secondsRemaining / daysSpan);
-				secondsRemaining = secondsRemaining - (days * daysSpan);
-				if (days > 0) {
-					times.push(days + ' ' + (days == 1 ? 'day' : 'days'));
-				}
-			}
-
-			if (times.length < 2) {
-				var hoursSpan = (60 * 60);
-				var hours = Math.floor(secondsRemaining / hoursSpan);
-				secondsRemaining = secondsRemaining - (hours * hoursSpan);
-				if (hours > 0) {
-					times.push(hours + ' ' + (hours == 1 ? 'hour' : 'hours'));
-				}
-			}
-
-			if (times.length < 2) {
-				var minutesSpan = 60;
-				var minutes = Math.floor(secondsRemaining / minutesSpan);
-				if (minutes > 0) {
-					times.push(minutes + ' ' + (minutes == 1 ? 'minute' : 'minutes'));
-				}
-			}
-
-			var result = 'Byzantium & WebAssembly enabled in ' + times.join(' and ') + '. ' + blocksRemaining.toLocaleString() + ' blocks from now. <a href="https://wiki.ellaism.org/hardfork">Learn more</a>.';
-
-			var f = $('#fork-alert');
-			f.addClass('lightSpeedIn');
-			$('#fork-countdown').html(result);
-			$('#fork-countdown').slideDown();
-		}
-	});
-}
-
 $(document).ready(function() {
-	setInterval(updateBlockCounter, 15000);
-	updateBlockCounter();
 	$(".wiki-loader").WikiLoader();
 });
 
