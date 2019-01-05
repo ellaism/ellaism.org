@@ -2,24 +2,17 @@
   <body>
   	 {{> header/main-header daaps=true getparent=true}}
 
-    <main class="bl-spacer-t-m-50 bl-spacer-mob-t-p-30">
+    <main class="">
      <div class="container">
        <div class="row">
          <div class="col-md-12">
            <h1>Ellaism Dapps</h1>
-           <p>
-            The following dapps are currently deployed in the Ellaism network:
-           </p>
-           <ul class="bl-list-bullet bl-spacer-b-m-40 bl-spacer-l-m-40 bl-spacer-mob-l-m-30">
-                <li><a href="https://ens.ellaism.org/" target="_blank" class="bl-text-secondary">Ellaism Name System </a></li>
-                <li><a href="https://ellaism.org/btcrelay/" target="_blank" class="bl-text-secondary">
-                    BTC Relay
-                </a></li>
-                <li><a href="https://handsonahardcoin.com/?network=ella" target="_blank" class="bl-text-secondary">
-                    Hands on Hard Coin
-                </a></li>
-           </ul>
-           <p class="bl-font-small">Updated: November 21, 2017</p>
+
+           <p>The following dapps are currently deployed on the Ellaism network:</p>
+           <div class="wiki-loader"></div>
+           <div id="dapp-content" data-wiki-post-process="function(html) { $('ul', html).addClass('bl-list-bullet bl-spacer-b-m-40 bl-spacer-l-m-40 bl-spacer-mob-l-m-30'); };" data-wiki-page="https://wiki.ellaism.org/dapps" data-wiki-fail-message="View the complete list of dapps on the wiki"></div>
+            <div>&nbsp;</div>
+           <div>&nbsp;</div>
          </div>
        </div>
      </div>
