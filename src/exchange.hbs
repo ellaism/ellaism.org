@@ -2,7 +2,7 @@
   <body>
   	 {{> header/main-header exchange=true getparent=true}}
 
-    <main class="bl-spacer-t-m-50 bl-spacer-mob-t-p-30">
+    <main>
      <div class="container">
        <div class="row">
          <div class="col-md-12">
@@ -10,7 +10,7 @@
            <p>
              To protect your money, it is recommended that you enable two-factor authentication on the exchange and use a hardware wallet or a cold wallet to store it if you plan to hold long-term.
            </p>
-           
+
            <h5>Supported Exchanges</h5>
            <div class="wiki-loader"></div>
            <div id="wiki-page-content" data-wiki-post-process="function(html) { $('ul', html).addClass('bl-list-bullet bl-spacer-b-m-40 bl-spacer-l-m-40 bl-spacer-mob-l-m-30'); };" data-wiki-page="https://wiki.ellaism.org/exchanges" data-wiki-fail-message="View the complete list of exchanges on the wiki"></div>
@@ -18,7 +18,7 @@
        </div>
      </div>
     </main>
-  
+
     {{> home/float-mini-footer stick-bottom=true}}
     {{> footer clear-top=true}}
   </body>

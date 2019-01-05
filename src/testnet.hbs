@@ -2,13 +2,13 @@
   <body>
   	 {{> header/main-header testnet=true getparent=true}}
 
-    <main class="bl-spacer-t-m-50 bl-spacer-mob-t-p-30">
+    <main>
      <div class="container">
        <div class="row">
          <div class="col-md-12">
            <h1>Testnet</h1>
            <p>
-            Ellaism has a Proof of Authority (PoA) testnet called “Shikinseki”. 
+            Ellaism has a Proof of Authority (PoA) testnet called “Shikinseki”.
             <br>
             To connect to the testnet,
              <a href="https://raw.githubusercontent.com/ellaism/parity-config/master/shikinseki.json" class="bl-text-secondary">
@@ -16,7 +16,7 @@
                 </a>
                 this file and run:
            </p>
-           
+
           <div class="bl-highlight-wrapper"><pre class="highlight"><code>parity --chain shikinseki.json
           </code></pre></div>
 
@@ -41,7 +41,7 @@
            <div class="bl-highlight-wrapper">
             <pre class="highlight"><code>!testnet send 0x2cbb505641e0c1b0ada0cf0b045014383de94576
           </code></pre></div>
-          
+
           <p>
             You will receive 10 testnet tokens each time issuing this command.
           </p>
