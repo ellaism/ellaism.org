@@ -20,7 +20,7 @@
         }
     }
     &-contents{
-      margin: 100px auto 0;
+      margin: 50px auto 0;
       width: calc(100% - 40px);
       text-align: center;
       position: relative;
@@ -28,6 +28,9 @@
       @media screen and (max-width: $screen-sm-max) {
           padding-bottom: 30px;
         }
+			@media screen and (max-width: $screen-md-max) {
+				margin: 75px auto 0;
+			}
     }
     &-slogan{
       font-size: 24px;
