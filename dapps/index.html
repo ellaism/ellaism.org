@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Ellaism</title>
+    <title>Ellaism Dapps list</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="description" content="List of decentralized applications and projects deployed in the network of Ellaism.">
+    <meta name="keywords" content="Ellaism Dapps, Projects at Ellaism, low cost gas network for Dapps, Ellaism applications">
 
     <meta property="og:description" content="">
     <meta property="og:site_name" content="">
@@ -70,6 +70,7 @@
   	 	                <li><a class="bc-main-nav-highlight bl-active-nav">News</a>
   	 	                  <ul>
   	 	                    <li><a class="" href="/news-update/">Monthly Community Updates</a></li>
+  	 	                    <li><a href="https://blockfolio.com/coin/ELLA" target="_blank">Blockfolio Signals <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
   	 	                  </ul>
   	 	                </li>
   	 	                <li><a class="bc-main-nav-highlight bl-active-nav">Financial</a>
@@ -144,24 +145,17 @@
   	 	    </div>
   	 	  </div>
   	 	</div></header>
-    <main class="bl-spacer-t-m-50 bl-spacer-mob-t-p-30">
+    <main>
      <div class="container">
        <div class="row">
          <div class="col-md-12">
            <h1>Ellaism Dapps</h1>
-           <p>
-            The following dapps are currently deployed in the Ellaism network:
-           </p>
-           <ul class="bl-list-bullet bl-spacer-b-m-40 bl-spacer-l-m-40 bl-spacer-mob-l-m-30">
-                <li><a href="https://ens.ellaism.org/" target="_blank" class="bl-text-secondary">Ellaism Name System </a></li>
-                <li><a href="https://ellaism.org/btcrelay/" target="_blank" class="bl-text-secondary">
-                    BTC Relay
-                </a></li>
-                <li><a href="https://handsonahardcoin.com/?network=ella" target="_blank" class="bl-text-secondary">
-                    Hands on Hard Coin
-                </a></li>
-           </ul>
-           <p class="bl-font-small">Updated: November 21, 2017</p>
+
+           <p>The following dapps are currently deployed on the Ellaism network:</p>
+           <div class="wiki-loader"></div>
+           <div id="dapp-content" data-wiki-post-process="function(html) { $('ul', html).addClass('bl-list-bullet bl-spacer-b-m-40 bl-spacer-l-m-40 bl-spacer-mob-l-m-30'); };" data-wiki-page="https://wiki.ellaism.org/dapps" data-wiki-fail-message="View the complete list of dapps on the wiki"></div>
+            <div>&nbsp;</div>
+           <div>&nbsp;</div>
          </div>
        </div>
      </div>
@@ -189,27 +183,32 @@
     				<div class="bl-mini-footer-main-wrapper-right bl-text-white">
     					<ul class="bl-mini-footer-contents bl-inline">
     						<li>
-    							<a href="https://www.reddit.com/r/ellaism" target="_blank">
+    							<a href="https://www.reddit.com/r/ellaism" target="_blank" title="Reddit">
     							<i class="fa fa-reddit" aria-hidden="true"></i>
     							</a>
     						</li>
     						<li>
-    							<a href="https://www.facebook.com/ellaismproject/" target="_blank">
+    							<a href="https://blockfolio.com/coin/ELLA" target="_blank" title="Blockfolio Signals">
+    							<i class="fa fa-blockfolio" aria-hidden="true"></i>
+    							</a>
+    						</li>
+    						<li>
+    							<a href="https://www.facebook.com/ellaismproject/" target="_blank" title="Facebook">
     							<i class="fa fa-facebook-square" aria-hidden="true"></i>
     							</a>
     						</li>
     						<li>
-    							<a href="https://t.me/ellaismcoin" target="_blank">
+    							<a href="https://t.me/ellaismcoin" target="_blank" title="Telegram">
     							<i class="fa fa-telegram" aria-hidden="true"></i>
     							</a>
     						</li>
     						<li>
-    							<a href="https://bitcointalk.org/index.php?topic=2168042" target="_blank">
+    							<a href="https://bitcointalk.org/index.php?topic=2168042" target="_blank" title="Bitcoin Talk Thread">
     							<i class="fa fa-btc" aria-hidden="true"></i>
     							</a>
     						</li>
     						<li>
-    							<a href="https://twitter.com/ellaismproject" target="_blank">
+    							<a href="https://twitter.com/ellaismproject" target="_blank" title="Twitter">
     							<i class="fa fa-twitter" aria-hidden="true"></i>
     							</a>
     						</li>
@@ -220,7 +219,8 @@
     			</div>
     		</div>
     	</div>
-    </div>    <div class="btn bl-to-top-btn">
+    </div>
+    <div class="btn bl-to-top-btn">
           <i class="fa fa-arrow-up" aria-hidden="true"></i>
     </div>
     <footer class="clearfix bl-main-footer-wrapper bl-center   bl-main-footer-wrapper-clear-d-space ">
