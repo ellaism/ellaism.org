@@ -26,3 +26,11 @@ main a:hover {
 	text-decoration: underline;
 	color: $bl-secondary-color;
 }
+
+.fa-blockfolio {
+	content: url('/images/blockfolio.svg');
+	width: 22px;
+	height: 22px;
+	position: relative;
+	top: 3px;
+}
