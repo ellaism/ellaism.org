@@ -1,4 +1,4 @@
-{{> head title='Ellaism'}}
+{{> head title='Mining Ellaism information | List of pools Ellaism | Solo mining instruction' description='Instructions on how to start mining Ellaism coin. List of official pools. Solo mining guide.' keywords='start mining Ellaism, Ella mining, Ellaism pools, Ellaism solo, Ella mining guide'}}
   <body>
   	 {{> header/main-header mining=true getparent=true}}
 
@@ -16,7 +16,7 @@
            <p class="bl-spacer-b-m-40">
              Follow the guide in <a href="/installation/" class="bl-text-secondary-underline">Installation</a> to either set up a Parity or Geth full node. After that, you can use any ethash miner (such as <a href="https://github.com/ethereum-mining/ethminer" target="_blank" class="bl-text-secondary-underline">ethminer</a>) to mine Ellaism. To mine using your GPU, run ethminer <code class="highlighter-rouge">ethminer -G -F http://localhost:8545</code>.
            </p>
-          
+
           {{!-- pools --}}
            <h5 id="pools">Pools</h5>
            <p>
@@ -26,11 +26,11 @@
 <br></br>
 You can also check out the current pool hashrates in Explorer’s <a href="https://explorer.ellaism.org/miners" class="bl-text-secondary-underline" target="_blank">miners’ ranking</a>. Pools have their own instructions of how to set your miners up.
            </p>
-           
+
            <h6>
              Pools that Donate to Dev Fund
            </h6>
-            
+
           <div class="table-responsive bl-spacer-t-m-20">
             <div class="wiki-loader"></div>
             <div id="dev-pools" data-wiki-post-process="function(html) { $('table', html).addClass('table table-bordered bl-pool-table'); };" data-wiki-page="https://wiki.ellaism.org/mining/pools" data-wiki-fail-message="View the complete list of dev pools on the wiki"></div>
@@ -43,7 +43,7 @@ You can also check out the current pool hashrates in Explorer’s <a href="https
              Ellaism maintains its own fork of <a href="https://github.com/ellaism/open-ethereum-pool" target="_blank" class="bl-text-secondary">open-ethereum-pool</a> with improvements of memory usage, network latency and PPLNS support.
 Below is the list of pools using this fork.
            </p>
-          
+
           <div class="table-responsive bl-spacer-t-m-20">
             <div class="wiki-loader"></div>
             <div id="oep-pools" data-wiki-post-process="function(html) { $('table', html).addClass('table table-bordered bl-pool-table'); };" data-wiki-page="https://wiki.ellaism.org/mining/pools" data-wiki-fail-message="View the complete list of Open Ethereum pools on the wiki"></div>
@@ -79,7 +79,7 @@ Contact <a href="mailto:core@ellaism.org" target="_blank" class="bl-text-seconda
 									};" data-wiki-page="https://wiki.ellaism.org/mining/pools" data-wiki-fail-message="View the complete list of mining pools on the wiki"></div>
            </div>
          </div>
-        
+
         {{!-- sticky sidebar --}}
          <div class="col-md-2">
            <div class="bl-float-navigation-wrapper hidden-xs hidden-sm">
